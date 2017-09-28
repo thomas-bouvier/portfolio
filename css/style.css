@@ -26,6 +26,16 @@
 	font-style: normal;
 }
 
+::-moz-selection {
+	background: #3b3561;
+	color: white;
+}
+
+::selection {
+	background: #3b3561;
+	color: white;
+}
+
 body {
     background-color: white;
 	font-family: 'Orkney';
@@ -40,11 +50,11 @@ a {
 }
 
 header {
-	min-height: 550px;
+	min-height: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #fcfbfc;
+	background-color: #F7FBFB;
 }
 
 @media only screen and (max-width: 700px) {
@@ -67,9 +77,54 @@ header .intro h1 {
 }
 
 header .intro p.description {
-    font-size: 1em;
+    font-size: 1.05em;
     font-weight: 400;
     color: #5c6a81;
     line-height: 1.9em;
     margin-top: 20px;
+}
+
+section#projects {
+	padding-top: 35px;
+}
+
+section#projects .card {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 12px rgba(0, 0, 0, .05);
+	border-radius: 4px;
+	border: 0;
+}
+
+section#projects .card:hover {
+	
+}
+
+section#projects .card p {
+	color: #5c6a81;
+}
+
+section#projects .card p.tags {
+	color: #d1d1d1;
+	font-size: .85em;
+	font-weight: lighter;
+}
+
+section#projects .card-header {
+	border: 0;
+	height: 35px;
+}
+
+section#projects .card-body {
+	padding: 15px;
+}
+
+section#projects .card p.see-more {
+	color: #d1d1d1;
+	font-size: .85em;
+	font-weight: lighter;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+section#projects #card-project-insapp .card-header {
+	background-color: #e9524d;
 }
