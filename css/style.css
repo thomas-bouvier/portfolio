@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Avenir Next";
+    src: url("../fonts/AvenirNext.woff2");
+}
+
+body {
+    background-color: #f6f7fa;
+    font-family: "Avenir Next";
+}
+
+.navbar {
+    background-color: white;
+}
+
+section {
+    background-color: white;
+}
+
+header {
+    height: 100vh;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -.02em;
+}
