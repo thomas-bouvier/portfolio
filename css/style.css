@@ -1,27 +1,75 @@
 @font-face {
-    font-family: "Avenir Next";
-    src: url("../fonts/AvenirNext.woff2");
+	font-family: 'Orkney';
+	src: url('../fonts/orkney-light.otf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Orkney';
+	src: url('../fonts/orkney-regular.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Orkney';
+	src: url('../fonts/orkney-medium.otf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Orkney';
+	src: url('../fonts/orkney-bold.otf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 body {
-    background-color: #f6f7fa;
-    font-family: "Avenir Next";
+    background-color: white;
+	font-family: 'Orkney';
+}
+
+a {
+	color: #3b3561;
 }
 
 .navbar {
     background-color: white;
 }
 
-section {
-    background-color: white;
-}
-
 header {
-    height: 100vh;
+	min-height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fcfbfc;
 }
 
-header h1 {
-    font-size: 28px;
+@media only screen and (max-width: 700px) {
+	header {
+	    min-height: auto;
+	}
+}
+
+header .intro {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+	padding: 7rem 1rem;
+}
+
+header .intro h1 {
+    font-size: 2em;
     font-weight: 500;
-    letter-spacing: -.02em;
+    color: #333;
+}
+
+header .intro p.description {
+    font-size: 1em;
+    font-weight: 400;
+    color: #5c6a81;
+    line-height: 1.9em;
+    margin-top: 20px;
 }
