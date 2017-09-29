@@ -41,6 +41,21 @@ body {
 	font-family: 'Orkney';
 }
 
+.min-container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 768px;
+}
+
+@media (max-width: 767px) {
+	.min-container {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+
 a {
 	color: #3b3561;
 }
@@ -89,9 +104,10 @@ section#projects {
 }
 
 section#projects .card {
-	box-shadow: 0 1px 2px rgba(0, 0, 0, .1), 0 4px 12px rgba(0, 0, 0, .05);
+	box-shadow: 0 6px 50px rgba(0,0,0,.06);
 	border-radius: 4px;
 	border: 0;
+	margin-top: 35px;
 	margin-bottom: 35px;
 }
 
@@ -111,12 +127,13 @@ section#projects .card p.tags {
 
 section#projects .card-header {
 	border: 0;
-	height: 35px;
+	height: 0;
+	padding: 0;
 	background-color: #3b3561;
 }
 
 section#projects .card-body {
-	padding: 15px;
+	padding: 30px;
 }
 
 section#projects .card p.see-more {
