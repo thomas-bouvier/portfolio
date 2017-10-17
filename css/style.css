@@ -37,7 +37,6 @@
 }
 
 body {
-    background-color: white;
 	font-family: 'Orkney';
 }
 
@@ -64,8 +63,37 @@ a {
     background-color: white;
 }
 
+#hero {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #F7FBFB;
+}
+
+#hero .intro {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+	padding: 7rem 1rem;
+}
+
+#hero .intro h1 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #333;
+}
+
+#hero .intro p.description {
+    font-size: 1.05em;
+    font-weight: 400;
+    color: #5c6a81;
+    line-height: 1.9em;
+    margin-top: 20px;
+}
+
 header {
-	min-height: 500px;
+	min-height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -101,6 +129,7 @@ header .intro p.description {
 
 section#projects {
 	padding-top: 35px;
+	background-color: #f6fafb;
 }
 
 section#projects .card {
@@ -109,6 +138,7 @@ section#projects .card {
 	border: 0;
 	margin-top: 35px;
 	margin-bottom: 35px;
+	cursor: pointer;
 }
 
 section#projects .card:hover {
