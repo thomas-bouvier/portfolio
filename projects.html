@@ -97,6 +97,18 @@
                 <p class="description">
                     Voici mes projets
                 </p>
+                <div class="controls">
+                    <button type="button" data-filter="all">Show all</button>
+                    <button type="button" data-filter=".java">Java<button>
+                    <button type="button" data-filter=".php">PHP<button>
+                    <button type="button" data-filter=".laravel">Laravel<button>
+                    <button type="button" data-filter=".android">Android<button>
+                    <button type="button" data-filter=".golang">Golang<button>
+                    <button type="button" data-filter=".docker">Docker<button>
+                    <button type="button" data-filter=".html-css">HTML/CSS<button>
+                    <button type="button" data-filter=".c">C<button>
+                    <button type="button" data-filter=".node-js">NodeJS<button>
+                </div>
             </div>
         </div>
     </header>
@@ -105,188 +117,183 @@
 
     <section id="projects">
         <div class="min-container">
-            <div class="row">
-                <div class="col-md">
-                    <div data-tilt class="card" id="card-project-insapp">
-                        <div class="card-header">
+            <div data-tilt class="card mix android java golang docker" id="card-project-insapp">
+                <div class="card-header">
 
-                        </div>
-                        <div class="card-body">
-                            <h5>Insapp</h5>
-                            <p class="tags">
-                                #android #java #golang #docker #app
-                            </p>
-                            <p>
-                                Insapp est une application promouvant l'associatif au sein de l'INSA de Rennes.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
-
-                    <div data-tilt class="card">
-                        <div class="card-header">
-
-                        </div>
-                        <div class="card-body">
-                            <h5>Herr Speck</h5>
-                            <p class="tags">
-                                #Java #engine #game
-                            </p>
-                            <p>
-                                Herr Speck est un jeu 2D écrit en Java intégrant la génération d'un monde aléatoire et un moteur de lumières dynamiques.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
-
-                    <div data-tilt class="card">
-                        <div class="card-header">
-
-                        </div>
-                        <div class="card-body">
-                            <h5>Logements INSA</h5>
-                            <p class="tags">
-                                #php #laravel #website
-                            </p>
-                            <p>
-                                Logements INSA est un portail web permettant aux étudiants de l'INSA de Rennes de trouver un logement autour du campus.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
-
-                    <div data-tilt class="card">
-                        <div class="card-header">
-
-                        </div>
-                        <div class="card-body">
-                            <h5>Super Mario Bros. clone</h5>
-                            <p class="tags">
-                                #java #libgdx #game
-                            </p>
-                            <p>
-                                Clone du jeu 2D de plates-formes développé par Nintendo écrit en Java avec libgdx.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
-
-                    <div data-tilt class="card">
-                        <div class="card-header">
-
-                        </div>
-                        <div class="card-body">
-                            <h5>JER</h5>
-                            <p class="tags">
-                                #html #css #docker #website
-                            </p>
-                            <p>
-                                Site web du groupement JER (Junior-Entreprises Rennaises).
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
                 </div>
-                <div class="col-md">
-                    <div data-tilt class="card">
-                        <div class="card-header">
+                <div class="card-body">
+                    <h5>Insapp</h5>
+                    <p class="tags">
+                        #android #java #golang #docker
+                    </p>
+                    <p>
+                        Insapp est une application promouvant l'associatif au sein de l'INSA de Rennes.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="card-body">
-                            <h5>Un des Sens</h5>
-                            <p class="tags">
-                                #html #css #website
-                            </p>
-                            <p>
-                                Site web de l'Un des Sens, festival multiculturel organisé par des étudiants du campus de Rennes 1 et de l'INSA.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
+            <div data-tilt class="card mix java">
+                <div class="card-header">
 
-                    <div data-tilt class="card">
-                        <div class="card-header">
+                </div>
+                <div class="card-body">
+                    <h5>Herr Speck</h5>
+                    <p class="tags">
+                        #java
+                    </p>
+                    <p>
+                        Herr Speck est un jeu 2D écrit en Java intégrant la génération d'un monde aléatoire et un moteur de lumières dynamiques.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="card-body">
-                            <h5>Floppy Bird</h5>
-                            <p class="tags">
-                                #c #sdl #ai #neural-network #q-learning #game
-                            </p>
-                            <p>
-                                Floppy Bird est une version du jeu Flappy Bird écrite en C intégrant deux algorithmes d'intelligence artificielle : le Q-learning et un réseau de neurones de type NEAT.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
+            <div data-tilt class="card mix php laravel">
+                <div class="card-header">
 
-                    <div data-tilt class="card">
-                        <div class="card-header">
+                </div>
+                <div class="card-body">
+                    <h5>Logements INSA</h5>
+                    <p class="tags">
+                        #php #laravel
+                    </p>
+                    <p>
+                        Logements INSA est un portail web permettant aux étudiants de l'INSA de Rennes de trouver un logement autour du campus.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="card-body">
-                            <h5>Cube LED</h5>
-                            <p class="tags">
-                                #arduino
-                            </p>
-                            <p>
-                                Réalisation de la carte électronique de pilotage d'un cube 3D de LED.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
+            <div data-tilt class="card mix java">
+                <div class="card-header">
 
-                    <div data-tilt class="card">
-                        <div class="card-header">
+                </div>
+                <div class="card-body">
+                    <h5>Super Mario Bros. clone</h5>
+                    <p class="tags">
+                        #java
+                    </p>
+                    <p>
+                        Clone du jeu 2D de plates-formes développé par Nintendo écrit en Java avec libgdx.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="card-body">
-                            <h5>Ouest INSA</h5>
-                            <p class="tags">
-                                #html #css #docker #website
-                            </p>
-                            <p>
-                                Site web de Ouest INSA, Junior-Entreprise de l'INSA de Rennes.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
+            <div data-tilt class="card mix html-css docker">
+                <div class="card-header">
 
-                    <div data-tilt class="card">
-                        <div class="card-header">
+                </div>
+                <div class="card-body">
+                    <h5>JER</h5>
+                    <p class="tags">
+                        #html-css #docker
+                    </p>
+                    <p>
+                        Site web du groupement JER (Junior-Entreprises Rennaises).
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="card-body">
-                            <h5>Auto-door</h5>
-                            <p class="tags">
-                                #node-js #react-native #raspberry #app
-                            </p>
-                            <p>
-                                Auto-door est une application hybride permettant de contrôler une porte de garage à distance.
-                            </p>
-                            <p class="see-more">
-                                Voir le projet
-                            </p>
-                        </div>
-                    </div>
+            <div data-tilt class="card mix html-css">
+                <div class="card-header">
+
+                </div>
+                <div class="card-body">
+                    <h5>Un des Sens</h5>
+                    <p class="tags">
+                        #html-css
+                    </p>
+                    <p>
+                        Site web de l'Un des Sens, festival multiculturel organisé par des étudiants du campus de Rennes 1 et de l'INSA.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
+
+            <div data-tilt class="card mix c sdl ai neural-network">
+                <div class="card-header">
+
+                </div>
+                <div class="card-body">
+                    <h5>Floppy Bird</h5>
+                    <p class="tags">
+                        #c #sdl #ai #neural-network
+                    </p>
+                    <p>
+                        Floppy Bird est une version du jeu Flappy Bird écrite en C intégrant deux algorithmes d'intelligence artificielle : le Q-learning et un réseau de neurones de type NEAT.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
+
+            <div data-tilt class="card mix pcb arduino">
+                <div class="card-header">
+
+                </div>
+                <div class="card-body">
+                    <h5>Cube LED</h5>
+                    <p class="tags">
+                        #pcb #arduino
+                    </p>
+                    <p>
+                        Réalisation de la carte électronique de pilotage d'un cube 3D de LED.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
+
+            <div data-tilt class="card mix html-css docker">
+                <div class="card-header">
+
+                </div>
+                <div class="card-body">
+                    <h5>Ouest INSA</h5>
+                    <p class="tags">
+                        #html-css #docker
+                    </p>
+                    <p>
+                        Site web de Ouest INSA, Junior-Entreprise de l'INSA de Rennes.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
+                </div>
+            </div>
+
+            <div data-tilt class="card mix android node-js react-native raspberry">
+                <div class="card-header">
+
+                </div>
+                <div class="card-body">
+                    <h5>Auto-door</h5>
+                    <p class="tags">
+                        #android #node-js #react-native #raspberry
+                    </p>
+                    <p>
+                        Auto-door est une application hybride permettant de contrôler une porte de garage à distance.
+                    </p>
+                    <p class="see-more">
+                        Voir le projet
+                    </p>
                 </div>
             </div>
         </div>
@@ -300,5 +307,11 @@
 
     <script src="js/script.js"></script>
     <script src="js/tilt.jquery.js"></script>
+    <script src="js/mixitup-3/dist/mixitup.js"></script>
+
+    <script>
+        var containerEl = document.querySelector('.min-container');
+        var mixer = mixitup(containerEl);
+    </script>
 </body>
 </html>
