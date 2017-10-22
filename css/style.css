@@ -46,6 +46,14 @@ body {
 	margin-left: auto;
 	padding-right: 15px;
 	padding-left: 15px;
+	max-width: 668px;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
 	max-width: 768px;
 }
 
@@ -58,6 +66,7 @@ body {
 
 a {
 	color: #3b3561;
+	text-decoration: none !important;
 }
 
 .navbar {
@@ -179,4 +188,14 @@ section#projects .card p.see-more {
 
 section#projects #card-project-insapp .card-header {
 	background-color: #e9524d;
+}
+
+article {
+	background-color: white;
+}
+
+article p {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	line-height: 1.75em;
 }
