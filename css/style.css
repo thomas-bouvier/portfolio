@@ -140,8 +140,8 @@ section#projects .card {
 	margin-top: 35px;
 	margin-bottom: 35px;
 	cursor: pointer;
-	display: inline-block;
-	width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+	/*display: inline-block;*/
+	/*width: calc(100% / 2 - (((2 - 1) * 1rem) / 2));*/
 }
 
 section#projects .card:hover {
