@@ -49,6 +49,15 @@ body {
 	max-width: 668px;
 }
 
+.min-container p {
+	text-align: justify;
+}
+
+.min-container h4 {
+	padding-top: 3em;
+	text-align: center;
+}
+
 .container {
 	margin-right: auto;
 	margin-left: auto;
@@ -62,6 +71,12 @@ body {
 		padding-right: 30px;
 		padding-left: 30px;
 	}
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+	padding-top: 2em;
 }
 
 a {
@@ -198,4 +213,14 @@ article p {
 	padding-top: 45px;
 	padding-bottom: 45px;
 	line-height: 1.75em;
+}
+
+footer {
+	background-color: white;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 4em;
+	padding-bottom: 4em;
 }
