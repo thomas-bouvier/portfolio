@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Insapp</title>
+    <title>Thomas Bouvier — Auto-door</title>
 
     <!-- Open Graph Protocol -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="fr_FR" />
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Thomas Bouvier — Insapp">
+    <meta property="og:title" content="Thomas Bouvier — Auto-door">
 
     <!--
     <meta property="og:url" content="">
@@ -93,14 +93,12 @@
     <header>
         <div class="container">
             <div class="intro">
-                <h1>Insapp</h1>
+                <h1>Auto-door</h1>
                 <p class="description">
-                    Insapp is an application promoting associations within INSA Rennes.
+                    This little application written in React Native aims at remoting my parent's house garage door.
                 </p>
                 <p class="links">
-                    <a href="https://insapp.fr/">insapp.fr</a>
-                    |
-                    <a href="https://github.com/tomatrocho/insapp-android">Github (Android version)</a>
+                    <a href="https://github.com/tomatrocho/auto-door">Github</a>
                 </p>
             </div>
         </div>
@@ -110,49 +108,23 @@
 
     <article>
         <div class="min-container">
-            <h4>What's Insapp ?</h4>
+            <h4>What's Auto-door ?</h4>
             <p>
-                Insapp is a 2016 project. This application helps associations from INSA Rennes to easily communicate with students. Associations have access to a web app to post some news just as Instagram or post events. Then, our users receive a push notification and get access to the content.
+                The aim of this project was to open/close my parents' motorized gate from an iPhone or an Android device. Using a Raspberry Pi, a relay and some magnetic sensors, I have managed to meet these requirements.
             </p>
-        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <img src="img/insapp_1.png" class="img-fluid">
-                </div>
-                <div class="col-md">
-                    <img src="img/insapp_2.png" class="img-fluid">
-                </div>
-                <div class="col-md">
-                    <img src="img/insapp_3.png" class="img-fluid">
-                </div>
-            </div>
-            <figcaption class="figcaption">Android version of Insapp</p>
-        </div>
-
-        <div class="min-container">
             <h4>What I did</h4>
             <p>
-                I joined the team in October (there was then 2 people only). We decided to rewrite the Android application, the first version being unstable and not <em>material design</em>-friendly. I used <a href="http://square.github.io/retrofit/">Retrofit</a> as a HTTP client, <a href="https://firebase.google.com/products/cloud-messaging/">Firebase Cloud Messaging</a> to send notifications and <a href="https://get.fabric.io">Fabric</a> to monitor and understand crashes.
+                I chose to use a Raspberry Pi.
             </p>
             <p>
-                The <a href="https://github.com/tomatrocho/insapp-android">Android repository</a> is hosted on Github.
+                The <a href="https://github.com/tomatrocho/auto-door">repository</a> is hosted on Github.
             </p>
+
+            <h4>Usage</h4>
             <p>
                 I am now in charge of the maintenance of the project. I learned Golang so I could make changes to the REST API and to the server code. The whole server is dockerized.
             </p>
-        </div>
-
-        <div class="min-container">
-            <h4>Usage</h4>
-            <p>
-                Insapp is available on the <a href="https://itunes.apple.com/fr/app/insapp/id1159630227">App Store</a> and <a href="https://play.google.com/store/apps/details?id=fr.insapp.insapp">Play Store</a>. Today, we count more than 800 active users : about 200 hundred downloads on iOS and 600 on Android. We worked with the school administration so they can also use the application. It's a large project in our school. Now, we try to pass our project to other students so they can inovate again and again on Insapp. <a href="https://insapp.fr">Here</a> is the official website.
-            </p>
-        </div>
-
-        <div class="container">
-            <iframe width="768" height="432" src="https://www.youtube.com/embed/GZnw1KQJRt8" frameborder="0" allowfullscreen></iframe>
         </div>
     </article>
 

@@ -38,7 +38,7 @@
 
 body {
 	font-family: 'Orkney';
-	background-color: #f7fbfb;
+	background-color: white;
 }
 
 .min-container {
@@ -47,6 +47,18 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	max-width: 668px;
+}
+
+a {
+	color: #3b3561;
+	text-decoration: none !important;
+}
+
+article a {
+	color: #3b3561;
+	font-weight: 700;
+	position: relative;
+	white-space: nowrap;
 }
 
 .min-container p {
@@ -79,10 +91,20 @@ figcaption {
 	padding-top: 2em;
 }
 
-a {
-	color: #3b3561;
-	text-decoration: none !important;
+/*
+a:before {
+	content: '';
+	position: absolute;
+	background: #bdecef;
+	bottom: 1px;
+	height: 5px;
+	right: -2px;
+	left: -2px;
+	z-index: -1;
+	-webkit-transition: height cubic-bezier(0.075, .82, .165, 1) .3s;
+	transition: height cubic-bezier(0.075, .82, .165, 1) .3s
 }
+*/
 
 .navbar {
     background-color: white;
@@ -210,8 +232,8 @@ article {
 }
 
 article p {
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 35px;
+	padding-bottom: 20px;
 	line-height: 1.75em;
 }
 
