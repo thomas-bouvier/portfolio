@@ -61,6 +61,10 @@ article a {
 	white-space: nowrap;
 }
 
+p.links {
+	margin-top: 10px;
+}
+
 .min-container p {
 	text-align: justify;
 }
@@ -111,7 +115,7 @@ a:before {
 }
 
 #hero {
-	height: 100vh;
+	height: calc(100vh - 56px);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -136,7 +140,8 @@ a:before {
     font-weight: 400;
     color: #5c6a81;
     line-height: 1.9em;
-    margin-top: 20px;
+    margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 header {
