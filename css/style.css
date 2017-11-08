@@ -62,7 +62,7 @@ article a {
 }
 
 p.links {
-	margin-top: 10px;
+	margin-top: 1.5em;
 }
 
 .min-container p {
@@ -141,7 +141,7 @@ a:before {
     color: #5c6a81;
     line-height: 1.9em;
     margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 
 header {
