@@ -120,13 +120,19 @@
             <p>
                 I focused on the development of the second artificial intelligence, which is based on a neural network. Introduced to this field by <a href="https://www.youtube.com/watch?v=qv6UVOQ0F44">this video</a>, I decided to implement a <a href="https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies">NEAT algorithm</a>.
             </p>
+            <p>
+                This algorithm is based on applying three key techniques: tracking genes with history markers to allow crossover among genomes, applying speciation to preserve successful innovations, and developing genomes incrementally from simple initial structures by adding noise.
+            </p>
+            <p>
+                Each generation simulates 50 genomes. The following video demonstrates the process at generations #10, #11 and #12:
+            </p>
         </div>
 
         <div class="container">
             <div class="video-container">
                 <iframe width="768" height="432" src="https://www.youtube.com/embed/lnHJ70OcNX8" frameborder="0" allowfullscreen></iframe>
             </div>
-            <figcaption class="figcaption">NEAT-based AI at work: generations #10, #11 & #12</p>
+            <figcaption class="figcaption">NEAT-based AI at work: generations #10, #11 and #12</p>
         </div>
 
         <div class="min-container">
@@ -139,7 +145,13 @@
 
             <h4>Results</h4>
             <p>
-                Results
+                The scores obtained with the NEAT algorithm are very satisfaying: about 200 after only 20 generations in the best case scenario. It arrives at these scores in much less time than with the Q-learning approach. 👌
+            </p>
+            <p>
+                However, the generated genomes regularly become less efficent than the ones from the previous generation, for a reason I don't understand. This causes the score to get back to 0. I still have to investigate.
+            </p>
+            <p>
+                Concerning the implementation on the robot, it doesn't work as well as in our hopes. This is caused by latencies related to image processing and stylus stroke. We have an idea to fix this.
             </p>
         </div>
     </article>
