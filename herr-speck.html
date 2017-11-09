@@ -116,12 +116,48 @@
                 You play a character evolving in randomly generated caves, and you own a gun to defend yourself against bats. Nothing more.
             </p>
             <p>
-                This game is freely inspired by <a href="https://catacombsnatch.net">Catacomb Snatch</a>. I remember well <a href="https://mojang.com/2012/02/how-to-use-the-catacomb-snatch-source-code/">this article</a> by Jens Bergensten.
+                This game is freely inspired by <a href="https://catacombsnatch.net">Catacomb Snatch</a>. <a href="https://mojang.com/2012/02/how-to-use-the-catacomb-snatch-source-code/">This article</a> by Jens Bergensten certainly influenced me.
             </p>
 
             <h4>What I did</h4>
             <p>
-                What I did
+                Players love it when they get unpredictable content each time they play: that's why I first developed a random cave generator. The algorithm I used is a <a href="https://en.wikipedia.org/wiki/Cellular_automaton">cellular automaton</a> - a grid of cells governed by certain rules, similarly to the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>.
+            </p>
+            <p>
+                The transition rules can be applied multiple times. The seed, the cells frequency or the birth and death thresholds are customizable. I am also able to remove disconnected caverns and to place random entrances.
+            </p>
+        </div>
+
+        <div class="container">
+            <img src="img/generator.png" class="img-fluid">
+            <figcaption class="fig-caption">The cave generator UI</figcaption>
+        </div>
+
+        <div class="min-container">
+            <p>
+                The game also supports custom tilemaps drawn using <a href="http://www.mapeditor.org">Tiled</a>.
+            </p>
+            <p>
+                To select the appropriate tile from the spritesheet within generated levels, I used a technique called <a href="https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673">tile bitmasking</a>. This ensures that the act of placing these tiles is quick and efficient. Levels contain two layers: the ground and walls.
+            </p>
+            <p>
+                The game handles collisions, z-ordering and contains several animations. Here is a short gameplay:
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="video-container">
+                <iframe width="768" height="432" src="https://www.youtube.com/embed/GZnw1KQJRt8" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <figcaption class="figcaption">Herr Speck gameplay</p>
+        </div>
+
+        <div class="min-container">
+            <p>
+                I spent entire afternoons drawing all the sprite variations. Doesn't that remind you of Pokemon ? 🙂
+            </p>
+            <p>
+                I'm currently improving the ligning engine (not enabled in the above video).
             </p>
         </div>
     </article>
