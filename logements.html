@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Portfolio</title>
+    <title>Thomas Bouvier — Logements INSA</title>
 
     <!-- Open Graph Protocol -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="fr_FR" />
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Thomas Bouvier — Portfolio">
+    <meta property="og:title" content="Thomas Bouvier — Logements INSA">
 
     <!--
     <meta property="og:url" content="">
@@ -65,8 +65,8 @@
         </button>
         <div class="navbar-collapse collapse dual-nav">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="projects.html">Projects</a>
@@ -76,7 +76,9 @@
                 </li>
             </ul>
         </div>
-        <!--<a href="#" class="navbar-brand mr-0">Thomas Bouvier</a>-->
+        <!--
+        <a href="#" class="navbar-brand mr-0">Thomas Bouvier</a>
+        -->
         <div class="navbar-collapse collapse dual-nav">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
@@ -88,28 +90,79 @@
 
     <!-- Header -->
 
-    <div id="hero">
+    <header>
         <div class="container">
             <div class="intro">
-                <h1>Thomas Bouvier</h1>
+                <h1>Logements INSA</h1>
                 <p class="description">
-                    Passionate about science and new technologies, self-taught and interested in entrepreneurship, I am studying engineering at INSA Rennes (France). I am currently specializing in <a href="https://www.insa-rennes.fr/en/courses/masters-in-engineering/enelectronics-computer.html">Electronics and Computer Engineering</a>.
-                </p>
-                <p class="flag">
-                    🇫🇷
+                    This web application allows students from INSA Rennes to find accommodation around the campus.
                 </p>
                 <p class="links">
-                    <a href="https://www.linkedin.com/in/thomas-bouvier/">LinkedIn</a>
-                    ·
-                    <a href="https://github.com/tomatrocho">GitHub</a>
-                    ·
-                    <a href="skype:thomas.bouvier@outlook.fr?userinfo">Skype</a>
-                    ·
-                    <a href="files/resume.pdf">Resume</a>
+                    <a href="https://logements.insa-rennes.fr/">logements.insa-rennes.fr</a>
+                </p>
+                <p class="links">
+                    <a href="https://github.com/tomatrocho/logements-insa">Repository</a>
                 </p>
             </div>
         </div>
-    </div>
+    </header>
+
+    <!-- Section -->
+
+    <article>
+        <div class="min-container">
+            <h4>What's Logements INSA ?</h4>
+            <p>
+                Logements INSA is 2017 project. The student office contacted me to create a platform for students to easily find accommodation. Students can post and view apartment ads. This was the opportunity for me to use Laravel in a real-life project.
+            </p>
+        </div>
+
+        <div class="container">
+            <img src="img/view_ad.png" class="img-fluid">
+            <figcaption class="fig-caption">Viewing an apartment ad</figcaption>
+        </div>
+
+        <div class="min-container">
+            <h4>What I did</h4>
+            <p>
+                The platform should only be accessible to students from INSA. I then used this <a href="https://github.com/subfission/cas">repository</a> to force CAS authentication.
+            </p>
+            <p>
+                Students have then access to a form to write a new ad. They can attach multiple photos to it: uploads are handled with Ajax. They can still edit their ad after publication (adding or remove some photos for instance).
+            </p>
+        </div>
+
+        <div class="container">
+            <img src="img/write_ad.png" class="img-fluid">
+            <figcaption class="fig-caption">Writing an apartment ad</figcaption>
+        </div>
+
+        <div class="min-container">
+            <p>
+                I also developed an administration interface, allowing moderators to validate posted ads. They receive a mail when a new ad is posted.
+            </p>
+            <p>
+                As you can see above, I used <a href="http://getbootstrap.com">Bootstrap</a> to build the UI. It is obviously fully responsive.
+            </p>
+            <p>
+                The <a href="https://github.com/tomatrocho/logements-insa">repository</a> is hosted on Github. I'm currently working on implementing a search bar using <a href="https://www.elastic.co">ElasticSearch</a>.
+            </p>
+        </div>
+
+        <div class="min-container">
+            <h4>Usage</h4>
+            <p>
+                <a href="https://logements.insa-rennes.fr">Here</a> is the official website. Sadly, the application is only accessible to people owning an internal account because of CAS. 😞
+            </p>
+            <p>
+                Some students have already found their new accommodation thanks to the platform ! 👌
+            </p>
+        </div>
+    </article>
+
+    <footer>
+        <p><a href="projects.html">Come back to projects</a></p>
+    </footer>
 
     <!-- Javascript -->
 
@@ -118,6 +171,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
-    <script src="js/tilt.jquery.js"></script>
 </body>
 </html>
