@@ -226,12 +226,17 @@ section#projects .card-body {
 	padding: 30px;
 }
 
+section#projects .card p.work-in-progress,
 section#projects .card p.see-more,
 section#projects .card p.being-written {
 	font-size: .85em;
 	font-weight: lighter;
 	text-align: right;
 	margin-bottom: 0;
+}
+
+section#projects .card p.work-in-progress {
+	color: red;
 }
 
 section#projects .card p.see-more {
