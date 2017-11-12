@@ -187,6 +187,7 @@ header .intro p.description {
 section#projects {
 	padding-top: 35px;
 	background-color: #f6fafb;
+	padding-bottom: 35px;
 }
 
 section#projects .card {
@@ -225,12 +226,20 @@ section#projects .card-body {
 	padding: 30px;
 }
 
-section#projects .card p.see-more {
-	color: #d1d1d1;
+section#projects .card p.see-more,
+section#projects .card p.being-written {
 	font-size: .85em;
 	font-weight: lighter;
 	text-align: right;
 	margin-bottom: 0;
+}
+
+section#projects .card p.see-more {
+	color: #d1d1d1;
+}
+
+section#projects .card p.being-written {
+	color: orange;
 }
 
 section#projects #card-project-insapp .card-header {
