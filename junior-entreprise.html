@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Auto-door</title>
+    <title>Thomas Bouvier — Junior Entreprise websites</title>
 
     <!-- Open Graph Protocol -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="fr_FR">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Thomas Bouvier — Auto-door">
-    <meta property="og:description" content="This little application written in React Native aims at remoting my parent's house garage door.">
+    <meta property="og:title" content="Thomas Bouvier — Junior entreprise websites">
+    <meta property="og:description" content="These showcase websites promote the junior enterprise movement.">
 
     <!--
     <meta property="og:url" content="">
@@ -56,7 +56,7 @@
         </button>
         <div class="navbar-collapse collapse dual-nav">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
@@ -84,12 +84,14 @@
     <header>
         <div class="container">
             <div class="intro">
-                <h1>Auto-door</h1>
+                <h1>Junior entreprise websites</h1>
                 <p class="description">
-                    This little application written in React Native aims at remoting my parent's house garage door.
+                    These showcase websites promote the junior enterprise movement.
                 </p>
                 <p class="links">
-                    <a href="https://github.com/tomatrocho/auto-door">Repository</a>
+                    <a href="http://www.ouest-insa.fr">Ouest INSA</a>
+                    ·
+                    <a href="https://jer.bzh">Junior-Entreprises Rennaises</a>
                 </p>
             </div>
         </div>
@@ -99,25 +101,29 @@
 
     <article>
         <div class="min-container">
-            <h4>What's Auto-door ?</h4>
+            <h4>What are the junior entreprise websites ?</h4>
             <p>
-                The aim of this project was to open/close my parents' motorized gate from an iPhone or an Android device. Using a Raspberry Pi, a relay and some magnetic sensors, I have managed to meet these requirements.
+                 I've been involved in <a href="https://junior-entreprises.com">junior enterprise</a> for two years, starting in 2016. As a member of the IT division, I built 2 showcase websites to promote our movement.
             </p>
+            <p>
+                The <a href="http://ouest-insa.fr" alt="Ouest INSA website">first one</a> introduces our structure, Ouest INSA. The <a href="https://jer.bzh" alt="JER website">second one</a> introduces the <em>Junior-Entreprises Rennaises</em> movement, gathering 5 junior enterprises from Rennes (France).
+            </p>
+        </div>
 
+        <div class="min-container">
             <h4>What I did</h4>
             <p>
-                Since the time I've been messing around with my Raspberry Pi, I have finally decided to use it in a concrete project. The electronic aspect is simple: relays make it possible to send a pulse to activate the system, and magnetic sensors make it possible to recover the current state of the door.
+                I used basic HTML/CSS along with <a href="https://getbootstrap.com">Bootstrap</a>. The websites are obviously fully responsive. They both include a customized map from <a href="https://developers.google.com/maps/">Google Maps API</a>.
             </p>
             <p>
-                I then designed the server using Node.js and SocketIO. This was the perfect opportunity to learn these recent technologies. To fully use JavaScript, I developed the application with React Native, so that it is compatible with both Android and iOS devices. I secured the application by adding session tokens. In the future, I would like to add push notifications.
+                As the people in charge of these websites will change every year, they have to be easily maintenable. That's why I used <a href="https://www.docker.com">Docker</a> to set up <a href="http://nginx.org">nginx</a>, PHP-FPM and <a href="https://getcomposer.org">Composer</a> automatically. Dependencies like <a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> can thus easily be added.
             </p>
-            <p>
-                The <a href="https://github.com/tomatrocho/auto-door">repository</a> is hosted on Github. Feel free to adapt the code to your system !
-            </p>
+        </div>
 
+        <div class="min-container">
             <h4>Usage</h4>
             <p>
-                My family and myself are daily using the application. We particularly enjoy it, especially when we don't have our key with us. 👌
+                Some students have already found their new accommodation thanks to the platform ! 👌
             </p>
         </div>
     </article>
