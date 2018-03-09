@@ -31,6 +31,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- Zoom -->
+
+    <link rel="stylesheet" type="text/css" href="css/fluidbox/fluidbox.min.css">
+
     <!-- Google Analytics -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109846560-1"></script>
@@ -98,13 +102,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md">
-                    <img src="img/insapp_1.png" class="img-fluid">
+                    <div class="img-zoom">
+                        <a href="img/insapp_1.png" rel="lightbox">
+                            <img src="img/insapp_1.png" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img src="img/insapp_2.png" class="img-fluid">
+                    <div class="img-zoom">
+                        <a href="img/insapp_2.png" rel="lightbox">
+                            <img src="img/insapp_2.png" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md">
-                    <img src="img/insapp_3.png" class="img-fluid">
+                    <div class="img-zoom">
+                        <a href="img/insapp_3.png" rel="lightbox">
+                            <img src="img/insapp_3.png" class="img-fluid">
+                        </a>
+                    </div>
                 </div>
             </div>
             <figcaption class="figcaption">Android version of Insapp</p>
@@ -152,5 +168,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
+    <script src="js/fluidbox/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="js/fluidbox/jquery.fluidbox.min.js"></script>
+    <script src="js/fluidbox.js"></script>
 </body>
 </html>

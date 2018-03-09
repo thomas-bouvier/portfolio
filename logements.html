@@ -31,6 +31,10 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- Zoom -->
+
+    <link rel="stylesheet" type="text/css" href="css/fluidbox/fluidbox.min.css">
+
     <!-- Google Analytics -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109846560-1"></script>
@@ -97,7 +101,11 @@
         </div>
 
         <div class="container">
-            <img src="img/view_ad.png" class="img-fluid">
+            <div class="img-zoom">
+                <a href="img/view_ad.png" rel="lightbox">
+                    <img src="img/view_ad.png" class="img-fluid">
+                </a>
+            </div>
             <figcaption class="fig-caption">Viewing an apartment ad</figcaption>
         </div>
 
@@ -112,7 +120,11 @@
         </div>
 
         <div class="container">
-            <img src="img/write_ad.png" class="img-fluid">
+            <div class="img-zoom">
+                <a href="img/write_ad.png" rel="lightbox">
+                    <img src="img/write_ad.png" class="img-fluid">
+                </a>
+            </div>
             <figcaption class="fig-caption">Writing an apartment ad</figcaption>
         </div>
 
@@ -150,5 +162,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     <script src="js/script.js"></script>
+    <script src="js/fluidbox/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="js/fluidbox/jquery.fluidbox.min.js"></script>
+    <script src="js/fluidbox.js"></script>
 </body>
 </html>

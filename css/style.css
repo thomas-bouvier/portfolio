@@ -270,6 +270,7 @@ section#projects #card-project-insapp .card-header {
 
 article {
 	background-color: white;
+	padding-bottom: 1em;
 }
 
 article p {
@@ -280,12 +281,14 @@ article p {
 
 footer {
 	background-color: white;
+	margin-bottom: 0;
 }
 
 footer p {
 	text-align: center;
 	padding-top: 4em;
 	padding-bottom: 4em;
+	margin-bottom: 0;
 }
 
 .video-container {       	/* give fit to box an aspect ratio */
