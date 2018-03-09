@@ -27,18 +27,18 @@
 }
 
 ::-moz-selection {
-	background: #3b3561;
+	background: #7A29E7;
 	color: white;
 }
 
 ::selection {
-	background: #3b3561;
+	background: #7A29E7;
 	color: white;
 }
 
 body {
 	font-family: 'Orkney';
-	background-color: white;
+	background-color: #f7fbfb;
 }
 
 .min-container {
@@ -57,6 +57,10 @@ img,
 a {
 	color: #3b3561;
 	text-decoration: none !important;
+}
+
+a:hover {
+	color: #7A29E7;
 }
 
 article a {
@@ -182,6 +186,19 @@ header .intro p.description {
     color: #5c6a81;
     line-height: 1.9em;
     margin-top: 20px;
+}
+
+.controls .btn {
+	cursor: pointer;
+}
+
+.controls .btn:hover {
+	color: #7A29E7;
+	background-color: transparent;
+}
+
+.controls .mixitup-control-active {
+	background-color: #e2e6ea !important;
 }
 
 section#projects {
