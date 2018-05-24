@@ -1,0 +1,35 @@
+#  * Main:
+#AddDefaultCharset UTF-8
+DirectoryIndex index.php index.html
+Options +FollowSymlinks -Indexes
+ServerSignature Off
+
+#  * Forbid some file extensions to be displayed
+<Files ~ "\.(conf|config|htacces|htpassword|ini|ini\.php|sql)$">
+    order deny,allow
+    deny from all
+    allow from 127.0.0.1
+</Files>
+
+#  * Mod_Rewrite:
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # www to non-www + force https
+
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP_HOST} ^www\. [NC]
+    RewriteRule ^ https://thomas-bouvier.io%{REQUEST_URI} [NE,L,R=301]
+
+    # example.com/page will display the contents of example.com/page.html
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.+)$ $1.html [L,QSA]
+
+    # 301 from example.com/page.html to example.com/page
+
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+    RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+</IfModule>
