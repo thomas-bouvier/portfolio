@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Insapp</title>
+    <title>Thomas Bouvier — Insapp Android</title>
 
     <!-- Open Graph Protocol -->
 
@@ -63,7 +63,7 @@
         <!--<a href="#" class="navbar-brand mr-0">Thomas Bouvier</a>-->
         <ul class="nav navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="mailto:thomas.bouvier@insa-rennes.fr">Contact me</a>
+                <a class="nav-link" href="mailto:contact@thomas.bouvier.io">Contact me</a>
             </li>
         </ul>
     </nav>
@@ -73,7 +73,7 @@
     <header>
         <div class="container">
             <div class="intro">
-                <h1>Insapp</h1>
+                <h1>Insapp Android</h1>
                 <p class="description">
                     Insapp is an application promoting associations within INSA Rennes.
                 </p>
@@ -81,9 +81,7 @@
                     <a href="https://insapp.fr/">insapp.fr</a>
                 </p>
                 <p class="links">
-                    <a href="https://github.com/tomatrocho/insapp-android">Repository (Android version)</a>
-                    ·
-                    <a href="https://github.com/tomatrocho/insapp-server">Repository (server)</a>
+                    <a href="https://github.com/thomas-bouvier/insapp-android">Repository</a>
                 </p>
             </div>
         </div>
@@ -95,7 +93,7 @@
         <div class="min-container">
             <h4>What's Insapp ?</h4>
             <p>
-                Insapp is a 2016 project. This application helps associations from INSA Rennes to easily communicate with students. Associations have access to a web app to post some news just as Instagram or post events. Then, our users receive a push notification and get access to the content.
+                Insapp is a 2016 project. This application helps associations from INSA Rennes to easily communicate with students. Associations have access to a web app to post some news (just as Instagram) or events. Then, our users receive a push notification and get access to the content. There is also an iOS version.
             </p>
         </div>
 
@@ -127,12 +125,21 @@
         </div>
 
         <div class="min-container">
+            <p>
+                Users can edit their profile, comment on news and events, tag friends, access the calendar of upcoming events, view an association's presentation page, or search all the content. Users can also scan their membership card to have the barcode directly in the application.
+            </p>
+        </div>
+
+        <div class="min-container">
             <h4>What I did</h4>
             <p>
-                I joined the team in October (there was then 2 people only). We decided to rewrite the Android application, the first version being unstable and not <em>material design</em>-friendly. I used <a href="http://square.github.io/retrofit/">Retrofit</a> as a HTTP client, <a href="https://firebase.google.com/products/cloud-messaging/">Firebase Cloud Messaging</a> to send push notifications and <a href="https://get.fabric.io">Fabric</a> to monitor and understand crashes. I also set up a whole development environment for Android.
+                I joined the team in October 2016 (there was then 2 people only). We decided to rewrite the Android application, the first version being unstable and not <em>material design</em>-friendly.
             </p>
             <p>
-                I am now in charge of the maintenance of the project. I learned Golang and MongoDB so I could make changes to the server code, including regarding the REST API. The whole server is dockerized. Also, this project was the perfect opportunity to mess around with the Kotlin language. The <a href="https://github.com/tomatrocho/insapp-android">Android repository</a> is hosted on Github.
+                We used <a href="http://square.github.io/retrofit/">Retrofit</a> as a HTTP client, <a href="https://firebase.google.com/products/cloud-messaging/">Firebase Cloud Messaging</a> to send push notifications, <a href="https://bumptech.github.io/glide/">Glide</a> to load images and <a href="https://get.fabric.io">Fabric</a> to monitor and understand crashes. This tool has allowed us to improve the stability and performance of the application over time. We also set up a whole development environment for Android.
+            </p>
+            <p>
+                This project was the perfect opportunity to mess around with <a href="https://kotlinlang.org/">Kotlin</a>. Gradually, we are converting the application into this language, which makes the code much more concise. Currently, about 50% of the lines are written in Kotlin. The <a href="https://github.com/thomas-bouvier/insapp-android">Android repository</a> is hosted on Github.
             </p>
             <p>
                 This project has taught me a lot in the sense that it is technically transversal, but also because it involves communicating with students and taking team decisions.
@@ -142,7 +149,7 @@
         <div class="min-container">
             <h4>Usage</h4>
             <p>
-                Insapp is available on the <a href="https://itunes.apple.com/fr/app/insapp/id1159630227">App Store</a> and <a href="https://play.google.com/store/apps/details?id=fr.insapp.insapp">Play Store</a>. Today, we count more than 800 active users: about 200 hundred downloads on iOS and 600 on Android. We worked with the school administration so they can also use the application. It's a large project in our school. Now, we try to pass our project to other students so they can innovate again and again on Insapp.
+                Insapp is available on the <a href="https://itunes.apple.com/fr/app/insapp/id1159630227">App Store</a> and <a href="https://play.google.com/store/apps/details?id=fr.insapp.insapp">Play Store</a>. Today, we count more than 500 active users, and about 200 hundred downloads on iOS and 1100 on Android. We worked with the school administration so they can also use the application. It's a large project in our school. Now, we try to pass our project to other students so they can innovate again and again on Insapp.
             </p>
             <p>
                 <a href="https://insapp.fr">Here</a> is the official website. Sadly, the application is only accessible to people owning an internal account. 😖

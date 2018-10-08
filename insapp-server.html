@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Logements INSA</title>
+    <title>Thomas Bouvier — Insapp server</title>
 
     <!-- Open Graph Protocol -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="fr_FR">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Thomas Bouvier — Logements INSA">
-    <meta property="og:description" content="This web application allows students from INSA Rennes to find accommodation around the campus.">
+    <meta property="og:title" content="Thomas Bouvier — Insapp server">
+    <meta property="og:description" content="Insapp is an application promoting associations within INSA Rennes.">
 
     <!--
     <meta property="og:url" content="">
@@ -73,15 +73,15 @@
     <header>
         <div class="container">
             <div class="intro">
-                <h1>Logements INSA</h1>
+                <h1>Insapp server</h1>
                 <p class="description">
-                    This web application allows students from INSA Rennes to find accommodation around the campus.
+                    Insapp is an application promoting associations within INSA Rennes. This page is about the server software.
                 </p>
                 <p class="links">
-                    <a href="https://logements.insa-rennes.fr/">logements.insa-rennes.fr</a>
+                    <a href="https://insapp.fr/">insapp.fr</a>
                 </p>
                 <p class="links">
-                    <a href="https://github.com/tomatrocho/logements-insa">Repository</a>
+                    <a href="https://github.com/thomas-bouvier/insapp-server">Repository</a>
                 </p>
             </div>
         </div>
@@ -91,62 +91,28 @@
 
     <article>
         <div class="min-container">
-            <h4>What's Logements INSA ?</h4>
+            <h4>What's Insapp ?</h4>
             <p>
-                Logements INSA is 2017 project. The student office contacted me to create a platform for students to easily find accommodation. Students can post and view apartment ads.
+                Insapp is a 2016 project. This application helps associations from INSA Rennes to easily communicate with students. Associations have access to a web app to post some news (just as Instagram) or events. Then, our users receive a push notification and get access to the content. There is also an iOS version.
             </p>
             <p>
-                This was the opportunity for me to use <a href="https://laravel.com">Laravel</a> in a real-life project.
+                This page is about the server software of Insapp. To learn more about the Android application, please follow this <a href="insapp-android.html">link</a>.
             </p>
-        </div>
-
-        <div class="container">
-            <div class="img-zoom">
-                <a href="img/view_ad.png" rel="lightbox">
-                    <img src="img/view_ad.png" class="img-fluid">
-                </a>
-            </div>
-            <figcaption class="fig-caption">Viewing an apartment ad</figcaption>
         </div>
 
         <div class="min-container">
             <h4>What I did</h4>
             <p>
-                The platform should only be accessible to students from INSA. I then used this <a href="https://github.com/subfission/cas">repository</a> to force CAS authentication.
+                The whole server software is <a href="https://www.docker.com/">dockerized</a>. This means that only one command is required to set up the database, API and administration interface. The user can then launch the configuration script to customize the installation. <a href="https://traefik.io/">Traefik</a> is used as a reverse-proxy for the containers, and SSL certificates are generated automatically using <a href="https://letsencrypt.org/">Let's Encrypt</a>.
             </p>
             <p>
-                Students have then access to a form to write a new ad. They can attach multiple photos to it: uploads are handled with Ajax. They can still edit their ad after publication (adding or remove some photos for instance).
-            </p>
-        </div>
-
-        <div class="container">
-            <div class="img-zoom">
-                <a href="img/write_ad.png" rel="lightbox">
-                    <img src="img/write_ad.png" class="img-fluid">
-                </a>
-            </div>
-            <figcaption class="fig-caption">Writing an apartment ad</figcaption>
-        </div>
-
-        <div class="min-container">
-            <p>
-                I also developed an administration interface, allowing moderators to validate posted ads. They receive a mail when a new ad is posted.
+                The technology used for the database is <a href="https://www.mongodb.com/">MongoDB</a>. This project was a good opportunity to try NoSQL.
             </p>
             <p>
-                As you can see above, I used <a href="http://getbootstrap.com">Bootstrap</a> to build the UI. It is obviously fully responsive.
+                The API is written in <a href="https://golang.org/">Golang</a> and respects the REST architecture style. It sometimes requires evolutions (adding/modifying endpoints) according to the desired functionalities in the applications. A <a href="https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds">multi-stage Docker build</a> is used to create a tiny Go image. You can find the <a href="https://github.com/thomas-bouvier/insapp-go">API repository</a> on Github.
             </p>
             <p>
-                The <a href="https://github.com/tomatrocho/logements-insa">repository</a> is hosted on Github. I'm currently working on implementing a search bar using <a href="https://www.elastic.co">ElasticSearch</a> and <a href="https://github.com/elasticquent/Elasticquent">Elasticquent</a>.
-            </p>
-        </div>
-
-        <div class="min-container">
-            <h4>Usage</h4>
-            <p>
-                <a href="https://logements.insa-rennes.fr">Here</a> is the official website. Sadly, the application is only accessible to people owning an internal account because of CAS. 😞
-            </p>
-            <p>
-                Some students have already found their new accommodation thanks to the platform ! 👌
+                Finally, the administration interface, accessible to association managers to post content, is written in Javascript, using ES6 and <a href="https://reactjs.org/">ReactJS</a>. I used <a href="https://marmelab.com/react-admin/">react-admin</a>, a frontend framework for building admin applications on top of REST APIs, in respect to material design. Perfect for our stack 👌
             </p>
         </div>
     </article>

@@ -78,7 +78,7 @@
                     <button type="button" class="btn btn-light" data-toggle=".cpp">C++</button>
                     <button type="button" class="btn btn-light" data-toggle=".golang">Golang</button>
                     <button type="button" class="btn btn-light" data-toggle=".php">PHP</button>
-                    <button type="button" class="btn btn-light" data-toggle=".node-js">NodeJS</button>
+                    <button type="button" class="btn btn-light" data-toggle=".js">Javascript</button>
                     <button type="button" class="btn btn-light" data-toggle=".android">Android</button>
                     <button type="button" class="btn btn-light" data-toggle=".docker">Docker</button>
                     <button type="button" class="btn btn-light" data-toggle=".html-css">HTML/CSS</button>
@@ -92,24 +92,6 @@
 
     <section id="projects">
         <div class="min-container">
-            <div data-tilt class="card mix cpp">
-                <div class="card-header">
-
-                </div>
-                <div class="card-body">
-                    <h5>OpenGL game engine</h5>
-                    <p class="tags">
-                        #cpp #opengl
-                    </p>
-                    <p>
-                        Development of a game engine using C++ and OpenGL.
-                    </p>
-                    <p class="work-in-progress">
-                        Work in progress
-                    </p>
-                </div>
-            </div>
-
             <div data-tilt class="card mix html-css docker">
                 <div class="card-header">
 
@@ -146,15 +128,35 @@
                 </div>
             </div>
 
-            <a href="insapp.html">
-                <div data-tilt class="card mix android java golang docker" id="card-project-insapp">
+            <a href="insapp-server.html">
+                <div data-tilt class="card mix js golang docker" id="card-project-insapp">
                     <div class="card-header">
 
                     </div>
                     <div class="card-body">
-                        <h5>Insapp</h5>
+                        <h5>Insapp server</h5>
                         <p class="tags">
-                            #android #java #golang #docker
+                            #golang #javascript #docker
+                        </p>
+                        <p>
+                            Insapp is an application promoting associations within INSA Rennes. This is related to its server software.
+                        </p>
+                        <p class="see-more">
+                            See more
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="insapp-android.html">
+                <div data-tilt class="card mix android java" id="card-project-insapp">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+                        <h5>Insapp Android</h5>
+                        <p class="tags">
+                            #android #java #kotlin
                         </p>
                         <p>
                             Insapp is an application promoting associations within INSA Rennes.
@@ -187,14 +189,14 @@
             </a>
 
             <a href="auto-door.html">
-                <div data-tilt class="card mix android node-js react-native raspberry">
+                <div data-tilt class="card mix android js react-native raspberry">
                     <div class="card-header">
 
                     </div>
                     <div class="card-body">
                         <h5>Auto-door</h5>
                         <p class="tags">
-                            #android #node-js #react-native #raspberry
+                            #android #javascript #react-native #raspberry
                         </p>
                         <p>
                             This little application written in React Native aims at remoting my parent's house garage door.
