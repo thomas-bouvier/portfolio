@@ -1,107 +1,107 @@
 @font-face {
-	font-family: 'Orkney';
-	src: url('../fonts/orkney-light.otf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
+  font-family: 'Orkney';
+  src: url('../fonts/orkney-light.otf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Orkney';
-	src: url('../fonts/orkney-regular.otf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Orkney';
+  src: url('../fonts/orkney-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Orkney';
-	src: url('../fonts/orkney-medium.otf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
+  font-family: 'Orkney';
+  src: url('../fonts/orkney-medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Orkney';
-	src: url('../fonts/orkney-bold.otf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
+  font-family: 'Orkney';
+  src: url('../fonts/orkney-bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 ::-moz-selection {
-	background: #7A29E7;
-	color: white;
+  background: #7A29E7;
+  color: white;
 }
 
 ::selection {
-	background: #7A29E7;
-	color: white;
+  background: #7A29E7;
+  color: white;
 }
 
 body {
-	font-family: 'Orkney';
-	background-color: #f7fbfb;
+  font-family: 'Orkney';
+  background-color: #f7fbfb;
 }
 
 .min-container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
-	max-width: 668px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 668px;
 }
 
 img,
 .video-container {
-	box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
+  box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
 }
 
 a {
-	color: #3b3561;
-	text-decoration: none !important;
+  color: #3b3561;
+  text-decoration: none !important;
 }
 
 a:hover {
-	color: #7A29E7;
+  color: #7A29E7;
 }
 
 article a {
-	color: #3b3561;
-	font-weight: 700;
-	position: relative;
-	white-space: nowrap;
+  color: #3b3561;
+  font-weight: 700;
+  position: relative;
+  white-space: nowrap;
 }
 
 p.links {
-	margin-top: 1.5em;
+  margin-top: 1.5em;
 }
 
 .min-container p {
-	text-align: justify;
+  text-align: justify;
 }
 
 .min-container h4 {
-	padding-top: 3em;
-	text-align: center;
+  padding-top: 3em;
+  text-align: center;
 }
 
 .container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
-	max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 768px;
 }
 
 @media (max-width: 767px) {
-	.min-container {
-		padding-right: 30px;
-		padding-left: 30px;
-	}
+  .min-container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 figcaption {
-	text-align: center;
-	font-style: italic;
-	padding-top: 2em;
+  text-align: center;
+  font-style: italic;
+  padding-top: 2em;
 }
 
 /*
@@ -118,196 +118,207 @@ a:before {
 	transition: height cubic-bezier(0.075, .82, .165, 1) .3s
 }
 */
-
 .navbar {
-    background-color: white;
+  background-color: white;
 }
 
 #hero {
-	height: calc(100vh - 56px);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #F7FBFB;
+  height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F7FBFB;
 }
 
 #hero .intro {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-	padding: 7rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7rem 1rem;
 }
 
 #hero .intro h1 {
-    font-size: 2em;
-    font-weight: 500;
-    color: #333;
+  font-size: 2em;
+  font-weight: 500;
+  color: #333;
 }
 
 #hero .intro p.description {
-    font-size: 1.05em;
-    font-weight: 400;
-    color: #5c6a81;
-    line-height: 1.9em;
-    margin-top: 2em;
-	margin-bottom: 1.5em;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #5c6a81;
+  line-height: 1.9em;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 
 header {
-	min-height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #f7fbfb;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7fbfb;
 }
 
 @media only screen and (max-width: 700px) {
-	header {
-	    min-height: auto;
-	}
+  header {
+    min-height: auto;
+  }
 }
 
 header .intro {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-	padding: 7rem 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 7rem 1rem;
 }
 
 header .intro h1 {
-    font-size: 2em;
-    font-weight: 500;
-    color: #333;
+  font-size: 2em;
+  font-weight: 500;
+  color: #333;
 }
 
 header .intro p.description {
-    font-size: 1.05em;
-    font-weight: 400;
-    color: #5c6a81;
-    line-height: 1.9em;
-    margin-top: 20px;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #5c6a81;
+  line-height: 1.9em;
+  margin-top: 20px;
+}
+
+.projects-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .controls .btn {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .controls .btn:hover {
-	color: #7A29E7;
-	background-color: transparent;
+  color: #7A29E7;
+  background-color: transparent;
 }
 
 .controls .mixitup-control-active {
-	background-color: #e2e6ea !important;
+  background-color: #e2e6ea !important;
 }
 
 section#projects {
-	padding-top: 35px;
-	background-color: #f6fafb;
-	padding-bottom: 35px;
+  padding-top: 35px;
+  background-color: #f6fafb;
+  padding-bottom: 35px;
 }
 
 section#projects .card {
-	box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
-	border-radius: 4px;
-	border: 0;
-	margin-top: 35px;
-	margin-bottom: 35px;
-	cursor: pointer;
-	/*display: inline-block;*/
-	/*width: calc(100% / 2 - (((2 - 1) * 1rem) / 2));*/
+  box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
+  border-radius: 4px;
+  border: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  /*display: inline-block;*/
+  /*width: calc(100% / 2 - (((2 - 1) * 1rem) / 2));*/
 }
 
-section#projects .card:hover {
-
-}
+section#projects .card:hover {}
 
 section#projects .card p {
-	color: #5c6a81;
+  color: #5c6a81;
 }
 
 section#projects .card p.tags {
-	color: #d0d0d0;
-	font-size: .85em;
-	font-weight: lighter;
+  color: #d0d0d0;
+  font-size: .85em;
+  font-weight: lighter;
 }
 
 section#projects .card-header {
-	border: 0;
-	height: 0;
-	padding: 0;
-	background-color: #3b3561;
+  border: 0;
+  height: 0;
+  padding: 0;
+  background-color: #3b3561;
 }
 
 section#projects .card-body {
-	padding: 30px;
+  padding: 30px;
 }
 
 section#projects .card p.work-in-progress,
 section#projects .card p.see-more,
 section#projects .card p.being-written {
-	font-size: .85em;
-	font-weight: lighter;
-	text-align: right;
-	margin-bottom: 0;
+  font-size: .85em;
+  font-weight: lighter;
+  text-align: right;
+  margin-bottom: 0;
 }
 
 section#projects .card p.work-in-progress {
-	color: red;
+  color: red;
 }
 
 section#projects .card p.see-more {
-	color: #d1d1d1;
+  color: #d1d1d1;
 }
 
 section#projects .card p.being-written {
-	color: orange;
+  color: orange;
 }
 
 section#projects #card-project-insapp .card-header {
-	background-color: #e9524d;
+  background-color: #e9524d;
 }
 
 article {
-	background-color: white;
-	padding-bottom: 1em;
+  background-color: white;
+  padding-bottom: 1em;
 }
 
 article p {
-	padding-top: 35px;
-	padding-bottom: 20px;
-	line-height: 1.75em;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  line-height: 1.75em;
 }
 
 footer {
-	background-color: white;
-	margin-bottom: 0;
+  background-color: white;
+  margin-bottom: 0;
 }
 
 footer p {
-	text-align: center;
-	padding-top: 4em;
-	padding-bottom: 4em;
-	margin-bottom: 0;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-bottom: 0;
 }
 
-.video-container {       	/* give fit to box an aspect ratio */
-	display: inline-block; 	/* let it be styled thusly */
-	padding: 0;            	/* get rid of pre-styling */
-	margin: 0;
-	margin-top: 50px;
-	width: 100%;           	/* take up full width available */
-	padding-top: 56.25%;   	/* give aspect ratio of 16:9; "720 / 1280 = 0.5625" */
-	height: 0px;           	/* don't want it to expand beyond padding */
-	position: relative;    	/* allow for absolute positioning of child elements */
+.video-container {
+  /* give fit to box an aspect ratio */
+  display: inline-block;
+  /* let it be styled thusly */
+  padding: 0;
+  /* get rid of pre-styling */
+  margin: 0;
+  margin-top: 50px;
+  width: 100%;
+  /* take up full width available */
+  padding-top: 56.25%;
+  /* give aspect ratio of 16:9; "720 / 1280 = 0.5625" */
+  height: 0px;
+  /* don't want it to expand beyond padding */
+  position: relative;
+  /* allow for absolute positioning of child elements */
 }
 
-.video-container > iframe {
-	position: absolute;    	/* expand to fill */
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
+.video-container>iframe {
+  position: absolute;
+  /* expand to fill */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }

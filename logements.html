@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Logements INSA</title>
+  <title>Thomas Bouvier — Logements INSA</title>
 
-    <!-- Open Graph Protocol -->
+  <!-- Open Graph Protocol -->
 
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Thomas Bouvier — Logements INSA">
-    <meta property="og:description" content="This web application allows students from INSA Rennes to find accommodation around the campus.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thomas Bouvier — Logements INSA">
+  <meta property="og:description" content="This web application allows students from INSA Rennes to find accommodation around the campus.">
 
-    <!--
+  <!--
     <meta property="og:url" content="">
     <meta property="og:image" content="">
     <meta property="og:image:type" content="">
@@ -23,147 +24,151 @@
     <meta property="og:image:height" content="">
     -->
 
-    <!-- Latest compiled and minified Bootstrap CSS -->
+  <!-- Latest compiled and minified Bootstrap CSS -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-    <!-- CSS -->
+  <!-- CSS -->
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!-- Zoom -->
+  <!-- Zoom -->
 
-    <link rel="stylesheet" type="text/css" href="css/fluidbox/fluidbox.min.css">
+  <link rel="stylesheet" type="text/css" href="css/fluidbox/fluidbox.min.css">
 
-    <!-- Google Analytics -->
+  <!-- Google Analytics -->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109846560-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109846560-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        gtag('config', 'UA-109846560-1');
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109846560-1');
+  </script>
 </head>
 
 <body>
 
-    <!-- Navbar -->
+  <!-- Navbar -->
 
-    <nav class="navbar navbar-expand justify-content-between">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-        </ul>
-        <!--<a href="#" class="navbar-brand mr-0">Thomas Bouvier</a>-->
-        <ul class="nav navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="mailto:contact@thomas.bouvier.io">Contact me</a>
-            </li>
-        </ul>
-    </nav>
+  <nav class="navbar navbar-expand justify-content-between">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+    </ul>
+    <!--<a href="#" class="navbar-brand mr-0">Thomas Bouvier</a>-->
+    <ul class="nav navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:contact@thomas.bouvier.io">Contact me</a>
+      </li>
+    </ul>
+  </nav>
 
-    <!-- Header -->
+  <!-- Header -->
 
-    <header>
-        <div class="container">
-            <div class="intro">
-                <h1>Logements INSA</h1>
-                <p class="description">
-                    This web application allows students from INSA Rennes to find accommodation around the campus.
-                </p>
-                <p class="links">
-                    <a href="https://logements.insa-rennes.fr/">logements.insa-rennes.fr</a>
-                </p>
-                <p class="links">
-                    <a href="https://github.com/tomatrocho/logements-insa">Repository</a>
-                </p>
-            </div>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <div class="intro">
+        <h1>Logements INSA</h1>
+        <p class="description">
+          This web application allows students from INSA Rennes to find accommodation around the campus.
+        </p>
+        <p class="links">
+          <a href="https://logements.insa-rennes.fr/">logements.insa-rennes.fr</a>
+        </p>
+        <p class="links">
+          <a href="https://github.com/tomatrocho/logements-insa">Repository</a>
+        </p>
+      </div>
+    </div>
+  </header>
 
-    <!-- Section -->
+  <!-- Section -->
 
-    <article>
-        <div class="min-container">
-            <h4>What's Logements INSA ?</h4>
-            <p>
-                Logements INSA is 2017 project. The student office contacted me to create a platform for students to easily find accommodation. Students can post and view apartment ads.
-            </p>
-            <p>
-                This was the opportunity for me to use <a href="https://laravel.com">Laravel</a> in a real-life project.
-            </p>
-        </div>
+  <article>
+    <div class="min-container">
+      <h4>What's Logements INSA ?</h4>
+      <p>
+        Logements INSA is 2017 project. The student office contacted me to create a platform for students to easily find accommodation. Students can post and view apartment ads.
+      </p>
+      <p>
+        This was the opportunity for me to use <a href="https://laravel.com">Laravel</a> in a real-life project.
+      </p>
+    </div>
 
-        <div class="container">
-            <div class="img-zoom">
-                <a href="img/view_ad.png" rel="lightbox">
-                    <img src="img/view_ad.png" class="img-fluid">
-                </a>
-            </div>
-            <figcaption class="fig-caption">Viewing an apartment ad</figcaption>
-        </div>
+    <div class="container">
+      <div class="img-zoom">
+        <a href="img/view_ad.png" rel="lightbox">
+          <img src="img/view_ad.png" class="img-fluid">
+        </a>
+      </div>
+      <figcaption class="fig-caption">Viewing an apartment ad</figcaption>
+    </div>
 
-        <div class="min-container">
-            <h4>What I did</h4>
-            <p>
-                The platform should only be accessible to students from INSA. I then used this <a href="https://github.com/subfission/cas">repository</a> to force CAS authentication.
-            </p>
-            <p>
-                Students have then access to a form to write a new ad. They can attach multiple photos to it: uploads are handled with Ajax. They can still edit their ad after publication (adding or remove some photos for instance).
-            </p>
-        </div>
+    <div class="min-container">
+      <h4>What I did</h4>
+      <p>
+        The platform should only be accessible to students from INSA. I then used this <a href="https://github.com/subfission/cas">repository</a> to force CAS authentication.
+      </p>
+      <p>
+        Students have then access to a form to write a new ad. They can attach multiple photos to it: uploads are handled with Ajax. They can still edit their ad after publication (adding or remove some photos for instance).
+      </p>
+    </div>
 
-        <div class="container">
-            <div class="img-zoom">
-                <a href="img/write_ad.png" rel="lightbox">
-                    <img src="img/write_ad.png" class="img-fluid">
-                </a>
-            </div>
-            <figcaption class="fig-caption">Writing an apartment ad</figcaption>
-        </div>
+    <div class="container">
+      <div class="img-zoom">
+        <a href="img/write_ad.png" rel="lightbox">
+          <img src="img/write_ad.png" class="img-fluid">
+        </a>
+      </div>
+      <figcaption class="fig-caption">Writing an apartment ad</figcaption>
+    </div>
 
-        <div class="min-container">
-            <p>
-                I also developed an administration interface, allowing moderators to validate posted ads. They receive a mail when a new ad is posted.
-            </p>
-            <p>
-                As you can see above, I used <a href="http://getbootstrap.com">Bootstrap</a> to build the UI. It is obviously fully responsive.
-            </p>
-            <p>
-                The <a href="https://github.com/tomatrocho/logements-insa">repository</a> is hosted on Github. I'm currently working on implementing a search bar using <a href="https://www.elastic.co">ElasticSearch</a> and <a href="https://github.com/elasticquent/Elasticquent">Elasticquent</a>.
-            </p>
-        </div>
+    <div class="min-container">
+      <p>
+        I also developed an administration interface, allowing moderators to validate posted ads. They receive a mail when a new ad is posted.
+      </p>
+      <p>
+        As you can see above, I used <a href="http://getbootstrap.com">Bootstrap</a> to build the UI. It is obviously fully responsive.
+      </p>
+      <p>
+        The <a href="https://github.com/tomatrocho/logements-insa">repository</a> is hosted on Github. I'm currently working on implementing a search bar using <a href="https://www.elastic.co">ElasticSearch</a> and <a href="https://github.com/elasticquent/Elasticquent">Elasticquent</a>.
+      </p>
+    </div>
 
-        <div class="min-container">
-            <h4>Usage</h4>
-            <p>
-                <a href="https://logements.insa-rennes.fr">Here</a> is the official website. Sadly, the application is only accessible to people owning an internal account because of CAS. 😞
-            </p>
-            <p>
-                Some students have already found their new accommodation thanks to the platform ! 👌
-            </p>
-        </div>
-    </article>
+    <div class="min-container">
+      <h4>Usage</h4>
+      <p>
+        <a href="https://logements.insa-rennes.fr">Here</a> is the official website. Sadly, the application is only accessible to people owning an internal account because of CAS. 😞
+      </p>
+      <p>
+        Some students have already found their new accommodation thanks to the platform ! 👌
+      </p>
+    </div>
+  </article>
 
-    <footer>
-        <p><a href="projects.html">Come back to projects</a></p>
-    </footer>
+  <footer>
+    <p><a href="projects.html">Come back to projects</a></p>
+  </footer>
 
-    <!-- Javascript -->
+  <!-- Javascript -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-    <script src="js/script.js"></script>
-    <script src="js/fluidbox/jquery.ba-throttle-debounce.min.js"></script>
-    <script src="js/fluidbox/jquery.fluidbox.min.js"></script>
-    <script src="js/fluidbox.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/fluidbox/jquery.ba-throttle-debounce.min.js"></script>
+  <script src="js/fluidbox/jquery.fluidbox.min.js"></script>
+  <script src="js/fluidbox.js"></script>
 </body>
+
 </html>
