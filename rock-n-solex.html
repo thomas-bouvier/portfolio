@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thomas Bouvier — Junior Entreprise websites</title>
+    <title>Thomas Bouvier — Rock'n Solex website</title>
 
     <!-- Open Graph Protocol -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="fr_FR">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Thomas Bouvier — Junior entreprise websites">
-    <meta property="og:description" content="These showcase websites promote the junior enterprise movement.">
+    <meta property="og:title" content="Thomas Bouvier — Rock'n Solex website">
+    <meta property="og:description" content="This website presents Rock'n Solex, the oldest French student festival.">
 
     <!--
     <meta property="og:url" content="">
@@ -69,14 +69,12 @@
     <header>
         <div class="container">
             <div class="intro">
-                <h1>Junior entreprise websites</h1>
+                <h1>Rock'n Solex website</h1>
                 <p class="description">
-                    These showcase websites promote the junior enterprise movement.
+                    This website presents Rock'n Solex, the oldest French student festival.
                 </p>
                 <p class="links">
-                    <a href="http://www.ouest-insa.fr">Ouest INSA</a>
-                    ·
-                    <a href="https://jer.bzh">Junior-Entreprises Rennaises</a>
+                    <a href="https://rocknsolex.fr">Rock'n Solex</a>
                 </p>
             </div>
         </div>
@@ -86,32 +84,39 @@
 
     <article>
         <div class="min-container">
-            <h4>What are the junior entreprise websites?</h4>
+            <h4>What is Rock'n Solex?</h4>
             <p>
-                 I've been involved in <a href="https://junior-entreprises.com">junior enterprise</a> for two years, starting in 2016. As a member of the IT division, I built 2 showcase websites to promote our movement.
+                 I've been involved in the Rock'n Solex 2018 team as webmaster. The Rock'n Solex is the oldest student festival in France, first held in 1967. It combines Solex races during the day and music concerts every night. This is the major event in the school's associative life. It attracts more than 15,000 spectators over 3 days.
             </p>
-            <p>
-                 A junior enterprise is a local non-profit organization entirely executed by students. Related to their field of studies the students offer services to the market; experiencing unique learning opportunities by doing professional project work on the one side and managing enterprises on the other. By doing this the students add practical experience to their theoretical skills and bridge the gap between academia and the business world.
-            </p>
-            <p>
-                The <a href="http://ouest-insa.fr" alt="Ouest INSA website">first one</a> introduces our structure, Ouest INSA. The <a href="https://jer.bzh" alt="JER website">second one</a> introduces the <em>Junior-Entreprises Rennaises</em> movement, gathering 5 junior enterprises from Rennes (France).
-            </p>
+        </div>
+
+        <div class="container">
+            <div class="video-container">
+                <iframe width="768" height="432" src="https://www.youtube.com/embed/f_kzUJw-3aI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <figcaption class="figcaption">Rock'n Solex 2018 aftermovie</p>
         </div>
 
         <div class="min-container">
             <h4>What I did</h4>
             <p>
-                I used basic HTML/CSS along with <a href="https://getbootstrap.com">Bootstrap</a>. The websites are obviously fully responsive. They both include a customized map from <a href="https://developers.google.com/maps/">Google Maps API</a>.
+                The graphic style of the website had to be consistent with the festival poster. I used <a href="https://sass-lang.com/">SASS</a> along with <a href="https://getbootstrap.com">Bootstrap</a> to create it. The website is obviously fully responsive.
             </p>
             <p>
-                As the people in charge of these websites will change every year, they have to be easily maintenable. That's why I used <a href="https://www.docker.com">Docker</a> to set up <a href="http://nginx.org">nginx</a>, PHP-FPM and <a href="https://getcomposer.org">Composer</a> automatically. Dependencies like <a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> (used to send emails) can thus easily be added.
+                As the people in charge of the website change every year, it had to be easily maintenable. That's why I used <a href="https://www.docker.com">Docker</a> to set up <a href="http://nginx.org">nginx</a>, PHP-FPM and <a href="https://getcomposer.org">Composer</a> automatically. Dependencies like <a href="https://github.com/PHPMailer/PHPMailer">PHPMailer</a> (used to send emails) can thus easily be added.
+            </p>
+            <p>
+                I also worked on the SEO. The first step was to unify the format of the links pointing to the website, as some included the prefix <em>www</em> or the extension <em>.php</em>. So I wrote redirections in an <em>.htaccess</em> file. Then, I made sure that the weight of the website was minimal, by avoiding integrating heavy Javascript libraries and compressing the images.
             </p>
         </div>
 
         <div class="min-container">
             <h4>Usage</h4>
             <p>
-                New clients often discover the concept of junior entreprises through our website. If our offer suits them, they contact us through the form of request for quotation.
+                The site recorded 100,000 visits during the 2017-2018 school year. During the week of the festival, 20,000 unique users logged in. The site gathers all the practical information of the event, the artist lineup, and news.
+            </p>
+            <p>
+                The graphic style changes at night! 🌙
             </p>
         </div>
     </article>
