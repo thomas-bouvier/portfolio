@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Orkney';
   src: url('../fonts/orkney-medium.otf') format('truetype');
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -27,12 +27,12 @@
 }
 
 ::-moz-selection {
-  background: #7A29E7;
+  background: #c6c6c6;
   color: white;
 }
 
 ::selection {
-  background: #7A29E7;
+  background: #c6c6c6;
   color: white;
 }
 
@@ -68,10 +68,6 @@ article a {
   font-weight: 700;
   position: relative;
   white-space: nowrap;
-}
-
-p.links {
-  margin-top: 1.5em;
 }
 
 .min-container p {
@@ -122,12 +118,29 @@ a:before {
   background-color: white;
 }
 
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background-color: #000c21;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  transform: skewY(3.5deg);
+  position: absolute;
+  top: -30vh;
+}
+
 #hero {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
   height: calc(100vh - 56px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #F7FBFB;
+  color: white;
 }
 
 #hero .intro {
@@ -140,16 +153,24 @@ a:before {
 #hero .intro h1 {
   font-size: 2em;
   font-weight: 500;
-  color: #333;
+}
+
+#hero .intro a {
+  color: white;
+  border-bottom: 1px dashed white;
 }
 
 #hero .intro p.description {
   font-size: 1.05em;
-  font-weight: 400;
-  color: #5c6a81;
+  font-weight: 200;
   line-height: 1.9em;
   margin-top: 2em;
   margin-bottom: 1.5em;
+}
+
+#hero .intro p.links a {
+  margin-top: 1.5em;
+  border-bottom: none;
 }
 
 header {
@@ -168,7 +189,6 @@ header {
 
 header .intro {
   max-width: 700px;
-  margin: 0 auto;
   text-align: center;
   padding: 7rem 1rem;
 }
@@ -188,9 +208,11 @@ header .intro p.description {
 }
 
 .projects-header {
+  margin-top: 70vh;
   text-align: center;
   max-width: 700px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .controls .btn {
@@ -207,6 +229,7 @@ header .intro p.description {
 }
 
 section#projects {
+  margin-top: 70vh;
   padding-top: 35px;
   background-color: #f6fafb;
   padding-bottom: 35px;
