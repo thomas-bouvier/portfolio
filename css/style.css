@@ -41,6 +41,14 @@ body {
   background-color: #f7fbfb;
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 767px;
+}
+
 .min-container {
   margin-right: auto;
   margin-left: auto;
@@ -65,14 +73,6 @@ a:hover {
   text-decoration: none;
 }
 
-/*
-article a {
-  color: #000c21;
-  font-weight: 700;
-  position: relative;
-  white-space: nowrap;
-}
-*/
 .min-container p {
   text-align: justify;
   font-weight: 200;
@@ -82,14 +82,6 @@ article a {
 
 .min-container h4 {
   padding-top: 3em;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  max-width: 768px;
 }
 
 .max-container {
@@ -110,25 +102,8 @@ article a {
 figcaption {
   text-align: center;
   font-style: italic;
-  padding-top: 2em;
-}
-
-/*
-a:before {
-	content: '';
-	position: absolute;
-	background: #bdecef;
-	bottom: 1px;
-	height: 5px;
-	right: -2px;
-	left: -2px;
-	z-index: -1;
-	-webkit-transition: height cubic-bezier(0.075, .82, .165, 1) .3s;
-	transition: height cubic-bezier(0.075, .82, .165, 1) .3s
-}
-*/
-.navbar {
-  background-color: white;
+  padding-top: 1.5em;
+  font-weight: 200;
 }
 
 #particles-js {
@@ -142,8 +117,37 @@ a:before {
 }
 
 #particles-js.project-page {
-  background-color: #bbb;
   top: -50vh;
+}
+
+@media (max-width: 767px) {
+  #particles-js {
+    height: 130vh;
+    transform: skewY(0deg);
+  }
+
+  #particles-js.project-page {
+    transform: skewY(3.5deg);
+    top: -80vh;
+  }
+}
+
+section#projects {
+  margin-top: 85vh;
+  background-color: #f6fafb;
+  padding-bottom: 35px;
+}
+
+article {
+  margin-top: 50vh;
+  background-color: #f6fafb;
+  padding-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  section#projects {
+    margin-top: 110vh;
+  }
 }
 
 #hero {
@@ -156,30 +160,36 @@ a:before {
   flex-direction: column;
   justify-content: center;
   color: white;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #hero {
+    top: 5vh;
+  }
+}
+
+@media (max-width: 991px) {
+  #hero {
+    width: 90%;
+  }
 }
 
 #hero.project-page {
   top: -140px;
 }
 
-#hero .intro {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 7rem 1rem;
-}
-
-#hero .intro h1 {
+#hero h1 {
   font-size: 2em;
   font-weight: 500;
 }
 
-#hero .intro a {
+#hero a {
   color: white;
   border-bottom: 1px dashed white;
 }
 
-#hero .intro p.description {
+#hero p.description {
   font-size: 1.05em;
   font-weight: 200;
   line-height: 1.9em;
@@ -187,58 +197,9 @@ a:before {
   margin-bottom: 1.5em;
 }
 
-#hero .intro p.links a {
+#hero p.links a {
   margin-top: 1.5em;
   border-bottom: none;
-}
-
-header {
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f7fbfb;
-}
-
-@media only screen and (max-width: 700px) {
-  header {
-    min-height: auto;
-  }
-}
-
-header .intro {
-  max-width: 700px;
-  text-align: center;
-  padding: 7rem 1rem;
-}
-
-header .intro h1 {
-  font-size: 2em;
-  font-weight: 500;
-  color: #333;
-}
-
-header .intro p.description {
-  font-size: 1.05em;
-  font-weight: 400;
-  color: #5c6a81;
-  line-height: 1.9em;
-  margin-top: 20px;
-}
-
-.projects-header {
-  margin-top: 70vh;
-  text-align: center;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section#projects {
-  margin-top: 70vh;
-  padding-top: 100px;
-  background-color: #f6fafb;
-  padding-bottom: 35px;
 }
 
 .project {
@@ -272,7 +233,7 @@ section#projects {
   margin-top: 0
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .project {
     width: 47%;
     margin-right: 4%
@@ -288,7 +249,7 @@ section#projects {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .project {
     width: 30%;
     margin-right: 3%
@@ -384,7 +345,6 @@ button.btn-primary {
 
 article {
   padding-bottom: 1em;
-  margin-top: 50vh;
 }
 
 article p {
