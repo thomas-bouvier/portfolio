@@ -46,7 +46,7 @@ body {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 668px;
+  max-width: 655px;
 }
 
 img,
@@ -55,28 +55,33 @@ img,
 }
 
 a {
-  color: #3b3561;
-  text-decoration: none !important;
+  color: #000c21;
+  font-weight: 700;
 }
 
 a:hover {
-  color: #7A29E7;
+  color: #000c21;
+  border-bottom: 1px dashed #000c21;
+  text-decoration: none;
 }
 
+/*
 article a {
-  color: #3b3561;
+  color: #000c21;
   font-weight: 700;
   position: relative;
   white-space: nowrap;
 }
-
+*/
 .min-container p {
   text-align: justify;
+  font-weight: 200;
+  font-size: 1.05em;
+  color: #111;
 }
 
 .min-container h4 {
   padding-top: 3em;
-  text-align: center;
 }
 
 .container {
@@ -139,6 +144,11 @@ a:before {
   top: -30vh;
 }
 
+#particles-js.project-page {
+  background-color: #bbb;
+  top: -50vh;
+}
+
 #hero {
   position: absolute;
   top: -60px;
@@ -149,6 +159,10 @@ a:before {
   flex-direction: column;
   justify-content: center;
   color: white;
+}
+
+#hero.project-page {
+  top: -140px;
 }
 
 #hero .intro {
@@ -292,6 +306,7 @@ section#projects {
   left: 0;
   text-decoration: none;
   z-index: 10;
+  border-bottom: none;
 }
 
 .project:hover {
@@ -314,7 +329,8 @@ section#projects {
   padding-top: 5px;
 }
 
-.project button.btn-light {
+a.btn-light,
+button.btn-light {
   background-color: white;
   box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
   border-radius: 16px;
@@ -338,7 +354,7 @@ section#projects {
   transition: max-width 1s;
 }
 
-.project button.btn-warning {
+button.btn-warning {
   background-color: #ffd696;
   border: none;
   box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
@@ -347,9 +363,19 @@ section#projects {
   font-size: 0.9em;
 }
 
+button.btn-primary {
+  background-color: #000c21;
+  color: white;
+  border: none;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
+  border-radius: 16px;
+  font-weight: 200;
+  font-size: 0.9em;
+}
+
 article {
-  background-color: white;
   padding-bottom: 1em;
+  margin-top: 50vh;
 }
 
 article p {
@@ -388,7 +414,7 @@ footer p {
   /* allow for absolute positioning of child elements */
 }
 
-.video-container>iframe {
+.video-container > iframe {
   position: absolute;
   /* expand to fill */
   top: 0;
