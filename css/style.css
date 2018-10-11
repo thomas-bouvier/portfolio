@@ -254,6 +254,18 @@ section#projects {
   margin-top: 50px;
 }
 
+.project .badges {
+  padding-bottom: 6px;
+}
+
+.project .badges .badge-light {
+  color: #b2b2b2;
+  font-size: 0.65em;
+  padding: 0;
+  padding-right: 0.5em;
+  background-color: transparent;
+}
+
 .project .align-container {
   display: inline-block;
   vertical-align: top;
