@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Thomas Bouvier — Floppy Bird</title>
+
+  <!-- Open Graph Protocol -->
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thomas Bouvier — Floppy Bird">
+  <meta property="og:description" content="Floppy Bird takes over the gameplay of the famous Flappy Bird, while integrating two artificial intelligence algorithms: Q-learning and a NEAT-type neural network.">
+
+  <!--
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="">
+    <meta property="og:image:width" content="">
+    <meta property="og:image:height" content="">
+    -->
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109846560-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109846560-1');
+  </script>
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <div id="hero" class="project-page">
+    <h1>Floppy Bird</h1>
+    <p class="description">
+      Floppy Bird takes over the gameplay of the famous Flappy Bird, while integrating two artificial intelligence algorithms: Q-learning and a NEAT-type neural network.
+    </p>
+    <p class="links">
+      <a href="https://github.com/thomas-bouvier/floppy-bird">Repository</a>
+    </p>
+  </div>
+
+  <!-- Section -->
+
+  <article>
+    <div class="min-container">
+      <h4>What's Floppy Bird ?</h4>
+      <p>
+        Floppy Bird initially was a school project: it had to be written in C and to respect the MVC architecture. We were 5 developers, with various programming experience.
+      </p>
+      <p>
+        The first step was to reproduce the famous <a href="https://en.wikipedia.org/wiki/Flappy_Bird">Flappy Bird game</a> using the <a href="https://www.libsdl.org">SDL library</a>. Then, we added 2 artifical intelligences: the first one relied on
+        Q-learning where the second one was a neural network. Finally, we wanted to implement these 2 algorithms on a physical robot with a stylus and a camera, so it could play alone on a tablet. This last step also involved image processing.
+      </p>
+
+      <h4>What I did</h4>
+      <p>
+        I focused on the development of the second artificial intelligence, which is based on a neural network. Introduced to this field by <a href="https://www.youtube.com/watch?v=qv6UVOQ0F44">this video</a>, I decided to implement a <a href="https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies">NEAT
+          algorithm</a>.
+      </p>
+      <p>
+        This algorithm is based on applying three key techniques: tracking genes with history markers to allow crossover among genomes (<em>i.e.</em> neural networks), applying speciation to preserve successful innovations, and developing genomes
+        incrementally from simple initial structures by adding noise.
+      </p>
+      <p>
+        Each generation simulates 50 genomes. The following video demonstrates the process at generations #10, #11 and #12:
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="video-container">
+        <iframe width="768" height="432" src="https://www.youtube.com/embed/lnHJ70OcNX8" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <figcaption class="figcaption">NEAT-based AI at work: generations #10, #11 and #12</p>
+    </div>
+
+    <div class="min-container">
+      <p>
+        The generated neural networks can be visualized using <a href="http://www.graphviz.org">Graphviz</a>.
+        <p>
+          I also wrote many unit tests using <a href="https://cmocka.org">cmocka</a>, and learned about software quality in general (documentation using <a href="http://www.stack.nl/~dimitri/doxygen/">Doxygen</a>, code coverage using <a href="https://gcc.gnu.org/onlinedocs/gcc/Gcov.html">Gcov</a>).
+          Also, we defined a Git branch strategy adapted to our small team.
+        </p>
+        <p>
+          The <a href="https://github.com/thomas-bouvier/floppy-bird">repository</a> is hosted on Github.
+        </p>
+
+        <h4>Results</h4>
+        <p>
+          The scores obtained with the NEAT algorithm are very satisfaying: about 200 after only 20 generations in the best case scenario. It arrives at these scores in much less time than with the Q-learning approach. 👌
+        </p>
+        <p>
+          However, the generated genomes regularly become less efficent than the ones from the previous generation, for a reason I don't understand yet. This causes the score to get back to 0. I still have to investigate.
+        </p>
+        <p>
+          Concerning the implementation on the robot, it doesn't work as well as we expected. This is caused by latencies related to image processing and stylus stroke. We have an idea to fix this.
+        </p>
+    </div>
+  </article>
+
+  <footer>
+    <p>
+      <a href="index.html" role="button" class="btn btn-light">Go back to welcome page</a>
+    </p>
+  </footer>
+
+  <!-- Javascript -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
