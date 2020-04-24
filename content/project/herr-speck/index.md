@@ -18,7 +18,7 @@ Players love it when they get unpredictable content each time they play: that's 
 
 The transition rules can be applied multiple times. The seed, the cells frequency or the birth and death thresholds are customizable. I am also able to remove disconnected caverns and to place random entrances.
 
-{{< figure src="/images/generator.png" title="The cave generator UI" >}}
+{{< image src="images/generator.png" title="The cave generator UI" >}}
 
 The game also supports custom tilemaps drawn using [Tiled](http://www.mapeditor.org).
 

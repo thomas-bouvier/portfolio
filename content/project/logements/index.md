@@ -10,7 +10,7 @@ Logements INSA is a 2017 project. The student office contacted me to create a pl
 
 This was the opportunity for me to use [Laravel](https://laravel.com) in a real-life project.
 
-{{< figure src="images/view_ad.png" title="Viewing an apartment ad" >}}
+{{< image src="images/view_ad.png" title="Viewing an apartment ad" >}}
 
 # What I did
 
@@ -18,7 +18,7 @@ The platform should only be accessible to students from INSA. I then used this [
 
 Students have then access to a form to write a new ad. They can attach multiple photos to it: uploads are handled with Ajax. They can still edit their ad after publication (adding or remove some photos for instance).
 
-{{< figure src="images/write_ad.png" title="Writing an apartment ad" >}}
+{{< image src="images/write_ad.png" title="Writing an apartment ad" >}}
 
 I also developed an administration interface, allowing moderators to validate posted ads. They receive a mail when a new ad is posted.
 
