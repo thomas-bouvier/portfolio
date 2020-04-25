@@ -2,6 +2,7 @@
 title: "Rock'n Solex website"
 description: "This website presents Rock'n Solex, the oldest French student festival."
 repository: https://rocknsolex.fr
+tags: ["HTML", "SASS"]
 ---
 
 # What's Rock'n Solex?

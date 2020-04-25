@@ -3,6 +3,7 @@ title: "Insapp"
 description: "Insapp is an application promoting associations within INSA Rennes."
 website: https://insapp.fr
 repository: https://github.com/thomas-bouvier/insapp-android
+tags: ["App", "Kotlin", "Go", "AngularJS"]
 ---
 
 # What's Insapp?

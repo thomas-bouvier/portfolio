@@ -2,6 +2,7 @@
 title: "Auto-door"
 description: "This little application written in React Native aims at remoting my parent's house garage door."
 repository: https://github.com/thomas-bouvier/auto-door
+tags: ["App", "React", "Rasp"]
 ---
 
 # What's Auto-door?

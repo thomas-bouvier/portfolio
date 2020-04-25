@@ -2,6 +2,7 @@
 title: "Floppy Bird"
 description: "Floppy Bird takes over the gameplay of the famous Flappy Bird, while integrating two artificial intelligence algorithms: Q-learning and a NEAT-type neural network."
 repository: https://github.com/thomas-bouvier/floppy-bird
+tags: ["AI", "C"]
 ---
 
 # What's Floppy Bird?

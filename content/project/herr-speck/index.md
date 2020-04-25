@@ -2,6 +2,7 @@
 title: "Herr Speck"
 description: "Herr Speck is a small tile-based game with random world generation and a dynamic light engine."
 repository: https://github.com/thomas-bouvier/herr-speck
+tags: ["Java"]
 ---
 
 # What's Herr Speck?
