@@ -1,8 +1,10 @@
 ---
 title: "Auto-door"
+date: 2017-10-28
 description: "This little application written in React Native aims at remoting my parent's house garage door."
 repository: https://github.com/thomas-bouvier/auto-door
 tags: ["App", "React", "Rasp"]
+draft: false
 ---
 
 # What's Auto-door?

@@ -1,8 +1,10 @@
 ---
 title: "Logements INSA"
+date: 2017-06-19
 description: "This web application allows students from INSA Rennes to find accommodation around the campus."
 repository: https://github.com/thomas-bouvier/logements-insa
 tags: ["PHP", "Laravel"]
+draft: false
 ---
 
 # What's Logements INSA?
