@@ -12,9 +12,11 @@ draft: false
 
 Insapp is a 2016 project. This application helps associations from [INSA Rennes](https://www.insa-rennes.fr) to easily communicate with students. Associations have access to a web app to post some news (just as Instagram) or events. Then, our users receive a push notification and get access to the content. There is also an iOS version.
 
-{{< image src="images/insapp_1.png" >}}
-{{< image src="images/insapp_2.png" >}}
-{{< image src="images/insapp_3.png" >}}
+{{< gallery "Android client" >}}
+  {{< image src="images/insapp_1.png" >}}
+  {{< image src="images/insapp_2.png" >}}
+  {{< image src="images/insapp_3.png" >}}
+{{< /gallery >}}
 
 Users can edit their profile, comment on news and events, tag friends, access the calendar of upcoming events, view an association's presentation page, or search all the content. Users can also scan their membership card to have the barcode directly in the application.
 
@@ -40,4 +42,4 @@ Insapp is available on the [App Store](https://apps.apple.com/fr/app/insapp/id11
 
 [Here](https://insapp.fr) is the official website. Sadly, the application is only accessible to people owning an internal account. 😖
 
-{{< youtube GZnw1KQJRt8 >}}
+{{< video GZnw1KQJRt8 "Insapp launch teaser" >}}

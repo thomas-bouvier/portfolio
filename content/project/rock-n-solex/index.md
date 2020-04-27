@@ -11,7 +11,7 @@ draft: false
 
 I've been involved in the Rock'n Solex 2018 team as webmaster. The Rock'n Solex is the oldest student festival in France, first held in 1967. It combines Solex races during the day and music concerts every night. This is the major event in the school's associative life. It attracts more than 15,000 spectators over 3 days.
 
-{{< youtube f_kzUJw-3aI >}}
+{{< video f_kzUJw-3aI "Aftermovie 2018" >}}
 
 # What I did
 

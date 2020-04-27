@@ -21,9 +21,7 @@ This algorithm is based on applying three key techniques: tracking genes with hi
 
 Each generation simulates 50 genomes. The following video demonstrates the process at generations #10, #11 and #12:
 
-{{< youtube lnHJ70OcNX8 >}}
-
-<figcaption class="figcaption">NEAT-based AI at work: generations #10, #11 and #12</p>
+{{< video lnHJ70OcNX8 "NEAT-based AI at work: generations #10, #11 and #12" >}}
 
 The generated neural networks can be visualized using [Graphviz](http://www.graphviz.org).
 

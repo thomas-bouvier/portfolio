@@ -2,3 +2,11 @@ baseURL = "http://thomas-bouvier.io/"
 languageCode = "en-us"
 title = "Thomas Bouvier"
 theme = "otomo"
+
+[params]
+  logo = "Thomas Bouvier"
+
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
