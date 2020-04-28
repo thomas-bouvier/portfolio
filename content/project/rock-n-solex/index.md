@@ -1,6 +1,6 @@
 ---
 title: "Rock'n Solex website"
-date: 2018-10-10
+date: 2017-10-10
 description: "This website presents Rock'n Solex, the oldest French student festival."
 repository: https://rocknsolex.fr
 tags: ["HTML", "SASS"]

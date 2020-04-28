@@ -5,7 +5,7 @@ description: "These showcase websites promote the junior enterprise movement."
 website: https://ouest-insa.fr
 repository: https://jer.bzh
 tags: ["HTML"]
-draft: false
+draft: true
 ---
 
 # What are the junior entreprise websites?
