@@ -5,8 +5,23 @@ theme = "otomo"
 
 [params]
   logo = "Thomas Bouvier"
+  description = "Thomas Bouvier is a data engineer interested in science and technology, climate and energy, poverty alleviation and effective altruism."
 
 [privacy]
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "projects"
+    url = "/projects/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About me"
+    title = "about"
+    url = "/about/"
+    weight = 0
