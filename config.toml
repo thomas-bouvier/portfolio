@@ -1,11 +1,11 @@
-baseURL = "http://thomas-bouvier.io/"
+baseURL = "https://thomas-bouvier.io/"
 languageCode = "en-us"
 title = "Thomas Bouvier"
 theme = "otomo"
 
 [params]
   logo = "Thomas Bouvier"
-  description = "Thomas Bouvier is a data engineer interested in science and technology, climate and energy, poverty alleviation and effective altruism."
+  description = "Thomas Bouvier is a data engineer interested in science and technology, open-source software, climate and energy."
 
 [privacy]
   [privacy.youtube]
@@ -17,7 +17,7 @@ theme = "otomo"
     identifier = "projects"
     name = "Projects"
     title = "projects"
-    url = "/projects/"
+    url = "/project/"
     weight = 1
   [[menu.main]]
     identifier = "about"
