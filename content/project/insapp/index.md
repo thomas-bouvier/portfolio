@@ -42,4 +42,4 @@ Insapp is available on the [App Store](https://apps.apple.com/fr/app/insapp/id11
 
 [Here](https://insapp.fr) is the official website. Sadly, the application is only accessible to people owning an internal account. 😖
 
-{{< video GZnw1KQJRt8 "Insapp launch teaser" >}}
+{{< video f7PE5e9nMgg "Insapp launch teaser" >}}

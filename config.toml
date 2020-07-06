@@ -5,6 +5,7 @@ theme = "otomo"
 
 [params]
   logo = "Thomas Bouvier"
+  logoSmall = "TB"
   description = "Thomas Bouvier is a data engineer interested in science and technology, open-source software, climate and energy."
 
 [privacy]
