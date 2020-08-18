@@ -4,6 +4,7 @@ date: 2017-10-10
 description: "This website presents Rock'n Solex, the oldest French student festival."
 repository: https://rocknsolex.fr
 tags: ["HTML", "SASS"]
+#thumbnail: images/thumbnail.png
 draft: false
 ---
 
@@ -13,7 +14,7 @@ I've been involved in the Rock'n Solex 2018 team as webmaster. The Rock'n Solex 
 
 {{< video f_kzUJw-3aI "Aftermovie 2018" >}}
 
-# What I did
+# What I've done
 
 The graphic style of the website had to be consistent with the festival poster. I used [SASS](https://sass-lang.com) along with [Bootstrap](https://getbootstrap.com) to create it. The website is obviously fully responsive.
 

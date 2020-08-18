@@ -8,7 +8,7 @@ tags: ["App", "Kotlin", "Go", "AngularJS"]
 draft: false
 ---
 
-# What's Insapp?
+# Challenge
 
 Insapp is a 2016 project. This application helps associations from [INSA Rennes](https://www.insa-rennes.fr) to easily communicate with students. Associations have access to a web app to post some news (just as Instagram) or events. Then, our users receive a push notification and get access to the content. There is also an iOS version.
 
@@ -20,7 +20,7 @@ Insapp is a 2016 project. This application helps associations from [INSA Rennes]
 
 Users can edit their profile, comment on news and events, tag friends, access the calendar of upcoming events, view an association's presentation page, or search all the content. Users can also scan their membership card to have the barcode directly in the application.
 
-# What I did
+# What I've done
 
 I joined the team in October 2016 (there were then 2 people only). We decided to rewrite the Android application, the first version being unstable and not <em>material design</em>-friendly.
 
@@ -30,7 +30,7 @@ The backend is dockerized. This means that only one command is required to set u
 
 The technology used for the database is [MongoDB](https://www.mongodb.com/). This project was a good opportunity to try NoSQL.
 
-The API is written in Golang and respects the REST architecture style. It sometimes requires evolutions (adding/modifying endpoints) according to the desired functionalities in the applications. A [multi-stage Docker build](https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds) is used to create a tiny Go image. You can find the [API repository](https://github.com/thomas-bouvier/insapp-go) on Github.
+The API is written in Go and respects the REST architecture style. It sometimes requires evolutions (adding/modifying endpoints) according to the desired features in the applications. A [multi-stage Docker build](https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds) is used to create a tiny Go image. You can find the API [repository](https://github.com/thomas-bouvier/insapp-go) on Github.
 
 Finally, the administration interface, accessible to association managers to post content, is written in JavaScript, using ES6 and AngularJS.
 

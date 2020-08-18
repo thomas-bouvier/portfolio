@@ -7,7 +7,7 @@ tags: ["PHP", "Laravel"]
 draft: true
 ---
 
-# What's Logements INSA?
+# Challenge
 
 Logements INSA is a 2017 project. The student office contacted me to create a platform for students to easily find accommodation. Students can post and view apartment ads.
 
@@ -15,7 +15,7 @@ This was the opportunity for me to use [Laravel](https://laravel.com) in a real-
 
 {{< image "images/view_ad.png" "Viewing an apartment ad" >}}
 
-# What I did
+# What I've done
 
 The platform should only be accessible to students from INSA. I then used this [project](https://github.com/subfission/cas) to force CAS authentication.
 

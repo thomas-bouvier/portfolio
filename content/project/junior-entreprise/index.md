@@ -8,7 +8,7 @@ tags: ["HTML"]
 draft: true
 ---
 
-# What are the junior entreprise websites?
+# Challenge
 
 I've been involved in [junior enterprise](https://junior-entreprises.com) for two years, starting in 2016. As a member of the IT division, I built 2 showcase websites to promote our movement.
 
@@ -16,7 +16,7 @@ A junior enterprise is a local non-profit organization entirely executed by stud
 
 The [first one](https://ouest-insa.fr) introduces our structure, Ouest INSA. The [second one](https://jer.bzh) introduces the <em>Junior-Entreprises Rennaises</em> movement, gathering 5 junior enterprises from Rennes (France).
 
-# What I did
+# What I've done
 
 I used basic HTML/CSS along with [Bootstrap](https://getbootstrap.com). The websites are obviously fully responsive. They both include a customized map from [Google Maps API](https://developers.google.com/maps).
       
