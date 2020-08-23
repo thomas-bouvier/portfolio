@@ -6,7 +6,11 @@ theme = "otomo"
 [params]
   logo = "Thomas Bouvier"
   logoSmall = "TB"
-  description = "Thomas Bouvier is a data engineer interested in science and technology, open-source software, climate and energy."
+  description = "I'm a data engineer interested in science and technology, open-source software, climate and energy."
+
+[taxonomies]
+  tag = "tags"
+  category = ""
 
 DefaultContentLanguage = "en"
 
@@ -17,19 +21,16 @@ DefaultContentLanguage = "en"
     [[languages.en.menu.main]]
       identifier = "posts"
       name = "Blog"
-      title = "posts"
-      url = "/post/"
+      url = "/posts/"
       weight = 1
     [[languages.en.menu.main]]
       identifier = "projects"
       name = "Portfolio"
-      title = "projects"
-      url = "/project/"
+      url = "/projects/"
       weight = 1
     [[languages.en.menu.main]]
       identifier = "about"
       name = "About me"
-      title = "about"
       url = "/about/"
       weight = 0
   [languages.fr]
@@ -38,20 +39,17 @@ DefaultContentLanguage = "en"
     [[languages.fr.menu.main]]
       identifier = "posts"
       name = "Blog"
-      title = "posts"
-      url = "/post/"
+      url = "/posts/"
       weight = 1
     [[languages.fr.menu.main]]
       identifier = "projects"
       name = "Portfolio"
-      title = "projects"
-      url = "/project/"
+      url = "/projects/"
       weight = 1
     [[languages.fr.menu.main]]
       identifier = "about"
       name = "À propos"
-      title = "about"
-      url = "/about/"
+      url = "/a-propos/"
       weight = 0
 
 [privacy]
