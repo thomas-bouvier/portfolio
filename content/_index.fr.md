@@ -1,5 +1,5 @@
 ---
 hero:
   name: Thomas Bouvier
-  heading: Je suis un ingénieur données intéressé par les sciences et technologies, le logiciel libre, les problématiques environnementales.
+  heading: Je suis un ingénieur données qui aimerait construire des outils qui servent à quelque chose.
 ---
