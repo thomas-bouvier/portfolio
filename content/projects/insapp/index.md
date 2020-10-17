@@ -8,7 +8,7 @@ tags: ["App", "Kotlin", "Go", "AngularJS"]
 draft: false
 ---
 
-# Challenge
+## Challenge
 
 Insapp is a 2016 project. This application helps associations from [INSA Rennes](https://www.insa-rennes.fr) to easily communicate with students. Associations have access to a web app to post some news (just as Instagram) or events. Then, our users receive a push notification and get access to the content. There is also an iOS version.
 
@@ -20,7 +20,7 @@ Insapp is a 2016 project. This application helps associations from [INSA Rennes]
 
 Users can edit their profile, comment on news and events, tag friends, access the calendar of upcoming events, view an association's presentation page, or search all the content. Users can also scan their membership card to have the barcode directly in the application.
 
-# What I've done
+## What I've done
 
 I joined the team in October 2016 (there were then 2 people only). We decided to rewrite the Android application, the first version being unstable and not <em>material design</em>-friendly.
 
@@ -36,7 +36,7 @@ Finally, the administration interface, accessible to association managers to pos
 
 This project has taught me a lot in the sense that it is technically transversal, but also because it involves communicating with students and taking team decisions.
 
-# Usage
+## Usage
 
 Insapp is available on the [App Store](https://apps.apple.com/fr/app/insapp/id1159630227) and [Play Store](https://play.google.com/store/apps/details?id=fr.insapp.insapp). Today, we count more than 500 active users, and about 200 hundred downloads on iOS and 1100 on Android. We worked with the school administration so they can also use the application. It's a large project in our school. Now, we try to pass our project to other students so they can innovate again and again on Insapp.
 

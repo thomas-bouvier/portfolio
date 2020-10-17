@@ -8,7 +8,7 @@ tags: ["App", "Kotlin", "Go", "AngularJS"]
 draft: false
 ---
 
-# Défi
+## Défi
 
 Insapp est un projet de 2016. Cette application permet aux associations de l'[INSA Rennes](https://www.insa-rennes.fr) de communiquer facilement avec les étudiants. Les associations ont accès à une application web pour poster des nouvelles (tout comme Instagram) ou des événements. Ensuite, nos utilisateurs reçoivent une notification "push" et ont accès au contenu. Il existe également une version iOS.
 
@@ -20,7 +20,7 @@ Insapp est un projet de 2016. Cette application permet aux associations de l'[IN
 
 Les utilisateurs peuvent modifier leur profil, commenter les actualités et les événements, marquer des amis, accéder au calendrier des événements à venir, consulter la page de présentation d'une association ou effectuer des recherches dans tout le contenu. Les utilisateurs peuvent également scanner leur carte de membre pour avoir le code-barres directement dans l'application.
 
-# Ce que j'ai fait
+## Ce que j'ai fait
 
 J'ai rejoint l'équipe en octobre 2016 (il n'y avait alors que 2 personnes). Nous avons décidé de réécrire l'application Android, la première version étant instable et non <em>material design</em> friendly.
 
@@ -36,7 +36,7 @@ Enfin, l'interface d'administration, accessible aux gestionnaires d'associations
 
 Ce projet m'a beaucoup appris dans le sens où il est techniquement transversal, mais aussi parce qu'il implique de communiquer avec les étudiants et de prendre des décisions en équipe.
 
-# Usage
+## Usage
 
 Insapp est disponible sur l'[App Store](https://apps.apple.com/fr/app/insapp/id1159630227) et le [Play Store](https://play.google.com/store/apps/details?id=fr.insapp.insapp). Aujourd'hui, nous comptons plus de 500 utilisateurs actifs, et environ 200 centaines de téléchargements sur iOS et 1100 sur Android. Nous avons travaillé avec l'administration de l'école afin qu'elle puisse également utiliser l'application. C'est un grand projet dans notre école. Maintenant, nous essayons de transmettre notre projet aux autres élèves pour qu'ils puissent innover encore et encore sur Insapp.
 

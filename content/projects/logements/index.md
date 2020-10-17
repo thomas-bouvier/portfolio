@@ -7,7 +7,7 @@ tags: ["PHP", "Laravel"]
 draft: true
 ---
 
-# Challenge
+## Challenge
 
 Logements INSA is a 2017 project. The student office contacted me to create a platform for students to easily find accommodation. Students can post and view apartment ads.
 
@@ -15,7 +15,7 @@ This was the opportunity for me to use [Laravel](https://laravel.com) in a real-
 
 {{< image "images/view_ad.png" "Viewing an apartment ad" >}}
 
-# What I've done
+## What I've done
 
 The platform should only be accessible to students from INSA. I then used this [project](https://github.com/subfission/cas) to force CAS authentication.
 
@@ -29,7 +29,7 @@ As you can see above, I used [Bootstrap](http://getbootstrap.com) to build the U
 
 The [repository](https://github.com/thomas-bouvier/logements-insa) is hosted on Github. I'm currently working on implementing a search bar using [ElasticSearch](https://www.elastic.co) and [Elasicquent](https://github.com/elasticquent/Elasticquent).
 
-# Usage
+## Usage
 
 [Here](https://logements.insa-rennes.fr) is the official website. Sadly, the application is only accessible to people owning an internal account because of CAS. 😞
 

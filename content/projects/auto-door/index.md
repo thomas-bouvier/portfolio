@@ -7,11 +7,11 @@ tags: ["App", "React", "Rasp"]
 draft: true
 ---
 
-# Challenge
+## Challenge
 
 The aim of this project was to control (open/close) my parents' motorized gate from an iPhone or an Android device. Using a Raspberry Pi, a relay and some magnetic sensors, I have managed to meet these requirements.
 
-# What I've done
+## What I've done
 
 Since the time I've been messing around with my Raspberry Pi, I have finally decided to use it in a concrete project. The electronic aspect is simple: relays make it possible to send a pulse to activate the system, and magnetic sensors make it possible to get the current state of the door.
 
@@ -19,6 +19,6 @@ I then designed the server using [Node.js](https://nodejs.org/en/") and [Socket.
 
 The [repository](https://github.com/thomas-bouvier/auto-door) is hosted on Github. Feel free to adapt the code to your system!
 
-# Usage
+## Usage
 
 My family and myself are daily using the application. We particularly enjoy it, especially when we don't have our key with us. 👌

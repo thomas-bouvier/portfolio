@@ -8,13 +8,13 @@ tags: ["HTML", "SASS"]
 draft: false
 ---
 
-# What's Rock'n Solex?
+## What's Rock'n Solex?
 
 I've been involved in the Rock'n Solex 2018 team as webmaster. The Rock'n Solex is the oldest student festival in France, first held in 1967. It combines Solex races during the day and music concerts every night. This is the major event in the school's associative life. It attracts more than 15,000 spectators over 3 days.
 
 {{< video f_kzUJw-3aI "Aftermovie 2018" >}}
 
-# What I've done
+## What I've done
 
 The graphic style of the website had to be consistent with the festival poster. I used [SASS](https://sass-lang.com) along with [Bootstrap](https://getbootstrap.com) to create it. The website is obviously fully responsive.
 
@@ -22,7 +22,7 @@ As the people in charge of the website change every year, it had to be easily ma
 
 I also worked on the SEO. The first step was to unify the format of the links pointing to the website, as some included the prefix <em>www</em> or the extension <em>.php</em>. So I wrote redirections in an <em>.htaccess</em> file. Then, I made sure that the weight of the website was minimal, by avoiding integrating heavy Javascript libraries and compressing the images.
 
-# Usage
+## Usage
 
 The site recorded 100,000 visits during the 2017-2018 school year. During the week of the festival, 20,000 unique users logged in. The site gathers all the practical information of the event, the artist lineup, and news.
 

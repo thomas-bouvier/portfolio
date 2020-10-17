@@ -7,13 +7,13 @@ tags: ["AI", "C"]
 draft: false
 ---
 
-# Challenge
+## Challenge
 
 Floppy Bird initially was a school project: it had to be written in C and to respect the MVC architecture. We were 5 developers, with various programming experience.
 
 The first step was to reproduce the famous [Flappy Bird](https://en.wikipedia.org/wiki/Flappy_Bird) game using the [SDL library](https://www.libsdl.org). Then, we added 2 artifical intelligences: the first one relied on Q-learning where the second one was a neural network. Finally, we wanted to implement these 2 algorithms on a physical robot with a stylus and a camera, so it could play alone on a tablet. This last step also involved image processing.
 
-# What I've done
+## What I've done
 
 I focused on the development of the second artificial intelligence, which is based on a neural network. Introduced to this field by [this video](https://www.youtube.com/watch?v=qv6UVOQ0F44), I decided to implement a [NEAT](https://en.wikipedia.org/wiki/Neuroevolution_of_augmenting_topologies) algorithm.
 
@@ -29,7 +29,7 @@ I also wrote many unit tests using [cmocka](https://cmocka.org), and learned abo
 
 The [repository](https://github.com/thomas-bouvier/floppy-bird) is hosted on Github.
 
-# Results
+## Results
 
 The scores obtained with the NEAT algorithm are very satisfaying: about 200 after only 20 generations in the best case scenario. It arrives at these scores in much less time than with the Q-learning approach. 👌
 
