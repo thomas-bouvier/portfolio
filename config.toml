@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Thomas Bouvier"
 theme = "otomo"
 
+defaultContentLanguage = "en"
+
 [params]
   logo = "Thomas Bouvier"
   logoSmall = "TB"
@@ -11,8 +13,6 @@ theme = "otomo"
 [taxonomies]
   tag = "tags"
   category = ""
-
-DefaultContentLanguage = "en"
 
 [languages]
   [languages.en]
@@ -27,12 +27,12 @@ DefaultContentLanguage = "en"
       identifier = "projects"
       name = "Portfolio"
       url = "/projects/"
-      weight = 1
+      weight = 2
     [[languages.en.menu.main]]
       identifier = "about"
       name = "About me"
       url = "/about/"
-      weight = 0
+      weight = 3
   [languages.fr]
     languageName = "Français"
     weight = 2
@@ -45,12 +45,12 @@ DefaultContentLanguage = "en"
       identifier = "projects"
       name = "Portfolio"
       url = "/projects/"
-      weight = 1
+      weight = 2
     [[languages.fr.menu.main]]
       identifier = "about"
       name = "À propos"
       url = "/a-propos/"
-      weight = 0
+      weight = 3
 
 [privacy]
   [privacy.youtube]
