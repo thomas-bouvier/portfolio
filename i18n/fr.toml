@@ -15,3 +15,6 @@ other = "Ne manquez aucun contenu taggé \"{{ .Tag }}\" en vous abonnant à mon 
 
 [footer]
 other = "Conçu en HTML & CSS avec Sass et Hugo (dernière compilation : {{ .Time }}). Ce site web vise à réduire sa contribution à l'empreinte environnementale de l'industrie numérique. Par conséquent, l'ensemble du site et du serveur a été repensé. Je ne tracke pas vos données personnelles. Abonnez-vous à mon <a href=\"{{ .RSS }}\">flux RSS</a>."
+
+[go-home]
+other = "Revenir à l'accueil"

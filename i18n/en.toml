@@ -15,3 +15,6 @@ other = "Don't miss any content tagged \"{{ .Tag }}\" by subscribing to the <a h
 
 [footer]
 other = "Built with HTML & CSS with Sass atop Hugo (last build: {{ .Time }}). This site intends to reduce its contribution to digital industry ecological footprint. Therefore the whole site and server services has been thought over. I do not track your personal data. Subscribe to my <a href=\"{{ .RSS }}\">RSS feed</a>."
+
+[go-home]
+other = "Go home"
