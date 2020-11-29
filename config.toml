@@ -1,5 +1,5 @@
 baseURL = "https://thomas-bouvier.io/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Thomas Bouvier"
 theme = "otomo"
 
@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 [params]
   logo = "Thomas Bouvier"
   logoSmall = "TB"
-  description = "I'm a data engineer interested in science and technology, open-source software, climate and energy."
+  description = "I'm a data engineer who would like to build tools for the greater social good."
 
 [taxonomies]
   tag = "tags"
@@ -16,7 +16,7 @@ defaultContentLanguage = "en"
 
 [languages]
   [languages.en]
-    languageName = "English"
+    languageName = "EN"
     weight = 1
     [[languages.en.menu.main]]
       identifier = "posts"
@@ -34,8 +34,9 @@ defaultContentLanguage = "en"
       url = "/about/"
       weight = 3
   [languages.fr]
-    languageName = "Français"
+    languageName = "FR"
     weight = 2
+    description = "Je suis un ingénieur données qui aimerait construire des outils utiles au plus grand nombre."
     [[languages.fr.menu.main]]
       identifier = "posts"
       name = "Blog"
