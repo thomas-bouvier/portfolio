@@ -13,8 +13,11 @@ other = "Don't miss any project by subscribing to my <a href=\"{{ .Permalink }}\
 [dont-miss-tag]
 other = "Don't miss any content tagged \"{{ .Tag }}\" by subscribing to the <a href=\"{{ .Permalink }}\">{{ .Tag }} RSS feed</a>."
 
+[code]
+other = "<a href=\"https://github.com/thomas-bouvier/portfolio\">Source code of this site</a> / Catch something? <a href=\"https://github.com/thomas-bouvier/portfolio/issues\">Fill an issue!</a>"
+
 [footer]
-other = "Built with HTML & CSS with Sass atop Hugo (last build: {{ .Time }}). This site intends to reduce its contribution to digital industry ecological footprint. Therefore the whole site and server services has been thought over. I do not track your personal data. Subscribe to my <a href=\"{{ .RSS }}\">RSS feed</a>."
+other = "Built with HTML & CSS with Sass atop Hugo (last build: {{ .Time }}). I do not track your personal data. Subscribe to my <a href=\"{{ .RSS }}\">RSS feed</a>."
 
 [go-home]
 other = "Go home"

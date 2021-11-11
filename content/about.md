@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-Hello 👋, I'm Thomas Bouvier, a french data engineer. Je vis à Rennes.
+Hello 👋, I'm Thomas Bouvier, a french data engineer. I'm living in Rennes.
 
 You've found my blog, where I share my technical experiences designing and developing software. I also geek out over computer science topics, tools, and share my thoughts on various random topics.
 
