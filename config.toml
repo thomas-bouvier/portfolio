@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 [params]
   logo = "Thomas Bouvier"
   logoSmall = "TB"
-  description = "I'm a data engineer who would like to build tools for the greater social good."
+  description = "I'm a data engineer favoring projects that promote the dissemination of information and knowledge."
 
 [taxonomies]
   tag = "tags"
@@ -36,7 +36,7 @@ defaultContentLanguage = "en"
   [languages.fr]
     languageName = "FR"
     weight = 2
-    description = "Je suis un ingénieur données qui aimerait construire des outils utiles au plus grand nombre."
+    description = "Je suis un ingénieur données privilégiant les projets qui favorisent la libération de l'information et des connaissances."
     [[languages.fr.menu.main]]
       identifier = "posts"
       name = "Blog"
