@@ -1,5 +1,11 @@
 # portfolio
 
+## Clone the app
+
+```bash
+git clone --recurse-submodules git@github.com:thomas-bouvier/portfolio.git
+```
+
 ## Run the app
 
 Launch the Hugo server in this directory:
