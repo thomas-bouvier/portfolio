@@ -12,7 +12,6 @@ defaultContentLanguage = "en"
 
 [taxonomies]
   tag = "tags"
-  category = ""
 
 [languages]
   [languages.en]
