@@ -1,9 +1,12 @@
 baseURL = "https://thomas-bouvier.io/"
 languageCode = "en"
 title = "Thomas Bouvier"
-theme = "otomo"
-
 defaultContentLanguage = "en"
+
+[module]
+  [[module.imports]]
+    # project theme as a go module
+    path = "github.com/thomas-bouvier/gohugo-theme-otomo"
 
 [params]
   logo = "Thomas Bouvier"

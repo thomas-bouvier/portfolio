@@ -3,8 +3,10 @@
 ## Clone the app
 
 ```bash
-git clone --recurse-submodules git@github.com:thomas-bouvier/portfolio.git
+git clone git@github.com:thomas-bouvier/portfolio.git
 ```
+
+The theme is attached to this project as a Hugo module (not a git submodule).
 
 ## Run the app
 
