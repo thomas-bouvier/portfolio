@@ -7,7 +7,6 @@ defaultContentLanguage = "en"
 
 [params]
   logo = "Thomas Bouvier"
-  logoSmall = "TB"
   description = "I'm a data engineer favoring projects that promote the dissemination of information and knowledge."
 
 [taxonomies]
@@ -15,7 +14,7 @@ defaultContentLanguage = "en"
 
 [languages]
   [languages.en]
-    languageName = "EN"
+    languageName = "English"
     weight = 1
     [[languages.en.menu.main]]
       identifier = "posts"
@@ -33,7 +32,7 @@ defaultContentLanguage = "en"
       url = "/about/"
       weight = 3
   [languages.fr]
-    languageName = "FR"
+    languageName = "Français"
     weight = 2
     description = "Je suis un ingénieur données privilégiant les projets qui favorisent la libération de l'information et des connaissances."
     [[languages.fr.menu.main]]
