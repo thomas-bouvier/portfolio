@@ -1,5 +1,7 @@
 # portfolio
 
+This site is using the [Otomo theme](https://github.com/thomas-bouvier/gohugo-theme-otomo).
+
 ## Clone the app
 
 ```bash
@@ -47,3 +49,7 @@ git flow feature finish project_name
 Deployments are automated with GitHub actions.
 
 Don't forget to add `files/resume_thomas_bouvier.pdf` and `files/cv_thomas_bouvier.pdf` on the server.
+
+## Theme development
+
+https://www.hugofordevelopers.com/articles/master-hugo-modules-rapidly-develop-modules-locally/
