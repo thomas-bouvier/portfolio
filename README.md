@@ -53,3 +53,19 @@ Don't forget to add `files/resume_thomas_bouvier.pdf` and `files/cv_thomas_bouvi
 ## Theme development
 
 https://www.hugofordevelopers.com/articles/master-hugo-modules-rapidly-develop-modules-locally/
+
+### Local development
+
+To edit the theme locally, add the following line to your `go.mod`. Make sure not to commit it :)
+
+```
+replace github.com/thomas-bouvier/gohugo-theme-otomo => ../gohugo-theme-otomo
+```
+
+### Theme bump
+
+To bump the theme module, run the following command:
+
+```
+hugo mod get
+```
