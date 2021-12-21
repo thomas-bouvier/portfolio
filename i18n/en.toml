@@ -1,3 +1,6 @@
+[ongoing-projects]
+other = "Ongoing projects"
+
 [tagged]
 other = "Tagged \"{{ .Data.Term }}\""
 
