@@ -13,6 +13,9 @@ other = "Don't miss any post by subscribing to my <a href=\"{{ .Permalink }}\">b
 [dont-miss-project]
 other = "Don't miss any project by subscribing to my <a href=\"{{ .Permalink }}\">portfolio RSS feed</a>."
 
+[dont-miss-talk]
+other = "Don't miss any talk by subscribing to my <a href=\"{{ .Permalink }}\">talk RSS feed</a>."
+
 [dont-miss-tag]
 other = "Don't miss any content tagged \"{{ .Tag }}\" by subscribing to the <a href=\"{{ .Permalink }}\">{{ .Tag }} RSS feed</a>."
 

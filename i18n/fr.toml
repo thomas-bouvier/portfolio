@@ -11,7 +11,10 @@ other = "Plus de contenu"
 other = "Ne manquez aucun billet en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique au blog</a>."
 
 [dont-miss-project]
-other = "Ne manquez aucun nouveau projet en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique au portfolio</a>."
+other = "Ne manquez aucun projet en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique au portfolio</a>."
+
+[dont-miss-talk]
+other = "Ne manquez aucune présentation en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique aux présentations</a>."
 
 [dont-miss-tag]
 other = "Ne manquez aucun contenu taggé \"{{ .Tag }}\" en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS \"{{ .Tag }}\"</a>."
