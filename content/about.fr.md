@@ -12,9 +12,9 @@ Je suis actuellement chercheur doctorant à l'[Inria](https://www.inria.fr/), o�
 Pour en savoir plus sur moi :
 
 - Consulte mon CV : en [français](/resume/cv_thomas_bouvier.pdf), en [anglais](/resume/resume_thomas_bouvier.pdf) ;
-- Jette un œil aux présentations et animations que je donne ;
+- Jette un œil aux [présentations et animations]({{< ref "talks" >}}) que je donne ;
 - Abonne-toi à mes collections sur [Flus](https://flus.fr/) : [Climat](https://app.flus.fr/collections/1709234634362781586), [Numérique résilient](https://app.flus.fr/collections/1709235859953698896), [Éthique des algorithmes](https://app.flus.fr/collections/1709248055851403993), [Débattons mieux](https://app.flus.fr/collections/1709247709447077077), [Faire un doctorat](https://app.flus.fr/collections/1709267112171536652) ;
-- Va lire sur la façon dont je gère [mon argent]({{< ref "money" >}}).
+- Lis sur la façon dont je gère [mon argent]({{< ref "money" >}}).
 
 Si tu souhaites entrer en contact, envoie-moi un mail à [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). Tu peux également me trouver sur [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) ou [Twitter](https://twitter.com/tbouvier_).
 
