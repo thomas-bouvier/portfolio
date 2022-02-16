@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 
 [params]
   logo = "Thomas Bouvier"
-  description = "I'm a data engineer favoring projects that promote the dissemination of information and knowledge."
+  description = "Using digital technology for a sustainable and better-informed society"
 
 [taxonomies]
   tag = "tags"
@@ -37,7 +37,7 @@ defaultContentLanguage = "en"
   [languages.fr]
     languageName = "Français"
     weight = 2
-    description = "Je suis un ingénieur données privilégiant les projets qui favorisent la libération de l'information et des connaissances."
+    description = "Utiliser le numérique pour une société durable et mieux informée"
     [[languages.fr.menu.main]]
       identifier = "posts"
       name = "Blog"
