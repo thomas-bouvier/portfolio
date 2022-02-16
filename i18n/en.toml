@@ -4,6 +4,12 @@ other = "Ongoing work"
 [intended-impact]
 other = "Intended impact"
 
+[projects]
+other = "Projects"
+
+[blog]
+other = "Blog"
+
 [tagged]
 other = "Tagged \"{{ .Data.Term }}\""
 

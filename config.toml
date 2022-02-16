@@ -26,7 +26,7 @@ defaultContentLanguage = "en"
       weight = 1
     [[languages.en.menu.main]]
       identifier = "projects"
-      name = "Portfolio"
+      name = "Projects"
       url = "/projects/"
       weight = 2
     [[languages.en.menu.main]]
@@ -45,7 +45,7 @@ defaultContentLanguage = "en"
       weight = 1
     [[languages.fr.menu.main]]
       identifier = "projects"
-      name = "Portfolio"
+      name = "Projets"
       url = "/projects/"
       weight = 2
     [[languages.fr.menu.main]]
