@@ -37,7 +37,7 @@ defaultContentLanguage = "en"
   [languages.fr]
     languageName = "Français"
     weight = 2
-    description = "Utiliser le numérique pour une société durable et mieux informée"
+    description = "Utiliser le numérique pour une société durable et mieux informée 🌿"
     [[languages.fr.menu.main]]
       identifier = "posts"
       name = "Blog"

@@ -3,7 +3,7 @@ title: "À propos"
 slug: "a-propos"
 ---
 
-Hello 👋, je m'appelle Thomas Bouvier, et je suis ingénieur données. Je vis à Rennes.
+Je m'appelle Thomas Bouvier, et je suis ingénieur données. Je vis à Rennes.
 
 Sur ce blog, je partage principalement mes expériences en matière de conception et de développement de logiciels. Je m'intéresse également à l'éthique des algorithmes, aux questions climatiques, à la rationalité, à l'intelligence collective.
 

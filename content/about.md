@@ -2,11 +2,11 @@
 title: "About me"
 ---
 
-Hello 👋, I'm Thomas Bouvier, a french data engineer. I'm living in Rennes.
+I'm Thomas Bouvier, a data engineer living in Rennes, France.
 
 You've found my blog, where I share my technical experiences designing and developing software. I am also interested in the ethics of algorithms, climate issues, rationality and collective intelligence.
 
-Currently, I am a PhD student at [Inria](https://www.inria.fr/en), working on improving the performance of distributed deep learning workloads.
+Currently, I am a PhD candidate at [Inria](https://www.inria.fr/en), working on improving the performance of distributed deep learning workloads.
 
 To know more about me:
 
