@@ -1,7 +1,7 @@
 baseURL = "https://thomas-bouvier.io/"
 languageCode = "en"
 title = "Thomas Bouvier"
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 
 [module]
   [[module.imports]]
