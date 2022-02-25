@@ -1,5 +1,14 @@
+[hero-intro]
+other = "Our societies must face an unprecedented challenge: the climate emergency. We must collectively reflect on a desirable future, respectful of all forms of life on Earth and giving power back to its citizens."
+
 [ongoing-work]
-other = "Ongoing work"
+other = "At the moment,"
+
+[previews-intro]
+other = "I dedicate my skills to initiatives that promote knowledge sharing, the reduction of inequalities and the sustainability of our energy consumption."
+
+[previews-intro-projects]
+other = "Finished projects are available <a href=\"{{ \"projects/\" }}\">here</a>."
 
 [intended-impact]
 other = "Intended impact"
