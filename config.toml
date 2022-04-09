@@ -11,6 +11,7 @@ defaultContentLanguage = "fr"
 [params]
   logo = "Thomas Bouvier"
   description = "Using digital technology for a sustainable and better-informed society 🌿"
+  images = ['avatar.png']
 
 [taxonomies]
   tag = "tags"
