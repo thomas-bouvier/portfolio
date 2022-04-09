@@ -9,4 +9,7 @@ draft = false
 [[resources]]
     text = "Podcast"
     link = "https://soundcloud.com/talkpython/318-measuring-your-ml-impact-with-codecarbon"
+[[resources]]
+    text = "Repository"
+    link = "https://github.com/mlco2/codecarbon"
 +++
