@@ -4,7 +4,7 @@ title: "Money"
 
 My income is composed as follows:
 
-- My research activity as a contractual PhD student pays 1500 € net a month.
+- My research activity as a contractual PhD student pays 1500 € net a month. It is 25% less than my first job as a data engineer.
 - Each hour of lecturing pays 40 € gross.
 
 I make monthly donations:

@@ -4,7 +4,7 @@ title: "Argent"
 
 Mes revenus se composent comme suit :
 
-- Mon activité de recherche en tant que doctorant contractuel me rapporte 1500 € nets par mois.
+- Mon activité de recherche en tant que doctorant contractuel me rapporte 1500 € nets par mois. C'est 25% de moins que mon premier emploi en tant qu'ingénieur données.
 - Chaque heure de TD donnée me rapporte 40 € bruts.
 
 J'effectue des donations mensuelles :
