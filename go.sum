@@ -8,3 +8,5 @@ github.com/thomas-bouvier/gohugo-theme-otomo v0.0.0-20220225172827-350b68cdc182 
 github.com/thomas-bouvier/gohugo-theme-otomo v0.0.0-20220225172827-350b68cdc182/go.mod h1:hXyqgfsIBltMAcqZERJnNa5EShNFK3EoipvVqpPEPm4=
 github.com/thomas-bouvier/gohugo-theme-otomo v0.0.0-20220409181309-560ade9164fd h1:kEuT3xYfbIUKCjo13DPVwJnmlgq5xTkicnQJDcKyJgU=
 github.com/thomas-bouvier/gohugo-theme-otomo v0.0.0-20220409181309-560ade9164fd/go.mod h1:hXyqgfsIBltMAcqZERJnNa5EShNFK3EoipvVqpPEPm4=
+github.com/thomas-bouvier/gohugo-theme-otomo v0.0.0-20231205113606-c716671f6196 h1:2FVjuaGQOSUiCwxf6+sgtXeNB9yJ5Z4YsTD1SGCIBeY=
+github.com/thomas-bouvier/gohugo-theme-otomo v0.0.0-20231205113606-c716671f6196/go.mod h1:hXyqgfsIBltMAcqZERJnNa5EShNFK3EoipvVqpPEPm4=
