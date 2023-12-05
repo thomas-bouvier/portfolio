@@ -4,12 +4,6 @@ other = "Nos sociétés doivent faire face à un défi inédit : l'urgence clima
 [ongoing-work]
 other = "En ce moment,"
 
-[previews-intro]
-other = "Je mets mes compétences au service d'initiatives favorisant la circulation des connaissances, la réduction des inégalités, la soutenabilité de notre consommation énergétique."
-
-[previews-intro-projects]
-other = "Mes projets terminés sont consultables <a href=\"{{ \"projects/\" }}\">ici</a>."
-
 [intended-impact]
 other = "Impact recherché"
 

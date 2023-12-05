@@ -4,12 +4,6 @@ other = "Our societies must face an unprecedented challenge: the climate emergen
 [ongoing-work]
 other = "At the moment,"
 
-[previews-intro]
-other = "I dedicate my skills to initiatives that promote knowledge sharing, the reduction of inequalities and the sustainability of our energy consumption."
-
-[previews-intro-projects]
-other = "Finished projects are available <a href=\"{{ \"projects/\" }}\">here</a>."
-
 [intended-impact]
 other = "Intended impact"
 
@@ -41,7 +35,7 @@ other = "Don't miss any content tagged \"{{ .Tag }}\" by subscribing to the <a h
 other = "<a href=\"https://github.com/thomas-bouvier/portfolio\">Source code of this site</a> / Catch something? <a href=\"https://github.com/thomas-bouvier/portfolio/issues\">Fill an issue!</a>"
 
 [footer]
-other = "Built with HTML & CSS with Sass atop Hugo (last build: {{ .Time }}). I do not track your personal data. Subscribe to my <a href=\"{{ .RSS }}\">RSS feed</a>."
+other = "Built with HTML & CSS with Sass atop Hugo (last build: {{ .Time }}). My site complies with the GDPR by not collecting any personal data, and with the EU Cookie Directive by not using cookies. Subscribe to my <a href=\"{{ .RSS }}\">RSS feed</a>."
 
 [go-home]
 other = "Go home"
