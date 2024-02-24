@@ -6,8 +6,11 @@ J'ai obtenu un diplôme d'électronique à l'INSA Rennes. En 2019, j'ai effectu�
 
 ## Publications
 
-Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](https://orcid.org/0000-0001-9863-8851), [Scholar](https://scholar.google.com/citations?user=Bkug2kUAAAAJorci).
+Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](https://orcid.org/0000-0001-9863-8851), [OpenAlex](https://openalex.org/works?page=1&filter=authorships.author.id%3AA5041473946&sort=cited_by_count%3Adesc&group_by=publication_year,open_access.is_oa,authorships.institutions.lineage,type), [Scholar](https://scholar.google.com/citations?user=Bkug2kUAAAAJorci).
 
+### De conférence
+
+- **Thomas Bouvier**, Bogdan Nicolae, Hugo Chaugier, Alexandru Costan, Ian Foster, Gabriel Antoniu. Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers. In *ACM/IEEE CCGrid 2024, Philadelphia, United States*.
 
 ## Enseignement
 
@@ -17,17 +20,13 @@ Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](
 - INSA Rennes, L1 : Introduction aux algorithmes – cours et travaux pratiques (42 heures, début janvier 2022)
 - INSA Rennes, L2 : Bases de données (aspects requêtes) – cours et travaux pratiques (36 heures, début septembre 2021)
 
-## Étudiants
-
-- Malvin Chevallier, INSA Rennes : "Étude des techniques de régularisation appliquées à l'apprentissage continu basé sur le rappel", co-supervisé avec Alexandru Costan (été 2023)
-
 ## Projets de recherche
 
 Je participe(ai participé) au [projet ACROSS](https://www.acrossproject.eu/), à l'[Équipe Associée UNIFY](https://team.inria.fr/unify/), au [projet JLESC Towards CL at Scale](https://jlesc.github.io/projects/continual_learning_project/), au [PEPR Cloud](https://www.inria.fr/fr/inria-pepr-cloud-copilote).
 
 ## Responsabilités
 
-Je suis membre du [groupe Sciences, Environnement et Société](https://sens-rennes.gitlabpages.inria.fr/) à Rennes : nous remettons en question nos domaines de recherche à la lumière des défis climatiques actuels et futurs. De plus, j'ai examiné plus de 10 articles pour IEEE IPDPS, ACM/IEEE CCGrid, ACM/IEEE Supercomputing, IEEE Big Data et la revue Computing de Springer.
+Je suis membre du [groupe Sciences, Environnement et Société](https://sens-rennes.gitlabpages.inria.fr/) à Rennes : nous remettons en question nos domaines de recherche à la lumière des défis climatiques actuels et futurs. De plus, j'ai revu plus de 10 articles pour IEEE IPDPS, ACM/IEEE CCGrid, ACM/IEEE Supercomputing, IEEE Big Data, ACM HPDPC et la revue Computing de Springer.
 
 # Projets personnels
 
