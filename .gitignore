@@ -1,5 +1,5 @@
 public
 resources
-static/resume
+static
 .DS_Store
 .hugo_build.lock
