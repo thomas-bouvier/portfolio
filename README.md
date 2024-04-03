@@ -122,8 +122,14 @@ Renew the certificate using another cron job as root `sudo crontab -e`:
 ## Deploy
 
 ```bash
+git stash
 hugo --minify
 rsync -rzv -e ssh public/ pi@raspberrypi-site:/var/www/thomas-bouvier.io/ --delete-after
+git stash apply
 ```
 
-Don't forget to add `files/resume_thomas_bouvier.pdf` and `files/cv_thomas_bouvier.pdf` on the server.
+Don't forget to add the following files in `static` folder:
+
+- `resume_thomas_bouvier.pdf`
+- `cv_thomas_bouvier.pdf`
+- `pgp_pub.asc`
