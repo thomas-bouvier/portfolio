@@ -45,7 +45,7 @@ Je télécharge toutes mes applications sur le NeoStore. Je n'utilise pas d'appl
 
 # Services
 
-I pay for the following services.
+Je paie pour utiliser les services suivants.
 
 - Emails : [Galae](https://www.galae.net/en/)
 - Notes : [Obsidian Sync](https://obsidian.md/sync)
