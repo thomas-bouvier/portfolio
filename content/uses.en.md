@@ -6,14 +6,15 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 # Hardware
 
-- Laptop: MacBook M2 Pro
-- Phone: Galaxy S10e
+- Laptop: Apple MacBook M2 Pro
+- Phone: Samsung Galaxy S10e
 - Input devices: Logitech MX Keys & MX Master 3
 - Bike: Elops Single Speed 500
 
 # Software
 
 - Laptop OS: [Fedora Asahi Remix](https://asahilinux.org/fedora/)
+- Slides: Reveal.js
 
 # Mobile Apps
 
@@ -28,7 +29,7 @@ I download all my apps from the NeoStore. I don't use any app from Google, as th
 - Videos: LibreTube.
 - Notes: Obsidian.
 - RSS feed reader: Flus.
-- Browser: Firefox. I use the following extensions: DarkReader, Consent-O-Matic, Ophirophox, uBlock Origin.
+- Browser: Firefox. I use the following extensions: DarkReader, Consent-O-Matic, [Ophirophox](https://ophirofox.ophir.dev/), uBlock Origin.
 - Password Manager: Bitwarden.
 - Launcher: Niagara.
 - File transfers: LocalSend.
@@ -40,7 +41,7 @@ I download all my apps from the NeoStore. I don't use any app from Google, as th
 - Social: Mastodon with the theme [mastodon-bird-ui](https://github.com/ronilaukkarinen/mastodon-bird-ui).
 - Videos: Piped
 - Notes: Obsidian.
-- Browser: Firefox. I use the following extensions: DarkReader, Consent-O-Matic, Ophirophox, uBlock Origin.
+- Browser: Firefox. I use the following extensions: DarkReader, Consent-O-Matic, [Ophirophox](https://ophirofox.ophir.dev/), uBlock Origin.
 - File transfers: LocalSend.
 
 # Services
