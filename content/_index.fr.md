@@ -10,7 +10,15 @@ Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](
 
 ### De conférence
 
-- **Thomas Bouvier**, Bogdan Nicolae, Hugo Chaugier, Alexandru Costan, Ian Foster, Gabriel Antoniu. Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers. In *ACM/IEEE CCGrid 2024, Philadelphia, United States*.
+- **Thomas Bouvier**, Bogdan Nicolae, Hugo Chaugier, Alexandru Costan, Ian Foster, Gabriel Antoniu. Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers. In *ACM/IEEE CCGrid 2024, Philadelphia, United States*. [(HAL)](https://inria.hal.science/hal-04600107) [(arXiv)](https://arxiv.org/abs/2406.03285) [(HTML)](https://ar5iv.labs.arxiv.org/html/2406.03285)
+
+### De journal
+
+- **Thomas Bouvier**, Bogdan Nicolae, Alexandru Costan, Tekin Bicer, Ian Foster, Gabriel Antoniu. Efficient Distributed Continual Learning for Steering Experiments in Real-time. In *Future Generation of Computer Systems, JLESC Highlights*.
+
+### Thèse
+
+- **Thomas Bouvier**. Distributed Rehearsal Buffers for Continual Learning at Scale. INSA Rennes, 2024.
 
 ## Enseignement
 
@@ -22,7 +30,7 @@ Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](
 
 ## Projets de recherche
 
-Je participe(ai participé) au [projet ACROSS](https://www.acrossproject.eu/), à l'[Équipe Associée UNIFY](https://team.inria.fr/unify/), au [projet JLESC Towards CL at Scale](https://jlesc.github.io/projects/continual_learning_project/), au [PEPR Cloud](https://www.inria.fr/fr/inria-pepr-cloud-copilote).
+Je participe(ai participé) au [projet ACROSS](https://www.acrossproject.eu/), à l'[Équipe Associée UNIFY](https://team.inria.fr/unify/), au [projet JLESC Towards CL at Scale](https://jlesc.github.io/projects/continual_learning_project/), au [PEPR Cloud](https://pepr-cloud.fr/fr/).
 
 ## Responsabilités
 
