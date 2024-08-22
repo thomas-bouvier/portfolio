@@ -14,7 +14,7 @@ Check out my profiles at [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](h
 
 ### Journal papers
 
-- **Thomas Bouvier**, Bogdan Nicolae, Alexandru Costan, Tekin Bicer, Ian Foster, Gabriel Antoniu. Efficient Distributed Continual Learning for Steering Experiments in Real-time. In *Future Generation of Computer Systems, JLESC Highlights*.
+- **Thomas Bouvier**, Bogdan Nicolae, Alexandru Costan, Tekin Bicer, Ian Foster, Gabriel Antoniu. Efficient Distributed Continual Learning for Steering Experiments in Real-time. In *Future Generation of Computer Systems, JLESC Highlights*. [(HAL)](https://hal.science/hal-04664176v1)
 
 ### PhD dissertation
 
