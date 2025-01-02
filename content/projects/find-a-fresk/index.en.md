@@ -5,7 +5,7 @@ description = "Fresks (popularized in France by the Climate Fresk) are serious g
 draft = false
 [[resources]]
     text = "Website"
-    link = "https://trouverunefresque.org/"
+    link = "https://findafresk.org/"
 [[resources]]
     text = "Repository"
     link = "https://github.com/trouver-une-fresque"
