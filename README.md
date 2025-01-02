@@ -130,6 +130,9 @@ git stash apply
 
 Don't forget to add the following files in `static` folder:
 
-- `resume_thomas_bouvier.pdf`
-- `cv_thomas_bouvier.pdf`
+- `resume/resume_thomas_bouvier.pdf`
+- `resume/cv_thomas_bouvier.pdf`
 - `pgp_pub.asc`
+- `papers/ccgrid24.pdf`
+- `papers/phd24.pdf`
+- `papers/fgcs25.pdf`
