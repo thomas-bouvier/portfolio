@@ -15,7 +15,7 @@ To know more about me:
 - Subscribe to [my Flus collections](https://app.flus.fr/p/1702824275849616610) ;
 - Read on how I manage [my money]({{< ref "money" >}}).
 
-To ask me anything, say hello at [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). You can also find me on [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) or on the [fediverse](https://mastodon.social/@tomatrocho).
+To ask me anything, say hello at [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). You can also find me on [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) or on [Bluesky](https://bsky.app/profile/tbouvier.bsky.social).
 
 Here is my [PGP key](/pgp_pub.asc) fingerprint:
 
