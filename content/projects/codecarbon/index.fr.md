@@ -8,7 +8,7 @@ draft = false
     link = "https://codecarbon.io/"
 [[resources]]
     text = "Podcast"
-    link = "https://soundcloud.com/talkpython/318-measuring-your-ml-impact-with-codecarbon"
+    link = "https://talkpython.fm/episodes/show/318/measuring-your-ml-impact-with-codecarbon"
 [[resources]]
     text = "Dépôt"
     link = "https://github.com/mlco2/codecarbon"

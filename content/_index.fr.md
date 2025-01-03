@@ -10,11 +10,11 @@ Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](
 
 ### De conférence
 
-- **Thomas Bouvier**, Bogdan Nicolae, Hugo Chaugier, Alexandru Costan, Ian Foster, Gabriel Antoniu. Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers. In *ACM/IEEE CCGrid 2024, Philadelphia, United States*. [(PDF)](/papers/ccgrid24.pdf) [(HAL)](https://hal.science/hal-04600107) [(arXiv)](https://arxiv.org/abs/2406.03285) [(HTML)](https://ar5iv.labs.arxiv.org/html/2406.03285)
+- **Thomas Bouvier**, Bogdan Nicolae, Hugo Chaugier, Alexandru Costan, Ian Foster, Gabriel Antoniu. Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers. In *ACM/IEEE CCGrid 2024, Philadelphia, United States*. [(HAL)](https://hal.science/hal-04600107) [(arXiv)](https://arxiv.org/abs/2406.03285) [(HTML)](https://ar5iv.labs.arxiv.org/html/2406.03285) [(PDF)](/papers/ccgrid24.pdf)
 
 ### De journal
 
-- **Thomas Bouvier**, Bogdan Nicolae, Alexandru Costan, Tekin Bicer, Ian Foster, Gabriel Antoniu. Efficient Distributed Continual Learning for Steering Experiments in Real-time. In *Future Generation of Computer Systems, JLESC Highlights*. [(PDF)](/papers/fgcs25.pdf) [(HAL)](https://hal.science/hal-04664176)
+- **Thomas Bouvier**, Bogdan Nicolae, Alexandru Costan, Tekin Bicer, Ian Foster, Gabriel Antoniu. Efficient Distributed Continual Learning for Steering Experiments in Real-time. In *Future Generation of Computer Systems, JLESC Highlights*. [(HAL)](https://hal.science/hal-04664176) [(PDF)](/papers/fgcs25.pdf)
 
 ### Thèse
 

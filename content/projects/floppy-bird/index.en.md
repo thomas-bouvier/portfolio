@@ -1,11 +1,17 @@
----
-title: "Floppy Bird"
-date: 2017-05-31
-description: "Floppy Bird takes over the gameplay of the famous Flappy Bird, while integrating two artificial intelligence algorithms: Q-learning and a NEAT-type neural network."
-repository: https://github.com/thomas-bouvier/floppy-bird
-tags: ["AI", "C"]
-draft: false
----
++++
+title = "Floppy Bird"
+date = 2017-05-31
+description = "Floppy Bird takes over the gameplay of the famous Flappy Bird, while integrating two artificial intelligence algorithms: Q-learning and a NEAT-type neural network."
+repository = "https://github.com/thomas-bouvier/floppy-bird"
+tags = ["AI", "C"]
+draft = false
+[[resources]]
+    text = "Video"
+    link = "https://www.youtube.com/watch?v=lnHJ70OcNX8"
+[[resources]]
+    text = "Repository"
+    link = "https://github.com/thomas-bouvier/floppy-bird"
++++
 
 ## Challenge
 

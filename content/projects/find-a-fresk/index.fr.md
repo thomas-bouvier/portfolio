@@ -10,3 +10,5 @@ draft = false
     text = "Dépôt"
     link = "https://github.com/trouver-une-fresque"
 +++
+
+Nos sociétés doivent faire face à un défi inédit : l'urgence climatique. Nous devons collectivement réfléchir à un futur souhaitable, respectueux de toutes les formes de vie sur Terre et redonnant du pouvoir à ses citoyens.
