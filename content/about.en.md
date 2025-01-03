@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-I am Thomas Bouvier, a PhD candidate/data engineer living in Rennes, France.
+I am Thomas Bouvier, a research engineer located in Paris, France.
 
 Welcome to my blog, where I delve into my technical journey in software design and development. My interests extend to exploring the ethical aspects of algorithms, addressing climate concerns, and delving into topics like free software and collective intelligence.
 
