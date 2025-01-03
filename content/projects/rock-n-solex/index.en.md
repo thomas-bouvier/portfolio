@@ -1,16 +1,18 @@
----
-title: "Rock'n Solex website"
-date: 2017-10-10
-description: "This website presents Rock'n Solex, the oldest French student festival."
-repository: https://rocknsolex.fr
-tags: ["HTML", "SASS"]
-#thumbnail: images/thumbnail.png
-draft: false
----
++++
+title = "Rock'n Solex website"
+date = 2017-10-10
+description = "This website presents Rock'n Solex, the oldest French student festival."
+tags = ["HTML", "SASS"]
+#thumbnail = "images/thumbnail.png"
+draft = false
+[[resources]]
+    text = "Archived website"
+    link = "https://web.archive.org/web/20180829044129/https://rocknsolex.fr/"
++++
 
 ## What's Rock'n Solex?
 
-I've been involved in the Rock'n Solex 2018 team as webmaster. The Rock'n Solex is the oldest student festival in France, first held in 1967. It combines Solex races during the day and music concerts every night. This is the major event in the school's associative life. It attracts more than 15,000 spectators over 3 days.
+I've been involved in the Rock'n Solex 2018 team as a webmaster. The Rock'n Solex is the oldest student festival in France, first held in 1967. It combines Solex races during the day and music concerts every night. This is the major event in the school's associative life. It attracts more than 15,000 spectators over 3 days.
 
 {{< video f_kzUJw-3aI "Aftermovie 2018" >}}
 
