@@ -6,7 +6,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 # Hardware
 
-- Laptop: Apple MacBook M2 Pro
+- Laptop: Apple MacBook M1 Pro 14"
 - Phone: Samsung Galaxy S10e
 - Input devices: Logitech MX Keys & MX Master 3
 - Bike: Elops Single Speed 500
@@ -20,9 +20,9 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 I download all my apps from the NeoStore. I don't use any app from Google, as they are bloated and include spywares.
 
-- Basic utilities: Fossify Contacts, Fossify Phone, Fossify File Manager, Fossify Calendar, Fossify SMS Messenger, OSS Weather, OSS Document Scanner.
-- Emails: K-9 Mail.
-- Social: Megalodon.
+- Basic utilities: Fossify Contacts, Fossify Phone, Fossify File Manager, Fossify Calendar, Fossify SMS Messenger, Bura Weather, OSS Document Scanner.
+- Emails: Thunderbird.
+- Social: Bluesky.
 - Podcasts: AntennaPod. I set up a gpodder server too.
 - Keyboard: FlorisBoard.
 - Maps: Organic Maps.
@@ -41,7 +41,7 @@ I download all my apps from the NeoStore. I don't use any app from Google, as th
 - Social: Mastodon with the theme [mastodon-bird-ui](https://github.com/ronilaukkarinen/mastodon-bird-ui).
 - Videos: Piped
 - Notes: Obsidian.
-- Browser: Firefox. I use the following extensions: DarkReader, Consent-O-Matic, [Ophirophox](https://ophirofox.ophir.dev/), uBlock Origin.
+- Browser: Librewolf. I use the following extensions: DarkReader, Consent-O-Matic, [Ophirophox](https://ophirofox.ophir.dev/).
 - File transfers: LocalSend.
 
 # Services
