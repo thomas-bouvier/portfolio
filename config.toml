@@ -17,13 +17,20 @@ defaultContentLanguage = "fr"
   tag = "tags"
 
 [languages]
+
   [languages.en]
     languageName = "English"
     weight = 1
+
     [[languages.en.menu.main]]
       identifier = "posts"
       name = "Blog"
       url = "/posts/"
+      weight = 0
+    [[languages.en.menu.main]]
+      identifier = "research"
+      name = "Research"
+      url = "/research/"
       weight = 1
     [[languages.en.menu.main]]
       identifier = "projects"
@@ -35,14 +42,21 @@ defaultContentLanguage = "fr"
       name = "About me"
       url = "/about/"
       weight = 3
+
   [languages.fr]
     languageName = "Français"
     weight = 2
     description = "Utiliser le numérique pour une société durable et mieux informée 🌿"
+
     [[languages.fr.menu.main]]
       identifier = "posts"
       name = "Blog"
       url = "/posts/"
+      weight = 0
+    [[languages.fr.menu.main]]
+      identifier = "research"
+      name = "Recherche"
+      url = "/research/"
       weight = 1
     [[languages.fr.menu.main]]
       identifier = "projects"
