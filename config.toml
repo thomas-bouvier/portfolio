@@ -73,3 +73,13 @@ defaultContentLanguage = "en"
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+[highlight]
+  [highlight.copy]
+    enable = true
+    # hover | always
+    display = "always"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
