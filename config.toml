@@ -20,6 +20,7 @@ defaultContentLanguage = "en"
 
   [languages.en]
     languageName = "English"
+    languageCode = "en-US"
     weight = 1
 
     [[languages.en.menu.main]]
@@ -45,6 +46,7 @@ defaultContentLanguage = "en"
 
   [languages.fr]
     languageName = "Français"
+    languageCode = "fr-FR"
     weight = 2
     description = "Utiliser le numérique pour une société durable et mieux informée 🌿"
 
