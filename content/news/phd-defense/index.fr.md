@@ -10,7 +10,7 @@ La soutenance sera retransmise en direct, merci de me contacter pour obtenir le 
 
 La version revue de mon manuscrit de thèse est disponible: [lien vers mon manuscrit](/papers/phd24.pdf). La thèse est intitulée: “_Distributed Rehearsal Buffers for Continual Learning at Scale_”, ce qui peut être traduit par "_Tampons de Répétition Distribués pour passer l'Apprentissage Continu à l'Échelle_". Le résumé figure en bas de cette page. La soutenance sera en anglais.
 
-# Jury
+## Jury
 
 ### Reviewers
 
@@ -27,7 +27,7 @@ La version revue de mon manuscrit de thèse est disponible: [lien vers mon manus
 - Alexandru COSTAN, Maître de conférences, INSA, Rennes, France
 - Gabriel ANTONIU, Directeur de recherche, Inria, Rennes, France
 
-# Résumé
+## Résumé
 
 Au cours de la dernière décennie, l'apprentissage profond (DL pour _Deep Learning_) a permis l'évolution des systèmes experts vers des modèles statistiques. Les réseaux de neurones profonds (DNN pour _Deep Neural Networks_) ont révolutionné la manière dont les problèmes sont abordés dans de nombreux domaines, grâce à l'extraction de motifs pertinents à partir de jeux de données complexes, mais étiquetés. De la même manière que des ordinateurs plus puissants ont permis de concevoir des réseaux avec beaucoup plus de neurones, les volumes de données d'entrée toujours croissants ont accéléré les avancées dans ce domaine. Des modèles plus grands et des jeux de données centralisés plus importants nécessitent des stratégies distribuées pour tirer parti de plusieurs nœuds de calcul.
 

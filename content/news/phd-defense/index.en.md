@@ -10,7 +10,7 @@ It will also be broadcast live, please get in touch to get the link!
 
 The reviewed dissertation of my thesis can be found here: [link to dissertation](/papers/phd24.pdf). It is entitled: “_Distributed Rehearsal Buffers for Continual Learning at Scale_”. The abstract can be found at the bottom of this page. The presentation will be in English.
 
-# Jury
+## Jury
 
 ### Reviewers
 
@@ -27,7 +27,7 @@ The reviewed dissertation of my thesis can be found here: [link to dissertation]
 - Alexandru COSTAN, Maître de conférences, INSA, Rennes, France
 - Gabriel ANTONIU, Directeur de recherche, Inria, Rennes, France
 
-# Abstract
+## Abstract
 
 During the past decade, Deep learning (DL) supported the shift from rule-based systems towards statistical models. Deep Neural Networks (DNNs) revolutionized how we address problems in a wide range of applications by extracting patterns from complex yet labelled datasets. In the same way that more-powerful computers made it possible to design networks with vastly more neurons, ever-growing volumes of data act as a driving force for advancements in this field. Bigger models and larger centralized datasets demand for distributed strategies to leverage multiple compute nodes.
 
