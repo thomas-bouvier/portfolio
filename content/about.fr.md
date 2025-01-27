@@ -12,7 +12,6 @@ Pour en savoir plus sur moi :
 - Consulte mon CV : en [français](/resume/cv_thomas_bouvier.pdf), en [anglais](/resume/resume_thomas_bouvier.pdf) ;
 - Jette un œil aux [présentations et animations]({{< ref "talks" >}}) que je donne ;
 - Abonne-toi à [mes collections sur Flus](https://app.flus.fr/p/1702824275849616610) ;
-- Lis sur la façon dont je gère [mon argent]({{< ref "money" >}}).
 
 Si tu souhaites entrer en contact, envoie-moi un mail à [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). Tu peux également me trouver sur [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) ou sur [Bluesky](https://bsky.app/profile/thomas-bouvier.io).
 
