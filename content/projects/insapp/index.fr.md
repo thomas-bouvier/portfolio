@@ -1,12 +1,16 @@
----
-title: "Insapp"
-date: 2017-08-28
-description: "Insapp est une application de promotion des associations au sein de l'INSA Rennes."
-website: https://insapp.fr
-repository: https://github.com/thomas-bouvier/insapp-android
-tags: ["App", "Kotlin", "Go", "AngularJS"]
-draft: false
----
++++
+title = "Insapp"
+date = 2017-08-28
+description = "Insapp est une application de promotion des associations au sein de l'INSA Rennes."
+[[resources]]
+    text = "Site web archivé"
+    link = "https://web.archive.org/web/20210123040047/https://insapp.fr/"
+[[resources]]
+    text = "Dépôt"
+    link = "https://github.com/insapp-io"
+tags = ["App", "Kotlin", "Go", "AngularJS"]
+draft = false
++++
 
 ## Défi
 
