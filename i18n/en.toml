@@ -1,3 +1,5 @@
+projects_description = "I dedicate my skills to initiatives that promote knowledge sharing, the reduction of inequalities and the sustainability of our energy consumption."
+
 [hero-intro]
 other = "I collaborate with scientists to research, create, and optimize scalable, ML-accelerated pipelines that help answer broad scientific questions in X-ray science and materials discovery. I hold a PhD from Inria in High-Performance Computing (HPC) and am specialized in this field. In tandem with these efforts, I also work on low-level performance characterization on GPU platforms."
 
@@ -23,7 +25,7 @@ other = "Explore more content"
 other = "Don't miss any post by subscribing to my <a href=\"{{ .Permalink }}\">blog RSS feed</a>."
 
 [dont-miss-project]
-other = "Don't miss any project by subscribing to my <a href=\"{{ .Permalink }}\">portfolio RSS feed</a>."
+other = "Don't miss any project by subscribing to my <a href=\"{{ .Permalink }}\">projects RSS feed</a>."
 
 [dont-miss-talk]
 other = "Don't miss any talk by subscribing to my <a href=\"{{ .Permalink }}\">talk RSS feed</a>."

@@ -1,3 +1,5 @@
+projects_description = "Quelques projets sur lesquels je travaille sur mon temps libre, quand j'en ai l'énergie. Je mets mes compétences au service d'initiatives favorisant la circulation des connaissances, la réduction des inégalités, la soutenabilité de notre consommation énergétique."
+
 [hero-intro]
 other = "Je collabore avec des chercheurs pour concevoir, créer et optimiser des pipelines accélérés par le ML, pour faire avancer les connaissances en science des rayons X ou en découverte de matériaux. J'ai obtenu un doctorat en calcul haute performance (HPC) à l'Inria et suis spécialisé dans ce domaine. Je travaille également sur la caractérisation des performances de bas niveau sur les plateformes GPU."
 
@@ -23,7 +25,7 @@ other = "Plus de contenu"
 other = "Ne manquez aucun billet en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique au blog</a>."
 
 [dont-miss-project]
-other = "Ne manquez aucun projet en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique au portfolio</a>."
+other = "Ne manquez aucun projet en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique aux projets</a>."
 
 [dont-miss-talk]
 other = "Ne manquez aucune présentation en vous abonnant à mon <a href=\"{{ .Permalink }}\">flux RSS spécifique aux présentations</a>."
