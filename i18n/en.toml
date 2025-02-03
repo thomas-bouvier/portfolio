@@ -1,7 +1,7 @@
 projects_description = "I dedicate my skills to initiatives that promote knowledge sharing, the reduction of inequalities and the sustainability of our energy consumption."
 
 [hero-intro]
-other = "I collaborate with scientists to research, create, and optimize scalable, ML-accelerated pipelines that help answer broader scientific questions. I hold a PhD from Inria in High-Performance Computing (HPC) and am specialized in this field. In tandem with these efforts, I also work on low-level performance characterization on GPU platforms."
+other = "I collaborate with scientists to research, create, and optimize scalable, ML-accelerated pipelines that help answer broader scientific questions. I hold a PhD from Inria in High-Performance Computing (HPC) and am specialized in this field. In tandem with these efforts, I also work on low-level performance characterization on GPU platforms.<br><br>I am also interested in continual learning, big data analytics, large-scale pre-training, and reproducibility in computational sciences.<br><br>I am passionate about finding solutions to the climate crisis we face, both in policy and through the development of software tools."
 
 [ongoing-work]
 other = "At the moment,"
