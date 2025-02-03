@@ -1,0 +1,11 @@
++++
+title = "Un article de conférence a été accepté à CCGrid 2024"
+date = 2024-02-12
+draft = false
++++
+
+Notre article intitulé "Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers" a été accepté à [CCGrid 2024](https://2024.ccgrid-conference.org/). Je présenterai ce travail dans la session "ML pour Systèmes et Systèmes pour ML" le 7 mai à 14h30 à Philadelphie. Vous pouvez trouver le programme complet [ici](https://2024.ccgrid-conference.org/program/).
+
+## Efficient Data-Parallel Continual Learning with Asynchronous Distributed Rehearsal Buffers
+
+Deep learning has emerged as a powerful method for extracting valuable information from large volumes of data. However, when new training data arrives continuously (i.e., is not fully available from the beginning), incremental training suffers from catastrophic forgetting (i.e., new patterns are reinforced at the expense of previously acquired knowledge). Training from scratch each time new training data becomes available would result in extremely long training times and massive data accumulation. Rehearsal-based continual learning has shown promise for addressing the catastrophic forgetting challenge, but research to date has not addressed performance and scalability. To fill this gap, we propose an approach based on a distributed rehearsal buffer that efficiently complements data-parallel training on multiple GPUs, allowing us to achieve short runtime and scalability while retaining high accuracy. It leverages a set of buffers (local to each GPU) and uses several asynchronous techniques for updating these local buffers in an embarrassingly parallel fashion, all while handling the communication overheads necessary to augment input mini-batches (groups of training samples fed to the model) using unbiased, global sampling. In this paper we explore the benefits of this approach for classification models. We run extensive experiments on up to 128 GPUs of the ThetaGPU supercomputer to compare our approach with baselines representative of training-from-scratch (the upper bound in terms of accuracy) and incremental training (the lower bound). Results show that rehearsal-based continual learning achieves a top-5 classification accuracy close to the upper bound, while simultaneously exhibiting a runtime close to the lower bound.
