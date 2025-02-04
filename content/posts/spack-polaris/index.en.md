@@ -5,11 +5,20 @@ description = "In this article, I will go through setting up Spack on the Polari
 draft = false
 +++
 
-Spack is a powerful package manager designed for HPC. Although presenting a steep learning curve, Spack can significantly benefit workflows involving frequent builds with complex dependencies.
+Spack is a powerful package manager designed for HPC. Although presenting a steep learning curve, Spack can significantly benefit workflows involving frequent builds with complex dependencies. To just name a few:
 
+- In HPC, hardware specifics can significantly impact software performance. Spack addresses this by allowing for hardware-aware builds, unlike some package managers that aim for highly isolated build environments, which can overlook these performance-critical details. 
+
+- Spack enables the construction of multiple versions and configurations of the same software. This is crucial in HPC environments where the officially supported versions provided by your Linux distribution doesn't meet your needs.
+
+- HPC workflows often require the installation of numerous dependencies and libraries that are not typically included in standard system installations. Spack provides a structured approach to managing these dependencies (which I'll detail below), avoiding the pitfalls of ad-hoc solutions like custom bash scripts. Spack will make it possible to reuse the work already accomplished by numerous contributors.
+
+- Spack allows for the easy customization of package builds. Hackability is important!
+
+After this brief introduction to Spack, let's move on to the specifics of the Polaris supercomputer, on which we want to install optimized packages.
 ## Polaris Supercomputer
 
-The system has a theoretical peak performance of 34 petaflops (44 petaflops of Tensor Core FP64 performance), ranking it #47 on the [top 500 list](https://www.top500.org/lists/top500/list/2024/11/) as of the writing of this blog post. The system is built from 560 nodes, each with the following metrics:
+Polaris is hosted at the Argonne National Laboratory in Illinois. The system has a theoretical peak performance of 34 petaflops (44 petaflops of Tensor Core FP64 performance), ranking it #47 on the [top 500 list](https://www.top500.org/lists/top500/list/2024/11/) as of the writing of this blog post. The system is built from 560 nodes, each with the following metrics:
 
 | Metric                                    | Value      |
 | ----------------------------------------- | ---------- |
@@ -25,6 +34,8 @@ The system has a theoretical peak performance of 34 petaflops (44 petaflops of T
 | PCIe Gen4 BW                              | 64 GB/s    |
 | NVLink BW                                 | 600 GB/s   |
 | Total GPU DP Tensor Core Flops            | 78 TF      |
+
+The CPU-GPU communication is performed via PCIe Gen4, offering a bandwidth of 64 GB/s, while the GPUs themselves are interconnected using NVLink, providing a 600 GB/s bandwidth. Additionally, Polaris employs the HPE Slingshot 11 interconnect with a Dragonfly topology achieving a 200 Gb/s bandwidth.
 
 {{< gallery "Polaris Single Node Configuration" >}}
     {{< image src="images/single_node.png" >}}
