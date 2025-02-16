@@ -4,7 +4,7 @@ date = 2024-10-31
 draft = false
 +++
 
-My PhD defense is scheduled for **Monday, November 4th, 2024, at 1:30 pm**. The event will take place at IRISA/Inria Rennes (Markov room), 263 Avenue du Général Leclerc, 35042 Rennes ([maps link](https://www.openstreetmap.org/way/81586498)).
+My PhD defense is scheduled for **Monday, November 4th, 2024, at 1:30 pm**. The event will take place at IRISA/Inria Rennes (Markov room), 263 Avenue du Général Leclerc, 35042 Rennes ([maps link](https://www.openstreetmap.org/way/81586498)). I can't wait to share this moment with my jury, family, friends and colleagues.
 
 It will also be broadcast live, please get in touch to get the link!
 
