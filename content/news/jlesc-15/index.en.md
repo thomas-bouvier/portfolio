@@ -1,7 +1,7 @@
 +++
 title = "I will give a talk at JLESC 15 @ Bordeaux"
 date = 2023-02-12
-draft = true
+draft = false
 +++
 
 I will present our ongoing work entitled "Leveraging Rehearsal Buffers to Enable Efficient Data-Parallel Continual Learning" at [JLESC 15](https://events.hifis.net/event/617/). This presentation is an update on the progress of the JLESC project entitled ["Towards Continual Learning at Scale"](https://jlesc.github.io/projects/continual_learning_project/), which has been running since 2022. You can find the full program [here](https://events.hifis.net/event/617/timetable/).

@@ -1,7 +1,7 @@
 +++
 title = "I will give a talk at JLESC 14 @ Urbana-Champaign"
 date = 2022-09-21
-draft = true
+draft = false
 +++
 
 I will present our new JLESC project entitled ["Towards Continual Learning at Scale"](https://jlesc.github.io/projects/continual_learning_project/), as well as preliminary results, at [JLESC 14](https://publish.illinois.edu/14th-jlesc-workshop/). You can find the full program [here](https://publish.illinois.edu/14th-jlesc-workshop/agenda/). I'm really excited to be giving my first public talk in the US, which will take place at the University of Illinois Urbana-Champaign. 😊
