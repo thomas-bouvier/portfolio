@@ -20,7 +20,7 @@ Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](
 
 ### Thèse
 
-- **Thomas Bouvier**. Distributed Rehearsal Buffers for Continual Learning at Scale. INSA Rennes, 2024. [(PDF)](/papers/phd24.pdf)
+- **Thomas Bouvier**. Distributed Rehearsal Buffers for Continual Learning at Scale. INSA Rennes, 2024. [these.fr](https://theses.fr/s362641) [(PDF)](/papers/phd24.pdf)
 
 ## Enseignement
 
