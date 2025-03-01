@@ -13,7 +13,7 @@ Je fais cette page pour rediriger facilement les personnes qui me posent des que
 - Souris et clavier : Logitech MX Keys & MX Master 3
 - NAS: Synology DS214play
 - Serveurs : quelques Raspberry Pi suffisent pour héberger mes services
-- Vélo : Elops Single Speed 500
+- Vélos : Elops Single Speed 500, et un vieux vélo Peugeot de 1980 qu'un ami a retapé entièrement 🚲
 
 ## Logiciel
 

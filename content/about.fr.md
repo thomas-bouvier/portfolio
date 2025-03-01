@@ -3,13 +3,14 @@ title: "À propos"
 slug: "a-propos"
 ---
 
-Je m'appelle Thomas Bouvier, et je suis ingénieur de recherche. Je vis à Paris.
+Je m'appelle Thomas Bouvier, et je suis ingénieur de recherche. Je suis spécialisé en calcul haute performance (HPC). Je vis à Paris.
 
-Sur ce blog, je partage principalement mes expériences en matière de conception et de développement de logiciels. Je m'intéresse également à l'éthique des algorithmes, aux questions climatiques, au monde du libre, à l'intelligence collective.
+Sur ce blog, je partage principalement mes expériences en matière de conception et de développement de logiciels, ainsi que mes thématiques de recherche. Je m'intéresse également à l'éthique des algorithmes, aux questions climatiques, au monde du libre, à l'intelligence collective.
 
 Pour en savoir plus sur moi :
 
 - Consulte mon CV : en [français](/resume/cv_thomas_bouvier.pdf), en [anglais](/resume/resume_thomas_bouvier.pdf) ;
+- Découvre les services et le matériel que [j'utilise]({{< ref "uses" >}}) au quotidien ;
 - Jette un œil aux [présentations et animations]({{< ref "talks" >}}) que je donne ;
 - Abonne-toi à [mes collections sur Flus](https://app.flus.fr/p/1702824275849616610) ;
 

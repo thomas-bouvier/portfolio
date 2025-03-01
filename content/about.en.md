@@ -2,13 +2,14 @@
 title: "About me"
 ---
 
-I am Thomas Bouvier, a research engineer located in Paris, France.
+I am Thomas Bouvier, a research engineer with a focus on High-Performance Computing (HPC). I am located in Paris, France.
 
-Welcome to my blog, where I delve into my technical journey in software design and development. My interests extend to exploring the ethical aspects of algorithms, addressing climate concerns, and delving into topics like free software and collective intelligence.
+Welcome to my blog, where I delve into my technical journey in software design and development, as well as in my research topics. My interests extend to exploring the ethical aspects of algorithms, addressing climate concerns, and delving into topics like free software and collective intelligence.
 
 To know more about me:
 
-- Check my resume: in [english](/resume/resume_thomas_bouvier.pdf), in [french](/resume/cv_thomas_bouvier.pdf);
+- Check my resume: in [english](/resume/resume_thomas_bouvier.pdf), in [french](/resume/cv_thomas_bouvier.pdf) ;
+- Discover the tools and services [I use]({{< ref "uses" >}}) ;
 - Have a look at the [talks and workshops]({{< ref "talks" >}}) I give ;
 - Subscribe to [my Flus collections](https://app.flus.fr/p/1702824275849616610) ;
 

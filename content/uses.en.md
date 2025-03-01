@@ -13,7 +13,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 - Input devices: Logitech MX Keys & MX Master 3
 - NAS: Synology DS214play
 - Servers: a few Raspberry Pi 
-- Bike: Elops Single Speed 500
+- Bikes: Elops Single Speed 500, and an old 1980 Peugeot bike that a friend completely restored 🚲
 
 ## Software
 
