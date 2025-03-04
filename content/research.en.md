@@ -2,7 +2,7 @@
 title = "Research work"
 +++
 
-Between 2021 and 2024, I was a PhD student at [Inria de l'Université de Rennes](https://www.inria.fr/fr/centre-inria-universite-rennes), supervised by [Alexandru Costan](https://team.inria.fr/kerdata/alexandru-costan/) and [Gabriel Antoniu](https://team.inria.fr/kerdata/gabriel-antoniu/). My research interests cover various aspects of continual learning workloads in distributed settings (HPC, clouds and edge devices). In 2022, I did a student appointment at [Argonne National Laboratory](https://www.anl.gov/), Chicago with [Bogdan Nicolae](https://www.bnicolae.net/), trying to scale such workloads on many GPUs. My research field could be referred to as "Systems for AI". I defended my PhD in November 2024.
+Between 2021 and 2024, I was a PhD student in the [KerData](https://team.inria.fr/kerdata/) team at [Inria centre at Rennes University](https://www.inria.fr/en/inria-centre-rennes-university), supervised by [Alexandru Costan](https://team.inria.fr/kerdata/alexandru-costan/) and [Gabriel Antoniu](https://team.inria.fr/kerdata/gabriel-antoniu/). My research interests cover various aspects of continual learning workloads in distributed settings (HPC, clouds and edge devices). In 2022, I did a student appointment at [Argonne National Laboratory](https://www.anl.gov/), Chicago with [Bogdan Nicolae](https://www.bnicolae.net/), trying to scale such workloads on many GPUs. My research field could be referred to as "Systems for AI". I defended my PhD in November 2024.
 
 I hold a degree in electrical engineering from INSA Rennes. In 2019, I did an internship at [Snips](https://investors.sonos.com/news-and-events/investor-news/latest-news/2019/Sonos-Announces-Acquisition-of-Snips), Paris working on the integration of an AI voice assistant on edge devices. I then joined Inria as an engineer to develop a software prototype which addresses the limitations of state-of-the-art storage solutions for stream processing.
 
@@ -25,11 +25,11 @@ Check out my profiles at [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](h
 
 ## Teaching
 
-- INSA Rennes, Masters: Stream processing – lectures and practical sessions (12 hours, starting dec. 2023)
-- ISTIC Rennes, Masters: Databases – practical sessions (30 hours, starting sept. 2023)
-- INSA Rennes, Masters: Stream processing – lectures and practical sessions (12 hours, starting dec. 2022)
-- INSA Rennes, Bachelor: Introduction to algorithms – lectures and practical sessions (42 hours, starting jan. 2022)
-- INSA Rennes, Bachelor: Databases – lectures and practical sessions (36 hours, starting sept. 2021)
+- INSA Rennes, Masters: Stream processing - lectures and practical sessions (12 hours, starting dec. 2023)
+- ISTIC Rennes, Masters: Databases - practical sessions (30 hours, starting sept. 2023)
+- INSA Rennes, Masters: Stream processing - lectures and practical sessions (12 hours, starting dec. 2022)
+- INSA Rennes, Bachelor: Introduction to algorithms - lectures and practical sessions (42 hours, starting jan. 2022)
+- INSA Rennes, Bachelor: Databases - lectures and practical sessions (36 hours, starting sept. 2021)
 
 ## Research projects
 

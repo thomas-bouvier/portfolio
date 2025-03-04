@@ -2,7 +2,7 @@
 title = "Travail de recherche"
 +++
 
-Entre 2021 et 2024, j'étais doctorant à [Inria de l'Université de Rennes](https://www.inria.fr/fr/centre-inria-universite-rennes) sous la supervision d'[Alexandru Costan](https://team.inria.fr/kerdata/alexandru-costan/) et de [Gabriel Antoniu](https://team.inria.fr/kerdata/gabriel-antoniu/). Mes domaines de recherche couvrent divers aspects des charges d'apprentissage continu dans des environnements distribués (HPC, cloud et continuum numérique). En 2022, j'ai effectué un séjour de recherche au [Laboratoire national d'Argonne](https://www.anl.gov/), à Chicago, avec [Bogdan Nicolae](https://www.bnicolae.net/), visant à déployer et optimiser ces charges sur un grand nombre de GPUs. Mon domaine de recherche peut être dénommé "Systèmes pour l'IA". J'ai défendu ma thèse en novembre 2024.
+Entre 2021 et 2024, j'étais doctorant dans l'équipe [KerData](https://team.inria.fr/kerdata/) à [Inria de l'Université de Rennes](https://www.inria.fr/fr/centre-inria-universite-rennes), sous la supervision d'[Alexandru Costan](https://team.inria.fr/kerdata/alexandru-costan/) et de [Gabriel Antoniu](https://team.inria.fr/kerdata/gabriel-antoniu/). Mes domaines de recherche couvrent divers aspects des charges d'apprentissage continu dans des environnements distribués (HPC, cloud et continuum numérique). En 2022, j'ai effectué un séjour de recherche au [Laboratoire national d'Argonne](https://www.anl.gov/), à Chicago, avec [Bogdan Nicolae](https://www.bnicolae.net/), visant à déployer et optimiser ces charges sur un grand nombre de GPUs. Mon domaine de recherche peut être dénommé "Systèmes pour l'IA". J'ai défendu ma thèse en novembre 2024.
 
 J'ai obtenu un diplôme d'électronique à l'INSA Rennes. En 2019, j'ai effectué un stage chez [Snips](https://investors.sonos.com/news-and-events/investor-news/latest-news/2019/Sonos-Announces-Acquisition-of-Snips), à Paris, travaillant sur l'intégration d'un assistant vocal IA sur des plateformes embarquées. J'ai ensuite rejoint Inria en tant qu'ingénieur de recherche, développant un prototype logiciel accélérant le traitement de flux de données avec des resources limitées.
 
@@ -24,11 +24,11 @@ Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](
 
 ## Enseignement
 
-- INSA Rennes, M2 : Stream processing – cours et travaux pratiques (12 heures, début décembre 2023)
-- ISTIC Rennes, M1 : Bases de données (aspects optimisation) – travaux pratiques (30 heures, début septembre 2023)
-- INSA Rennes, M2 : Stream processing – cours et travaux pratiques (12 heures, début décembre 2022)
-- INSA Rennes, L1 : Introduction aux algorithmes – cours et travaux pratiques (42 heures, début janvier 2022)
-- INSA Rennes, L2 : Bases de données (aspects requêtes) – cours et travaux pratiques (36 heures, début septembre 2021)
+- INSA Rennes, M2 : Stream processing - cours et travaux pratiques (12 heures, début décembre 2023)
+- ISTIC Rennes, M1 : Bases de données (aspects optimisation) - travaux pratiques (30 heures, début septembre 2023)
+- INSA Rennes, M2 : Stream processing - cours et travaux pratiques (12 heures, début décembre 2022)
+- INSA Rennes, L1 : Introduction aux algorithmes - cours et travaux pratiques (42 heures, début janvier 2022)
+- INSA Rennes, L2 : Bases de données (aspects requêtes) - cours et travaux pratiques (36 heures, début septembre 2021)
 
 ## Projets de recherche
 
