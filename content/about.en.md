@@ -9,8 +9,8 @@ Welcome to my blog, where I delve into my technical journey in software design a
 To know more about me:
 
 - Check my resume: in [english](/resume/resume_thomas_bouvier.pdf), in [french](/resume/cv_thomas_bouvier.pdf) ;
-- Discover the tools and services [I use]({{< ref "uses" >}}) ;
-- Have a look at the [talks and workshops]({{< ref "talks" >}}) I give ;
+- Discover the tools and services [I use]({{% ref "uses" %}}) ;
+- Have a look at the [talks and workshops]({{% ref "talks" %}}) I give ;
 - Subscribe to [my Flus collections](https://app.flus.fr/p/1702824275849616610) ;
 
 To ask me anything, say hello at [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). You can also find me on [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) or on [Bluesky](https://bsky.app/profile/thomas-bouvier.io).
