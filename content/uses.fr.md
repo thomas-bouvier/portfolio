@@ -11,7 +11,7 @@ Je fais cette page pour rediriger facilement les personnes qui me posent des que
 - Écran : LG 34WN780-B
 - Téléphone : Samsung Galaxy S10e
 - Souris et clavier : Logitech MX Keys & MX Master 3
-- NAS: Synology DS214play
+- NAS: Synology DS723+ & Synology DS214play
 - Serveurs : quelques Raspberry Pi suffisent pour héberger mes services
 - Vélos : Elops Single Speed 500, et un vieux vélo Peugeot de 1980 qu'un ami a retapé entièrement 🚲
 
