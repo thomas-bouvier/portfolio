@@ -6,7 +6,7 @@ Je fais cette page pour rediriger facilement les personnes qui me posent des que
 
 ## Matériel
 
-- Ordinateur portable : Apple MacBook M1 Pro 14"
+- Ordinateur portable : Apple [MacBook Pro 14" 2023](https://support.apple.com/en-us/111340) (M2 Max).
 - J'ai monté mon ordinateur de bureau en 2012, que je fais évoluer depuis.
 - Écran : LG 34WN780-B
 - Téléphone : Samsung Galaxy S10e
@@ -17,9 +17,9 @@ Je fais cette page pour rediriger facilement les personnes qui me posent des que
 
 ## Logiciel
 
-- OS principal (MacBook) : [Fedora Asahi Remix](https://asahilinux.org/fedora/)
-- OS principal (ordinateur de bureau) : j'utilise [Lix](https://lix.systems/) car la reproductibilité est important pour moi. Ma configuration est hébergée [ici](https://github.com/thomas-bouvier/dotfiles).
-- DNS: https://www.dns0.eu/
+- OS principal : j'utilise NixOS avec [Lix](https://lix.systems/) car la reproductibilité est important pour moi. Ma configuration est hébergée [ici](https://github.com/thomas-bouvier/dotfiles). Mon MacBook est supporté grâce au projet [Asahi Linux](https://asahilinux.org).
+- OS mobile : Android 12
+
 
 ## Applications mobiles
 
@@ -28,11 +28,10 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
 - Utilitaires basiques : Fossify Contacts, Fossify Phone, Fossify File Manager, Fossify Calendar, Fossify SMS Messenger, Bura Weather, OSS Document Scanner.
 - Authentification à 2 facteurs : [Stratum](https://stratumauth.com/)
 - Emails : [Thunderbird](https://www.thunderbird.net/fr/mobile/)
-- Social : Bluesky
+- Social : [Bluesky](https://bsky.social)
 - Podcasts : [AntennaPod](https://antennapod.org/). J'ai monté un petit serveur gpodder pour sauvegarder l'état de lecture des épisodes.
 - Clavier : [FlorisBoard](https://florisboard.org/)
-- Cartes : [Organic Maps](https://organicmaps.app/)
-- Vidéos : [LibreTube](https://libretube.dev/)
+- Cartes : [Organic Maps](https://organicmaps.app/) et [Cartes IGN](https://www.ign.fr/telechargez-application-cartographique-cartes-ign)
 - Notes : [Obsidian](https://obsidian.md/)
 - Lecteur de flux RSS : [Flus](https://flus.fr/)
 - Navigateur : [Firefox Mobile](https://www.mozilla.org/fr/firefox/browsers/mobile/). J'utilise les extensions suivantes : [DarkReader](https://darkreader.org/), [Consent-O-Matic](https://consentomatic.au.dk/), [Ophirophox](https://ophirofox.ophir.dev/), uBlock Origin.
@@ -44,12 +43,12 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
 
 - Environnement de bureau : [KDE Plasma](https://kde.org/plasma-desktop/)
 - Emails : [Thunderbird](https://www.thunderbird.net/fr/desktop/)
-- Social : Bluesky
+- Social : [Bluesky](https://bsky.social)
 - Podcasts : [gPodder](https://gpodder.github.io/)
-- Vidéos : Piped
 - Notes : [Obsidian](https://obsidian.md/)
-- Diapositives: [Reveal.js](https://revealjs.com/)
-- Navigateur : [Librewolf](https://librewolf.net/). J'utilise les extensions suivantes : [DarkReader](https://darkreader.org/), [Consent-O-Matic](https://consentomatic.au.dk/), [Ophirophox](https://ophirofox.ophir.dev/).
+- Diapositives : [Reveal.js](https://revealjs.com/)
+- Notebooks : [marimo](https://marimo.io/)
+- Navigateur : [Librewolf](https://librewolf.net/). J'utilise les extensions suivantes : [DarkReader](https://darkreader.org/), [Consent-O-Matic](https://consentomatic.au.dk/), [Ophirophox](https://ophirofox.ophir.dev/), [Iridium](https://github.com/ParticleCore/Iridium).
 - Transferts de fichiers : [LocalSend](https://localsend.org/)
 
 ## Services

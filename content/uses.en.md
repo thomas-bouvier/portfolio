@@ -6,7 +6,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 ## Hardware
 
-- Apple MacBook M1 Pro 14" as my laptop.
+- Apple [MacBook Pro 14" 2023](https://support.apple.com/en-us/111340) (M2 Max) as my laptop.
 - I set up my desktop computer in 2012, which I've been evolving over time ever since.
 - Screen: LG 34WN780-B
 - Phone: Samsung Galaxy S10e
@@ -17,9 +17,8 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 ## Software
 
-- Laptop OS: [Fedora Asahi Remix](https://asahilinux.org/fedora/)
-- Desktop OS: I am using [Lix](https://lix.systems/) because reproducibility is important to me. You can find my config [here](https://github.com/thomas-bouvier/dotfiles).
-- DNS: https://www.dns0.eu/
+- Computer OS: I am using NixOS with [Lix](https://lix.systems/) because reproducibility is important to me. You can find my config [here](https://github.com/thomas-bouvier/dotfiles). My MacBook is supported thanks to the [Asahi Linux](https://asahilinux.org/) project.
+- Mobile OS: Android 12
 
 ## Mobile Apps
 
@@ -28,11 +27,10 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
 - Basic utilities: Fossify Contacts, Fossify Phone, Fossify File Manager, Fossify Calendar, Fossify SMS Messenger, Bura Weather, OSS Document Scanner.
 - OTP for 2FA authentication: [Stratum](https://stratumauth.com/)
 - Emails: [Thunderbird](https://www.thunderbird.net/en-US/mobile/)
-- Social: Bluesky
+- Social: [Bluesky](https://bsky.social)
 - Podcasts: [AntennaPod](https://antennapod.org/). I set up a gPodder server too.
 - Keyboard: [FlorisBoard](https://florisboard.org/)
-- Maps: [Organic Maps](https://organicmaps.app/)
-- Videos: [LibreTube](https://libretube.dev/)
+- Maps: [Organic Maps](https://organicmaps.app/) and [Cartes IGN](https://www.ign.fr/telechargez-application-cartographique-cartes-ign)
 - Notes: [Obsidian](https://obsidian.md/)
 - RSS feed reader: [Flus](https://flus.fr/)
 - Browser: [Firefox Mobile](https://www.mozilla.org/en/firefox/browsers/mobile/). I use the following extensions: [DarkReader](https://darkreader.org/), [Consent-O-Matic](https://consentomatic.au.dk/), [Ophirophox](https://ophirofox.ophir.dev/), uBlock Origin.
@@ -44,12 +42,12 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
 
 - Desktop environment: [KDE Plasma](https://kde.org/plasma-desktop/)
 - Emails: [Thunderbird](https://www.thunderbird.net/en-US/desktop/)
-- Social: Bluesky
+- Social: [Bluesky](https://bsky.social)
 - Podcasts: [gPodder](https://gpodder.github.io/)
-- Videos: Piped
 - Notes: [Obsidian](https://obsidian.md/)
 - Slides: [Reveal.js](https://revealjs.com/)
-- Browser: [Librewolf](https://librewolf.net/). I use the following extensions: [DarkReader](https://darkreader.org/), [Consent-O-Matic](https://consentomatic.au.dk/), [Ophirophox](https://ophirofox.ophir.dev/).
+- Notebooks: [marimo](https://marimo.io/)
+- Browser: [Librewolf](https://librewolf.net/). I use the following extensions: [DarkReader](https://darkreader.org/), [Consent-O-Matic](https://consentomatic.au.dk/), [Ophirophox](https://ophirofox.ophir.dev/), [Iridium](https://github.com/ParticleCore/Iridium).
 - File transfers: [LocalSend](https://localsend.org/)
 
 ## Services
