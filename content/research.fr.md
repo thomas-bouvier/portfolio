@@ -8,7 +8,7 @@ J'ai obtenu un diplôme d'électronique à l'INSA Rennes. En 2019, j'ai effectu�
 
 ## Publications
 
-Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](https://orcid.org/0000-0001-9863-8851), [OpenAlex](https://openalex.org/works?page=1&filter=authorships.author.id%3AA5041473946&sort=cited_by_count%3Adesc&group_by=publication_year,open_access.is_oa,authorships.institutions.lineage,type), [Scholar](https://scholar.google.com/citations?user=Bkug2kUAAAAJorci).
+Consultez mes profils sur [HAL](https://cv.hal.science/thomas-bouvier), [ORCID](https://orcid.org/0000-0001-9863-8851), [OpenAlex](https://openalex.org/works?page=1&filter=authorships.author.id%3AA5041473946&sort=cited_by_count%3Adesc&group_by=publication_year,open_access.is_oa,authorships.institutions.lineage,type), [Scholar](https://scholar.google.com/citations?user=Bkug2kUAAAAJorci), [ScanR](https://scanr.enseignementsup-recherche.gouv.fr/authors/idref283618906).
 
 ### De conférence
 
