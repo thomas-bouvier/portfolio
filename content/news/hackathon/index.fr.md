@@ -1,7 +1,7 @@
 +++
 title = "Nous participerons au 5e hackathon HPC/IA organisé par l'IDRIS"
 date = 2025-02-16
-draft = false
+draft = true
 +++
 
 Pour la cinquième année consécutive, l'IDRIS organise, conjointement avec NVIDIA, un [hackathon GPU HPC et IA](https://www.genci.fr/actualites/5e-edition-du-hackathon-gpu-hpc-et-ia-2025-de-lidris). 
