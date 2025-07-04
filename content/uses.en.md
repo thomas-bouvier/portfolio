@@ -17,7 +17,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 ## Software
 
-- Computer OS: I am using NixOS with [Lix](https://lix.systems/) because reproducibility is important to me. You can find my config [here](https://github.com/thomas-bouvier/dotfiles). My MacBook is supported thanks to the [Asahi Linux](https://asahilinux.org/) project.
+- Computer OS: I am using NixOS with [Lix](https://lix.systems/) because [reproducibility is important to me]({{% ref "posts/reproducible-workflows" %}}). You can find my config [here](https://github.com/thomas-bouvier/dotfiles). My MacBook is supported thanks to the [Asahi Linux](https://asahilinux.org/) project.
 - Mobile OS: Android 12
 
 ## Mobile Apps
