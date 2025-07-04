@@ -5,7 +5,7 @@ slug: "a-propos"
 
 Je m'appelle Thomas Bouvier, et je suis ingénieur de recherche. Je suis spécialisé en calcul haute performance (HPC). Je vis à Paris.
 
-Sur ce blog, je partage principalement mes expériences en matière de conception et de développement de logiciels, ainsi que mes thématiques de recherche. Je m'intéresse également à l'éthique des algorithmes, aux questions climatiques, au monde du libre, à l'intelligence collective.
+Sur ce blog, je partage principalement mes expériences en matière de conception et de développement de logiciels, ainsi que mes thématiques de recherche. Mes billets reflètent un mélange d'opinions personnelles et d'informations vérifiées, et ne prétendent pas avoir une rigueur scientifique. Je m'intéresse également à l'éthique des algorithmes, aux questions climatiques, au monde du libre, à l'intelligence collective.
 
 Pour en savoir plus sur moi :
 

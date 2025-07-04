@@ -4,7 +4,7 @@ title: "About me"
 
 I am Thomas Bouvier, a research engineer with a focus on High-Performance Computing (HPC). I am located in Paris, France.
 
-Welcome to my blog, where I delve into my technical journey in software design and development, as well as in my research topics. My interests extend to exploring the ethical aspects of algorithms, addressing climate concerns, and delving into topics like free software and collective intelligence.
+Welcome to my blog, where I delve into my technical journey in software design and development, as well as in my research topics. My posts reflect a mix of personal opinions and verified information, and do not claim to have scientific rigor. My interests extend to exploring the ethical aspects of algorithms, addressing climate concerns, and delving into topics like free software and collective intelligence.
 
 To know more about me:
 
