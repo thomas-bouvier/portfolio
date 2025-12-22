@@ -66,3 +66,9 @@ I pay for the following services:
 - Search Engine: [Kagi](https://kagi.com/settings?p=billing_plan)
 - Password Manager: [Bitwarden](https://bitwarden.com/)
 - Backups: I backup my NASes using [C2 Storage](https://c2.synology.com/en-global/storage/overview)
+
+I make monthly donations to the following projects/individuals:
+
+- [Daniel Micay](https://daniel.micay.dev/) for [GrapheneOS](https://grapheneos.org/)
+- [Asahi Linux](https://asahilinux.org/support/)
+- [CodeCarbon](https://codecarbon.io/)

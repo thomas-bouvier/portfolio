@@ -67,3 +67,9 @@ Je paie pour utiliser les services suivants :
 - Moteur de recherche : [Kagi](https://kagi.com/settings?p=billing_plan)
 - Gestionnaire de mots de passe : [Bitwarden](https://bitwarden.com/)
 - Sauvegardes : je délègue les sauvegardes de mon NAS au service [C2 Storage](https://c2.synology.com/en-global/storage/overview)
+
+Je fais des donations mensuelles aux projets/personnes suivantes :
+
+- [Daniel Micay](https://daniel.micay.dev/) pour [GrapheneOS](https://grapheneos.org/)
+- [Asahi Linux](https://asahilinux.org/support/)
+- [CodeCarbon](https://codecarbon.io/)
