@@ -13,7 +13,7 @@ To know more about me:
 - Have a look at the [talks and workshops]({{% ref "talks" %}}) I give ;
 - Subscribe to [my Flus collections](https://app.flus.fr/p/1702824275849616610) ;
 
-To ask me anything, say hello at [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). You can also find me on [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) or on [Bluesky](https://bsky.app/profile/thomas-bouvier.io).
+To ask me anything, say hello at [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). You can also find me on [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) or on [Bluesky](https://mu.social/profile/thomas-bouvier.io).
 
 Here is my [PGP key](/pgp_pub.asc) fingerprint:
 

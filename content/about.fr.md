@@ -14,7 +14,7 @@ Pour en savoir plus sur moi :
 - Jette un œil aux [présentations et animations]({{% ref "talks" %}}) que je donne ;
 - Abonne-toi à [mes collections sur Flus](https://app.flus.fr/p/1702824275849616610) ;
 
-Si tu souhaites entrer en contact, envoie-moi un mail à [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). Tu peux également me trouver sur [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) ou sur [Bluesky](https://bsky.app/profile/thomas-bouvier.io).
+Si tu souhaites entrer en contact, envoie-moi un mail à [contact@thomas-bouvier.io](mailto:contact@thomas-bouvier.io). Tu peux également me trouver sur [GitHub](https://github.com/thomas-bouvier), [LinkedIn](https://www.linkedin.com/in/thomas-bouvier/) ou sur [Bluesky](https://mu.social/profile/thomas-bouvier.io).
 
 Je suis toujours partant pour discuter autour d'un café, si l'on se trouve au même endroit au même moment. Envoie-moi un [mail](mailto:contact@thomas-bouvier.io) :)
 
