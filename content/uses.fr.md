@@ -12,6 +12,7 @@ Je fais cette page pour rediriger facilement les personnes qui me posent des que
 - Téléphone : Google Pixel 8a
 - Liseuse: [BOOX Go 10.3](https://euroshop.boox.com/products/boox-go-10-3) sous Android pour utiliser Zotero
 - Souris et clavier : Logitech MX Keys & MX Master 3
+- Dispositif d'authentification : YubiKey 5C NFC
 - 2 disques réseaux:
     - Synology DS725+ ;
     - Synology DS723+ pour les backups offsite.
@@ -35,7 +36,7 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
 - Filtre spam : [Saracroche](https://saracroche.org/)
 - Authentification à 2 facteurs : [Stratum](https://stratumauth.com/)
 - Emails : [Thunderbird](https://www.thunderbird.net/fr/mobile/)
-- Social : [Bluesky](https://bsky.social) comme client Bluesky et [phanpy](https://phanpy.social/) comme client Mastodon.
+- Social : [Mu](https://eurosky.tech/products/#mu) comme client Bluesky et [phanpy](https://phanpy.social/) comme client Mastodon.
 - Podcasts : [AntennaPod](https://antennapod.org/). J'ai monté un petit serveur gpodder pour sauvegarder l'état de lecture des épisodes.
 - Clavier : [FlorisBoard](https://florisboard.org/)
 - Cartes : [Geovelo](https://geovelo.app/fr/) et [Cartes IGN](https://www.ign.fr/telechargez-application-cartographique-cartes-ign)
@@ -78,6 +79,7 @@ Je paie pour utiliser les services suivants :
 - Notes : [Obsidian Sync](https://obsidian.md/sync)
 - Moteur de recherche : [Kagi](https://kagi.com/settings?p=billing_plan)
 - Gestionnaire de mots de passe : [Bitwarden](https://bitwarden.com/)
+- Modèles d'IA : [Mistral Pro](https://mistral.ai/pricing/)
 - Sauvegardes : je délègue les sauvegardes de mon NAS au service [C2 Storage](https://c2.synology.com/en-global/storage/overview)
 
 Je fais des donations mensuelles aux projets/personnes suivantes :

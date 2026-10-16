@@ -12,6 +12,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 - Phone: Google Pixel 8a
 - E-reader: [BOOX Go 10.3](https://euroshop.boox.com/products/boox-go-10-3) running Android to use Zotero
 - Input devices: Logitech MX Keys & MX Master 3
+- Authentication device: YubiKey 5C NFC
 - 2 NASes:
     - Synology DS725+ ;
     - Synology DS723+ for off-site backups.
@@ -34,7 +35,7 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
 - Spam filter: [Saracroche](https://saracroche.org/)
 - OTP for 2FA authentication: [Stratum](https://stratumauth.com/)
 - Emails: [Thunderbird](https://www.thunderbird.net/en-US/mobile/)
-- Socials: [Bluesky](https://bsky.social) as a Bluesky client and [phanpy](https://phanpy.social/) as a Mastodon client.
+- Socials: [Mu](https://eurosky.tech/products/#mu) as a Bluesky client and [phanpy](https://phanpy.social/) as a Mastodon client.
 - Podcasts: [AntennaPod](https://antennapod.org/). I did set up a gPodder server too.
 - Keyboard: [FlorisBoard](https://florisboard.org/)
 - Maps: [Geovelo](https://geovelo.app/en/) and [Cartes IGN](https://www.ign.fr/telechargez-application-cartographique-cartes-ign)
@@ -77,6 +78,7 @@ I pay for the following services:
 - Notes: [Obsidian Sync](https://obsidian.md/sync)
 - Search Engine: [Kagi](https://kagi.com/settings?p=billing_plan)
 - Password Manager: [Bitwarden](https://bitwarden.com/)
+- AI models: [Mistral Pro](https://mistral.ai/pricing/)
 - Backups: I backup my NASes using [C2 Storage](https://c2.synology.com/en-global/storage/overview)
 
 I make monthly donations to the following projects/individuals:

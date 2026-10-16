@@ -9,7 +9,7 @@ Welcome to my blog, where I delve into my technical journey in software design a
 To know more about me:
 
 - Check my resume: in [english](/resume/resume_thomas_bouvier.pdf), in [french](/resume/cv_thomas_bouvier.pdf) ;
-- Discover the tools and services [I use]({{% ref "uses" %}}) ;
+- Discover the [tools and services I use]({{% ref "uses" %}}) ;
 - Have a look at the [talks and workshops]({{% ref "talks" %}}) I give ;
 - Subscribe to [my Flus collections](https://app.flus.fr/p/1702824275849616610) ;
 

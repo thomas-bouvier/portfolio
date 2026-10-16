@@ -10,7 +10,7 @@ Sur ce blog, je partage principalement mes expériences en matière de conceptio
 Pour en savoir plus sur moi :
 
 - Consulte mon CV : en [français](/resume/cv_thomas_bouvier.pdf), en [anglais](/resume/resume_thomas_bouvier.pdf) ;
-- Découvre les services et le matériel que [j'utilise]({{% ref "uses" %}}) au quotidien ;
+- Découvre les [services et le matériel que j'utilise]({{% ref "uses" %}}) au quotidien ;
 - Jette un œil aux [présentations et animations]({{% ref "talks" %}}) que je donne ;
 - Abonne-toi à [mes collections sur Flus](https://app.flus.fr/p/1702824275849616610) ;
 
