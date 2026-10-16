@@ -14,6 +14,12 @@ defaultContentLanguageInSubdir = true
   description = "Using digital technology for a sustainable and better-informed society 🌿"
   images = ['avatar.png']
 
+  [params.highlight]
+    [params.highlight.copy]
+      enable = true
+      # hover | always
+      display = "hover"
+
 [taxonomies]
   tag = "tags"
 
@@ -76,12 +82,6 @@ defaultContentLanguageInSubdir = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-
-[highlight]
-  [highlight.copy]
-    enable = true
-    # hover | always
-    display = "always"
 
 [markup]
   [markup.highlight]
