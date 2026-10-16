@@ -83,5 +83,6 @@ I pay for the following services:
 
 I make monthly donations to the following projects/individuals:
 
-- [Daniel Micay](https://daniel.micay.dev/) for [GrapheneOS](https://grapheneos.org/)
 - [Asahi Linux](https://asahilinux.org/support/)
+- [Eurosky](https://eurosky.tech/build/)
+- [Daniel Micay](https://daniel.micay.dev/) for [GrapheneOS](https://grapheneos.org/)
