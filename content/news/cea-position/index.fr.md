@@ -4,7 +4,7 @@ date = 2025-12-29
 draft = false
 +++
 
-Je travaille désormais au CEA (Maison de la Simulation) en tant qu’ingénieur de recherche. Mon poste s’inscrit dans le cadre du projet NumPEx (www.numpex.fr), qui vise à développer une pile logicielle pour les [supercalculateurs exaflopiques](https://fr.wikipedia.org/wiki/Supercalculateur_exaflopique) comme [Alice Recoque](https://www.franceinfo.fr/replay-radio/nouveau-monde/bienvenue-a-alice-recoque-le-premier-supercalculateur-exascale-francais_7617590.html), dont le déploiement est prévu pour 2027. Cette machine figurera parmi les plus puissantes au monde ([classement Top500](https://top500.org/)), et sera utilisée pour des applications scientifiques traditionnelles ainsi que pour des charges de travail en intelligence artificielle.
+Je travaille désormais au CEA ([Maison de la Simulation](https://www.mdls.fr/)) en tant qu’ingénieur de recherche. Mon poste s’inscrit dans le cadre du projet NumPEx (www.numpex.fr), qui vise à développer une pile logicielle pour les [supercalculateurs exaflopiques](https://fr.wikipedia.org/wiki/Supercalculateur_exaflopique) comme [Alice Recoque](https://www.franceinfo.fr/replay-radio/nouveau-monde/bienvenue-a-alice-recoque-le-premier-supercalculateur-exascale-francais_7617590.html), dont le déploiement est prévu pour 2027. Cette machine figurera parmi les plus puissantes au monde ([classement Top500](https://top500.org/)), et sera utilisée pour des applications scientifiques traditionnelles ainsi que pour des charges de travail en intelligence artificielle.
 
 Mes missions incluent :
 

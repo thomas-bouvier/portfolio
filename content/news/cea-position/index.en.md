@@ -4,7 +4,7 @@ date = 2025-12-29
 draft = false
 +++
 
-I started working at CEA (Maison de la Simulation) as a research engineer. My role is part of the NumPEx project (http://www.numpex.fr) which aims to build a software stack for [Exascale supercomputers](https://en.wikipedia.org/wiki/Exascale_computing) including [Alice Recoque](https://www.franceinfo.fr/replay-radio/nouveau-monde/bienvenue-a-alice-recoque-le-premier-supercalculateur-exascale-francais_7617590.html), scheduled for deployment in 2027. This machine will be among the most powerful in the world ([Top500 ranking](https://top500.org)), used for both traditional scientific applications and artificial intelligence workloads.
+I started working at CEA ([Maison de la Simulation](https://www.mdls.fr/)) as a research engineer. My role is part of the NumPEx project (http://www.numpex.fr) which aims to build a software stack for [Exascale supercomputers](https://en.wikipedia.org/wiki/Exascale_computing) including [Alice Recoque](https://www.franceinfo.fr/replay-radio/nouveau-monde/bienvenue-a-alice-recoque-le-premier-supercalculateur-exascale-francais_7617590.html), scheduled for deployment in 2027. This machine will be among the most powerful in the world ([Top500 ranking](https://top500.org)), used for both traditional scientific applications and artificial intelligence workloads.
 
 
 My responsibilities include:
