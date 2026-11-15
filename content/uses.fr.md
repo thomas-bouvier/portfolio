@@ -37,7 +37,7 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
 - Authentification à 2 facteurs : [Stratum](https://stratumauth.com/)
 - Emails : [Thunderbird](https://www.thunderbird.net/fr/mobile/)
 - Social : [Mu](https://eurosky.tech/products/#mu) comme client Bluesky et [phanpy](https://phanpy.social/) comme client Mastodon.
-- Podcasts : [AntennaPod](https://antennapod.org/). J'ai monté un petit serveur gpodder pour sauvegarder l'état de lecture des épisodes.
+- Podcasts : [AntennaPod](https://antennapod.org/)
 - Clavier : [FlorisBoard](https://florisboard.org/)
 - Cartes : [Geovelo](https://geovelo.app/fr/) et [Cartes IGN](https://www.ign.fr/telechargez-application-cartographique-cartes-ign)
 - Notes : [Obsidian](https://obsidian.md/)
@@ -54,7 +54,6 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
 - Environnement de bureau : [KDE Plasma](https://kde.org/plasma-desktop/)
 - Emails : [Thunderbird](https://www.thunderbird.net/fr/desktop/)
 - Social : [mu.social](https://mu.social/) comme client Bluesky et [phanpy](https://phanpy.social/) comme client Mastodon
-- Podcasts : [gPodder](https://gpodder.github.io/)
 - Notes : [Obsidian](https://obsidian.md/)
 - Diapositives : [Reveal.js](https://revealjs.com/)
 - Notebooks : [marimo](https://marimo.io/)

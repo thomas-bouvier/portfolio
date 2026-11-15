@@ -36,7 +36,7 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
 - OTP for 2FA authentication: [Stratum](https://stratumauth.com/)
 - Emails: [Thunderbird](https://www.thunderbird.net/en-US/mobile/)
 - Socials: [Mu](https://eurosky.tech/products/#mu) as a Bluesky client and [phanpy](https://phanpy.social/) as a Mastodon client.
-- Podcasts: [AntennaPod](https://antennapod.org/). I did set up a gPodder server too.
+- Podcasts: [AntennaPod](https://antennapod.org/)
 - Keyboard: [FlorisBoard](https://florisboard.org/)
 - Maps: [Geovelo](https://geovelo.app/en/) and [Cartes IGN](https://www.ign.fr/telechargez-application-cartographique-cartes-ign)
 - Notes: [Obsidian](https://obsidian.md/)
@@ -53,7 +53,6 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
 - Desktop environment: [KDE Plasma](https://kde.org/plasma-desktop/)
 - Emails: [Thunderbird](https://www.thunderbird.net/en-US/desktop/)
 - Socials: [mu.social](https://mu.social/) as a Bluesky client and [phanpy](https://phanpy.social/) as a Mastodon client
-- Podcasts: [gPodder](https://gpodder.github.io/)
 - Notes: [Obsidian](https://obsidian.md/)
 - Slides: [Reveal.js](https://revealjs.com/)
 - Notebooks: [marimo](https://marimo.io/)
