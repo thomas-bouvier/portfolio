@@ -16,7 +16,7 @@ This poses several problems:
 
 - Participants cannot easily access opportunities to participate in other workshops and thus continue their awareness journey.
 
-In collaboration with the [Climate Fresk](https://climatefresk.org/world/), the [Digital Collage](https://digitalcollage.org/), and the [Find a Fresk taskforce](https://www.findafresk.org/taskforce/), we are launching the OpenFresque digital commons. This project aims to develop two types of open-source tools:
+In collaboration with the [Climate Fresk](https://climatefresk.org/world/), the [Digital Collage](https://digitalcollage.org/), and the [Find a Fresk taskforce](https://www.findafresk.org/taskforce/), we are launching the [OpenFresque](https://trouverunefresque.org/) digital commons. This project aims to develop two types of open-source tools:
 
 - Platforms for workshop developers that are easily deployable and customizable for managing their events and communities. The first functional component is a ticketing system, adapted from the existing one of the Climate Fresk, and released under the GNU AGPL 3.0 license.
 
@@ -29,3 +29,5 @@ These tools will accelerate the spread of multi-sectoral workshops worldwide and
 - Awareness of digital commons within these engaged networks.
 
 You can leave me your contact details to stay informed about its news and participate in the upcoming presentation webinar! Additionally, some code is already available [here](https://github.com/openfresque).
+
+Visit this link: https://openfresque.org/.
