@@ -20,6 +20,34 @@ defaultContentLanguageInSubdir = true
       # hover | always
       display = "hover"
 
+  # Structured data (JSON-LD) describing the person behind this website,
+  # printed on the home page by the seo/jsonld.html theme partial.
+  [params.person]
+    name = "Thomas Bouvier"
+    description = "PhD in high-performance computing (HPC), co-founder of Odeai, working at the intersection of AI, HPC and data engineering."
+    image = "avatar.png"
+    email = "contact@thomas-bouvier.io"
+    jobTitle = "Co-founder of Odeai"
+    knowsAbout = [
+      "High Performance Computing (HPC)",
+      "Artificial Intelligence",
+      "Weather Nowcasting",
+      "Distributed Machine Learning",
+      "GPU Optimization"
+    ]
+    sameAs = [
+      "https://github.com/thomas-bouvier",
+      "https://www.linkedin.com/in/thomas-bouvier/",
+      "https://mu.social/profile/thomas-bouvier.io",
+      "https://cv.hal.science/thomas-bouvier",
+      "https://orcid.org/0000-0001-9863-8851",
+      "https://scholar.google.com/citations?user=Bkug2kUAAAAJ"
+    ]
+
+    [params.person.worksFor]
+      name = "Odeai"
+      url = "https://www.odeai.earth/"
+
 [taxonomies]
   tag = "tags"
 
