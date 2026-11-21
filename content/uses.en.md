@@ -16,7 +16,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 - 2 NASes:
     - Synology DS725+ ;
     - Synology DS723+ for off-site backups.
-- Servers: a few Raspberry Pis
+- Servers: a few Raspberry Pis are enough to host my services and public experiments, including this website
 - Bikes:
     - [Elops Single Speed 500](https://www.decathlon.fr/p/velo-ville-single-speed-500-gris-carbone/306292/c383m8749510) with SP Connect smartphone mounting ;
     - An old 1980 Peugeot bike that a friend completely restored 🚲
@@ -25,6 +25,7 @@ I am somewhat opposed to making this page, since I want people to want less, not
 
 - Computer OS: I am using NixOS with [Lix](https://lix.systems/) because [reproducibility is important to me]({{% ref "posts/reproducible-workflows" %}}). You can find my config [here](https://github.com/thomas-bouvier/dotfiles). My MacBook is supported thanks to the [Asahi Linux](https://asahilinux.org/) project.
 - Mobile OS: Android 17. I am considering [GrapheneOS](https://grapheneos.org/) though.
+- VPN: [Tailscale + Mullvad](https://tailscale.com/mullvad)
 
 ## Mobile Apps
 
@@ -47,6 +48,8 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
 - Launcher: [Niagara Launcher](https://niagaralauncher.app/)
 - File transfers: [LocalSend](https://localsend.org/)
 - Pictures: [ReFra](https://github.com/IacobIonut01/ReFra) gallery app and [Immich](https://immich.app/) for archiving pictures.
+- SSH app: [Haven](https://glasshaven.github.io/Haven/) to access my servers on the go.
+- Music player: [Music Assistant](https://www.music-assistant.io/)
 
 ## Desktop Apps
 
@@ -65,9 +68,7 @@ I download most of my apps from the [Neo Store](https://f-droid.org/packages/com
     - Emacs, you'll find [my config](https://github.com/thomas-bouvier/my-dotfiles/tree/main/emacs) on GitHub ;
     - [VSCodium](https://vscodium.com/), a VSCode build with telemetry disabled
 - Shell synchronisation: [Atuin](https://atuin.sh/)
-- AI agents:
-    - [OpenCode](https://opencode.ai/) when using standalone agents ;
-    - [opencode.el](https://codeberg.org/sczi/opencode.el) when inside Emacs.
+- AI harness: I am using [OpenCode](https://opencode.ai/) inside [CoiPond](https://coipond.ai/) (and you should too)
 
 ## Services
 
@@ -78,10 +79,12 @@ I pay for the following services:
 - Search Engine: [Kagi](https://kagi.com/settings?p=billing_plan)
 - Password Manager: [Bitwarden](https://bitwarden.com/)
 - AI models: [Mistral Pro](https://mistral.ai/pricing/)
+- VPN: [Tailscale + Mullvad](https://tailscale.com/mullvad)
 - Backups: I backup my NASes using [C2 Storage](https://c2.synology.com/en-global/storage/overview)
 
 I make monthly donations to the following projects/individuals:
 
 - [Asahi Linux](https://asahilinux.org/support/)
+- [Signal](https://signal.org/donate/)
 - [Eurosky](https://eurosky.tech/build/)
 - [Daniel Micay](https://daniel.micay.dev/) for [GrapheneOS](https://grapheneos.org/)

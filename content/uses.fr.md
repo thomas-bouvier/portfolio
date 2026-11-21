@@ -25,7 +25,7 @@ Je fais cette page pour rediriger facilement les personnes qui me posent des que
 
 - OS principal : j'utilise NixOS avec [Lix](https://lix.systems/) car la reproductibilité est important pour moi. Ma configuration est hébergée [ici](https://github.com/thomas-bouvier/dotfiles). Mon MacBook est supporté grâce au projet [Asahi Linux](https://asahilinux.org).
 - OS mobile : Android 17. Mais j'aimerais passer à [GrapheneOS](https://grapheneos.org/) dès que possible.
-
+- VPN: [Tailscale + Mullvad](https://tailscale.com/mullvad)
 
 ## Applications mobiles
 
@@ -48,6 +48,8 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
 - Launcher : [Niagara Launcher](https://niagaralauncher.app/)
 - Transferts de fichiers : [LocalSend](https://localsend.org/)
 - Photos : [ReFra](https://github.com/IacobIonut01/ReFra) comme galerie photo et [Immich](https://immich.app/) pour l'archivage.
+- Appli SSH: [Haven](https://glasshaven.github.io/Haven/fr) pour accéder à mes serveurs en déplacement.
+- Lecteur de musique: [Music Assistant](https://www.music-assistant.io/)
 
 ## Applications de bureau
 
@@ -66,9 +68,7 @@ Je télécharge la plupart de mes applications sur le [Neo Store](https://f-droi
     - Emacs, [ma configuration](https://github.com/thomas-bouvier/my-dotfiles/tree/main/emacs) est disponible sur GitHub ;
     - [VSCodium](https://vscodium.com/), une version de VSCode sans télémétrie
 - Synchronisation du shell : [Atuin](https://atuin.sh/)
-- Agents IA :
-    - [OpenCode](https://opencode.ai/) pour une interface complète ;
-    - [opencode.el](https://codeberg.org/sczi/opencode.el) quand je travaille à l'intérieur d'Emacs.
+- Harnais IA: j'utilise [OpenCode](https://opencode.ai/) à l'intérieur de [CoiPond](https://coipond.ai/)
 
 ## Services
 
@@ -79,10 +79,12 @@ Je paie pour utiliser les services suivants :
 - Moteur de recherche : [Kagi](https://kagi.com/settings?p=billing_plan)
 - Gestionnaire de mots de passe : [Bitwarden](https://bitwarden.com/)
 - Modèles d'IA : [Mistral Pro](https://mistral.ai/pricing/)
+- VPN: [Tailscale + Mullvad](https://tailscale.com/mullvad)
 - Sauvegardes : je délègue les sauvegardes de mon NAS au service [C2 Storage](https://c2.synology.com/en-global/storage/overview)
 
 Je fais des donations mensuelles aux projets/personnes suivantes :
 
 - [Asahi Linux](https://asahilinux.org/support/)
+- [Signal](https://signal.org/donate/)
 - [Eurosky](https://eurosky.tech/build/)
 - [Daniel Micay](https://daniel.micay.dev/) pour [GrapheneOS](https://grapheneos.org/)
