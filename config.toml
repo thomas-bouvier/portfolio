@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir = true
 
 [params]
   logo = "Thomas Bouvier"
-  description = "Using digital technology for a sustainable and better-informed society 🌿"
+  description = "PhD | Co-founder of Odeai"
   images = ['avatar.png']
 
   [params.highlight]
@@ -55,7 +55,7 @@ defaultContentLanguageInSubdir = true
     label = "Français"
     locale = "fr-FR"
     weight = 2
-    description = "Utiliser le numérique pour une société durable et mieux informée 🌿"
+    description = "PhD | Co-fondateur d'Odeai"
 
     [[languages.fr.menu.main]]
       identifier = "posts"
